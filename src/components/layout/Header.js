@@ -12,13 +12,13 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="guardianbluetext px-4" href="#features">
+        <AnchorLink className="complianceblue px-4" href="#features">
           Features
         </AnchorLink>
-        <AnchorLink className="guardianbluetext px-4" href="#pricing">
+        <AnchorLink className="complianceblue px-4" href="#pricing">
           Pricing
         </AnchorLink>
-        <AnchorLink className="guardianbluetext px-4" href="#testimonials">
+        <AnchorLink className="complianceblue px-4" href="#testimonials">
           Testimonials
         </AnchorLink>
       </div>
