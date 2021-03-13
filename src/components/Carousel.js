@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Carousel from 'react-simply-carousel';
-import Nscs from '../assets/images/nscs.png';
-import OnBoard from '../assets/images/onboard.png';
-import Tickets from '../assets/images/tickets.png';
+import Beatnik from '../assets/images/Beatnik.png';
+import AdDynamo from '../assets/images/addynamo.png';
+import Wib from '../assets/images/aknibba.png';
 
 function CarouselEx() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -46,34 +46,30 @@ function CarouselEx() {
         speed={400}
       >
         <div
-          className="carodiv"
+          className="rounded-lg bg-green-300"
           style={{
-            width: 700,
-            height: 700,
+            width: 300,
+            height: 400,
             textAlign: 'center',
             boxSizing: 'border-box'
           }}
         >
           {' '}
-          <img src={Tickets} alt="" />
+          <img className="w-20" src={Beatnik} alt="" />
           <p className="text-2xl mt-1 font-semibold">
-            • Continuously scan your device for security issues{' '}
-          </p>
-          <p className="text-2xl mt-3 font-semibold">
-            • Get alerts when something needs your attention
+            For us, its the most convenient way to manage out IT Security
           </p>
         </div>
 
         <div
-          className="carodiv"
+          className="complianceblue rounded-lg"
           style={{
-            width: 700,
-            height: 700,
+            width: 300,
+            height: 400,
             textAlign: 'center',
             boxSizing: 'border-box'
           }}
         >
-          <img src={Nscs} alt="" />{' '}
           <p className="text-2xl mt-1 font-semibold">• Get expert help at the click of a button </p>
           <p className="text-2xl mt-3 font-semibold">
             {' '}
@@ -82,15 +78,14 @@ function CarouselEx() {
         </div>
 
         <div
-          className="carodiv"
+          className="rounded-lg bg-blue-300"
           style={{
-            width: 700,
-            height: 700,
+            width: 300,
+            height: 400,
             textAlign: 'center',
             boxSizing: 'border-box'
           }}
         >
-          <img src={OnBoard} alt="" />
           <p className="text-2xl mt-1 font-semibold">
             Share your status with clients and your employer
           </p>

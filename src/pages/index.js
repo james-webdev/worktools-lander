@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
-import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
+import Button from '../components/Button';
 import CarouselEx from '../components/Carousel';
 import Pulse from '../components/Pulse';
 import SplitSection from '../components/SplitSection';
@@ -10,14 +10,21 @@ import GWebGreen from '../assets/images/gwebgreen.png';
 import Beatnik from '../assets/images/Beatnik.png';
 import AdDynamo from '../assets/images/addynamo.png';
 import Wib from '../assets/images/aknibba.png';
+import LaptopImage from '../assets/images/Laptop1.png';
 
 export default () => (
   <Layout>
-    <div className="mx-auto sm:flex sm:ml-40 sm:mr-40 sm:justify-center">
-      <div className="sm:flex-col sm:mb-20 sm:justify-center sm:items-center pt-20 text-center sm:w-1/3">
+    <section>
+      <div className="-ml-40 mt-5 w-60 sm:w-full">
+        <img id="laptop" className="-mb-24 z-10" src={LaptopImage} alt="LaptopImage" />
+      </div>
+      <div className="">
         <Pulse />
       </div>
-    </div>
+      <div className="mt-4 flex justify-center">
+        <Button className="complianceblue">Download Now</Button>
+      </div>
+    </section>
 
     <div className="mt-20 sm:ml-40 sm:mr-40">
       <CarouselEx />

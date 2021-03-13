@@ -13,17 +13,8 @@ body {
   color: #000a8d;
 }
 
-#mainImage {
-  height: 700px;
-  width: 100%;
-  background-image: url(../assets//images/gwebgreen.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 402px 620px;
-}
-
-#mainImage2 {
-  width: 24rem;
+#laptop {
+  width: 525px;
 }
 
 a {
@@ -109,13 +100,11 @@ a:hover {
 /* pulse */
 
 .blob {
-  background: #afadc0;
+  background: #b8c7dc;
   border-radius: 50%;
   margin: 10px;
   height: 35px;
   width: 35px;
-  margin-bottom: 75px;
-  margin-top: 50px;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
   transform: scale(1);
   animation: pullse 2.5s infinite;
@@ -143,6 +132,10 @@ a:hover {
 /* text */
 
 .complianceblue {
+  background-color: #27aecc;
+}
+
+.compliancebluetext {
   color: #27aecc;
 }
 
