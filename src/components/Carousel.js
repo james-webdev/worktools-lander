@@ -1,97 +1,114 @@
 import React, { useState } from 'react';
 import Carousel from 'react-simply-carousel';
-import Beatnik from '../assets/images/Beatnik.png';
-import AdDynamo from '../assets/images/addynamo.png';
-import Wib from '../assets/images/aknibba.png';
 
 function CarouselEx() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <div>
-      <Carousel
-        updateOnItemClick
-        containerProps={{
-          style: {
-            width: '100%',
-            justifyContent: 'space-between'
-          }
-        }}
-        activeSlideIndex={activeSlide}
-        activeSlideProps={{
-          style: {
-            objectFit: 'cover'
-          }
-        }}
-        onRequestChange={setActiveSlide}
-        forwardBtnProps={{
-          children: '>',
-          style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
-            alignSelf: 'center'
-          }
-        }}
-        backwardBtnProps={{
-          children: '<',
-          style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
-            alignSelf: 'center'
-          }
-        }}
-        itemsToShow={1}
-        speed={400}
-      >
-        <div
-          className="rounded-lg bg-green-300"
-          style={{
-            width: 300,
-            height: 400,
-            textAlign: 'center',
-            boxSizing: 'border-box'
+    <>
+      <div className="flex bold text-center pb-5">
+        <h1 className="text-5xl">We think our clients put it best!</h1>
+      </div>
+      <div>
+        <Carousel
+          updateOnItemClick
+          containerProps={{
+            style: {
+              width: '100%',
+              justifyContent: 'space-between'
+            }
           }}
-        >
-          {' '}
-          <img className="w-20" src={Beatnik} alt="" />
-          <p className="text-2xl mt-1 font-semibold">
-            For us, its the most convenient way to manage out IT Security
-          </p>
-        </div>
-
-        <div
-          className="complianceblue rounded-lg"
-          style={{
-            width: 300,
-            height: 400,
-            textAlign: 'center',
-            boxSizing: 'border-box'
+          activeSlideIndex={activeSlide}
+          activeSlideProps={{
+            style: {
+              objectFit: 'cover'
+            }
           }}
+          onRequestChange={setActiveSlide}
+          forwardBtnProps={{
+            children: '>',
+            style: {
+              width: 60,
+              height: 60,
+              minWidth: 60,
+              alignSelf: 'center'
+            }
+          }}
+          backwardBtnProps={{
+            children: '<',
+            style: {
+              width: 60,
+              height: 60,
+              minWidth: 60,
+              alignSelf: 'center'
+            }
+          }}
+          itemsToShow={1}
+          speed={400}
         >
-          <p className="text-2xl mt-1 font-semibold">• Get expert help at the click of a button </p>
-          <p className="text-2xl mt-3 font-semibold">
+          <div
+            className="tab1 rounded-lg"
+            style={{
+              width: 300,
+              height: 400,
+              textAlign: 'center',
+              boxSizing: 'border-box'
+            }}
+          >
             {' '}
-            • See the latest detailed analysis of your devices
-          </p>
-        </div>
+            <div className="mr-6 ml-6">
+              <p className="text-4xl p-2 mt-1 text-white">Beatnik Games</p>
+              <p className="text-md p-2 mt-5 text-white">
+                For us, its the most convenient way to manage out IT Security
+              </p>
+              <p className="text-2xl p-2 mt-8 text-white font-semibold">Damien Cerri</p>
+              <p className="text-opacity-50 text-white">CEO</p>
+            </div>
+          </div>
 
-        <div
-          className="rounded-lg bg-blue-300"
-          style={{
-            width: 300,
-            height: 400,
-            textAlign: 'center',
-            boxSizing: 'border-box'
-          }}
-        >
-          <p className="text-2xl mt-1 font-semibold">
-            Share your status with clients and your employer
-          </p>
-        </div>
-      </Carousel>
-    </div>
+          <div
+            className="tab2 rounded-lg"
+            style={{
+              width: 300,
+              height: 400,
+              textAlign: 'center',
+              boxSizing: 'border-box'
+            }}
+          >
+            {' '}
+            <div className="mr-6 ml-6">
+              <p className="text-4xl p-2 mt-1 text-white">AD Dynamo</p>
+              <p className="text-md p-2 mt-5 text-white">
+                Worktools helped us to fix all our historic non-compliances within 48 hours of
+                on-boarding - result!
+              </p>
+              <p className="text-2xl p-2 mt-8 text-white font-semibold">Sam Wriley</p>
+              <p className="text-opacity-50 text-white">Director</p>
+            </div>
+          </div>
+
+          <div
+            className="rounded-lg tab3"
+            style={{
+              width: 300,
+              height: 400,
+              textAlign: 'center',
+              boxSizing: 'border-box'
+            }}
+          >
+            {' '}
+            <div className="mr-6 ml-6">
+              <p className="text-4xl p-2 mt-1 text-white">Adam Knibb Architects</p>
+              <p className="text-md p-2 mt-5 text-white">
+                Awesome! Glad we decided to go with Worktools. Saved us loads of time and hassle.
+              </p>
+              <p className="text-2xl p-2 mt-8 text-white font-semibold">Adam Knibb</p>
+              <p className="text-opacity-50 text-white">Director</p>
+            </div>
+          </div>
+        </Carousel>
+      </div>
+    </>
   );
 }
 
