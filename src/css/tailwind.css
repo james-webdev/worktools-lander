@@ -91,6 +91,8 @@ h1 {
   background-color: #2b5794;
 }
 
+/* mobiles images */
+
 @tailwind components;
 
 @tailwind utilities;

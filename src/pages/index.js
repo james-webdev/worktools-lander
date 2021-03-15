@@ -10,6 +10,7 @@ import LaptopImage from '../assets/images/Laptop1.png';
 import Heart from '../components/Heart';
 import Target from '../components/Target';
 import Shield from '../components/Shield';
+import Mobiles from '../components/Mobiles';
 
 export default () => (
   <Layout>
@@ -26,21 +27,29 @@ export default () => (
     </section>
 
     <section>
-      <div className="flex-col justify-center items-center sm:flex">
-        <div className="flex pt-4 justify-center">
+      <div className="flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20">
+        <div className="flex pt-4 justify-center sm:w-1/3">
           <Heart />
         </div>
-        <div className="flex pt-4 justify-center">
+        <div className="flex pt-4 justify-center sm:w-1/3">
           <Shield />
         </div>
-        <div className="flex pt-4 justify-center">
+        <div className="flex pt-4 justify-center sm:w-1/3">
           <Target />
         </div>
       </div>
     </section>
 
-    <div className="mt-20 sm:ml-40 sm:mr-40">
-      <CarouselEx />
-    </div>
+    <section>
+      <div className="mt-20 sm:ml-40 sm:mr-40">
+        <CarouselEx />
+      </div>
+    </section>
+
+    <section>
+      <div className="mt-20 mb-8 ml-10 mr-10">
+        <Mobiles />
+      </div>
+    </section>
   </Layout>
 );

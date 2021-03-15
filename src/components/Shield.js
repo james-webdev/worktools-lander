@@ -5,7 +5,7 @@ const Shield = () => {
     <div className="flex justify-center items-center ml-4 mr-4">
       <div>
         <svg
-          className="w-24 pt-10 pb-10 p-1"
+          className="w-24 ml-3 pt-10 pb-10 p-1"
           version="1.1"
           id="Layer_1"
           x="0px"
@@ -36,7 +36,7 @@ const Shield = () => {
           </g>
         </svg>
       </div>
-      <div className="p-2 text-left flex-col">
+      <div className="p-2 ml-4 text-left flex-col">
         <h1 className="text-lg">Compliance</h1>
         <p>Easily mange your NCSC Cyber Essentials and GDPR compliance</p>
       </div>

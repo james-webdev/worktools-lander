@@ -7,9 +7,9 @@ function CarouselEx() {
   return (
     <>
       <div className="flex bold text-center pb-5">
-        <h1 className="text-5xl">We think our clients put it best!</h1>
+        <h1 className="text-5xl bold">We think our clients put it best!</h1>
       </div>
-      <div>
+      <div className="mt-8">
         <Carousel
           updateOnItemClick
           containerProps={{
@@ -26,7 +26,7 @@ function CarouselEx() {
           }}
           onRequestChange={setActiveSlide}
           forwardBtnProps={{
-            children: '>',
+            children: '🢂',
             style: {
               width: 60,
               height: 60,
@@ -35,7 +35,7 @@ function CarouselEx() {
             }
           }}
           backwardBtnProps={{
-            children: '<',
+            children: '🢀',
             style: {
               width: 60,
               height: 60,
@@ -47,7 +47,7 @@ function CarouselEx() {
           speed={400}
         >
           <div
-            className="tab1 rounded-lg"
+            className="tab1 m-2 rounded-lg"
             style={{
               width: 300,
               height: 400,
@@ -67,7 +67,7 @@ function CarouselEx() {
           </div>
 
           <div
-            className="tab2 rounded-lg"
+            className="tab2 m-2 rounded-lg"
             style={{
               width: 300,
               height: 400,
@@ -88,7 +88,7 @@ function CarouselEx() {
           </div>
 
           <div
-            className="rounded-lg tab3"
+            className="rounded-lg m-2 tab3"
             style={{
               width: 300,
               height: 400,
