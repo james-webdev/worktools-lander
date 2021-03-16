@@ -28,38 +28,6 @@ a:hover {
   flex-flow: row nowrap;
 }
 
-/* pulse */
-
-.blob {
-  background: #b8c7dc;
-  border-radius: 50%;
-  margin: 10px;
-  height: 35px;
-  width: 35px;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pullse 2.5s infinite;
-}
-
-#blob {
-  height: 100px;
-}
-
-@keyframes pullse {
-  0% {
-    transform: scale(0.9);
-    box-shadow: 0 0 0 0 rgba(184, 199, 220, 0.3);
-  }
-  95% {
-    transform: scale(1);
-    box-shadow: 0 0 0 150px rgba(198, 225, 237, 0.4);
-  }
-  100% {
-    transform: scale(0.9);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-
 /* text */
 
 .complianceblue {
@@ -92,6 +60,10 @@ h1 {
 }
 
 /* mobiles images */
+
+.backgroundBlue {
+  background-color: #def3f6;
+}
 
 @tailwind components;
 

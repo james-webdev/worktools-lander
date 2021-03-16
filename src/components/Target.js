@@ -1,9 +1,38 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+
+const targetMove = keyframes`
+10% {
+  transform: translate(0, 0);
+}
+35% {
+  transform: translate(18px, 18px);
+}
+45% {
+  transform: translate(18px, -18px);
+}
+65% {
+  transform: translate(-18px, -18px);
+}
+85% {
+  transform: translate(-18px, 18px);
+}
+
+100% {
+  transform: translate(0, 0);
+}
+`;
+
+const TargetDiv = styled.div`
+  animation-name: ${targetMove};
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+`;
 
 const Target = () => {
   return (
-    <>
-      <div className="flex justify-center items-center ml-4 mr-4">
+    <div className="flex justify-center items-center ml-4 mr-4">
+      <TargetDiv>
         <div>
           <svg
             className="w-32 pt-10 pb-10 p-4"
@@ -11,10 +40,10 @@ const Target = () => {
             id="Layer_1"
             x="0px"
             y="0px"
-            viewBox="0 0 512 512"
+            viewBox="0 0 750 750"
             enableBackground="new 0 0 512 512"
           >
-            <g>
+            <g transform="translate(140 100)">
               <path
                 fill="none"
                 stroke="#162862"
@@ -23,6 +52,7 @@ const Target = () => {
                 d="M110.702,256.224
    c0,80.798,65.499,146.297,146.297,146.297"
               />
+
               <path
                 fill="none"
                 stroke="#215D9B"
@@ -67,7 +97,7 @@ const Target = () => {
                 d="M13.191,268.851c-6.974,0-12.627-5.653-12.627-12.627l0,0c0-6.974,5.653-12.627,12.627-12.627h156.312
    c6.974,0,12.627,5.653,12.627,12.627l0,0c0,6.974-5.653,12.627-12.627,12.627H13.191z"
               />
-              <circle fill="#162862" cx="257" cy="256.224" r="42.67" />
+              <circle id="targetPulse" fill="#162862" cx="257" cy="256.224" r="42.67" />
               <path
                 fill="#215D9E"
                 d="M464.6,196.137c-19.531-72.041-75.632-129.185-147.078-150.176V18.801
@@ -91,12 +121,12 @@ const Target = () => {
             </g>
           </svg>
         </div>
-        <div className="p-2 text-left flex-col">
-          <h1 className="text-lg">Cybersecurity</h1>
-          <p>Understand the threats that your users and devices face</p>
-        </div>
+      </TargetDiv>
+      <div className="p-2 text-left flex-col">
+        <h1 className="text-lg">Cybersecurity</h1>
+        <p>Understand the threats that your users and devices face</p>
       </div>
-    </>
+    </div>
   );
 };
 

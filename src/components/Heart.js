@@ -10,11 +10,11 @@ const Heart = () => {
           id="Layer_1"
           x="0px"
           y="0px"
-          viewBox="0 0 512 512"
+          viewBox="0 0 780 780"
           enableBackground="new 0 0 512 512"
           xmlSpace="preserve"
         >
-          <g>
+          <g transform="translate(120 120)">
             <path
               opacity="0.4"
               fill="#27AECD"
@@ -25,6 +25,7 @@ const Heart = () => {
 		C-2.862,119.461,30.085,63.087,79.862,40.511c49.771-22.573,110.899-9.828,153.925,32.045
 		C241.164,79.734,248.679,86.768,258.986,96.59z"
             />
+
             <path
               opacity="0.8"
               fill="#1A719A"
@@ -44,6 +45,14 @@ const Heart = () => {
 		C250.61,188.511,253.516,191.23,257.5,195.027z"
             />
           </g>
+          <animateTransform
+            attributeName="transform"
+            type="scale"
+            dur="1s"
+            values="1; 1.5; 1.25; 1.5; 1.5; 1;"
+            repeatCount="indefinite"
+            additive="sum"
+          />
         </svg>
       </div>
       <div className="p-2 text-left flex-col">

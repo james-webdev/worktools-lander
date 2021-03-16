@@ -40,6 +40,7 @@ export default () => (
       </div>
     </section>
 
+    <div className="backgroundBlue h-40" />
     <section>
       <div className="mt-20 sm:ml-40 sm:mr-40">
         <CarouselEx />

@@ -47,7 +47,7 @@ function CarouselEx() {
           speed={400}
         >
           <div
-            className="tab1 m-2 rounded-lg"
+            className="tab1 m-2 rounded-lg shadow-md"
             style={{
               width: 300,
               height: 400,
@@ -67,7 +67,7 @@ function CarouselEx() {
           </div>
 
           <div
-            className="tab2 m-2 rounded-lg"
+            className="tab2 m-2 rounded-lg shadow-md"
             style={{
               width: 300,
               height: 400,
@@ -88,7 +88,7 @@ function CarouselEx() {
           </div>
 
           <div
-            className="rounded-lg m-2 tab3"
+            className="rounded-lg m-2 tab3 shadow-md"
             style={{
               width: 300,
               height: 400,
