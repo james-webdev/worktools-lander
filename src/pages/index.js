@@ -11,12 +11,13 @@ import Heart from '../components/Heart';
 import Target from '../components/Target';
 import Shield from '../components/Shield';
 import Mobiles from '../components/Mobiles';
+import HighlightText from '../components/HighlightText';
 
 export default () => (
   <Layout>
     <section>
       <div className="-ml-40 mt-5 w-60 sm:w-full">
-        <img id="laptop" className="-mb-24 z-10" src={LaptopImage} alt="LaptopImage" />
+        <img id="laptop" className="-mb-12 z-10" src={LaptopImage} alt="LaptopImage" />
       </div>
       <div className="">
         <Pulse />
@@ -50,6 +51,12 @@ export default () => (
     <section>
       <div className="mt-20 mb-8 ml-10 mr-10">
         <Mobiles />
+      </div>
+    </section>
+
+    <section>
+    <div className="mt-20 mb-8 ml-10 mr-10">
+      <HighlightText />
       </div>
     </section>
   </Layout>

@@ -26,7 +26,7 @@ function CarouselEx() {
           }}
           onRequestChange={setActiveSlide}
           forwardBtnProps={{
-            children: '🢂',
+            children: '>',
             style: {
               width: 60,
               height: 60,
@@ -35,7 +35,7 @@ function CarouselEx() {
             }
           }}
           backwardBtnProps={{
-            children: '🢀',
+            children: '<',
             style: {
               width: 60,
               height: 60,

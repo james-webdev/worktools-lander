@@ -25,7 +25,7 @@ const targetMove = keyframes`
 
 const TargetDiv = styled.div`
   animation-name: ${targetMove};
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
 `;
 
