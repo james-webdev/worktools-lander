@@ -41,7 +41,7 @@ const Shield = () => {
       </div>
       <div className="p-2 ml-4 text-left flex-col">
         <h1 className="text-lg">Compliance</h1>
-        <p>Easily mange your NCSC Cyber Essentials and GDPR compliance</p>
+        <p>Easily manage your NCSC Cyber Essentials and GDPR compliance</p>
       </div>
     </div>
   );

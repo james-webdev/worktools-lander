@@ -69,21 +69,18 @@ const generateSparkle = (color = DEFAULT_COLOR) => {
   return {
     id: String(random(10000, 99999)),
     createdAt: Date.now(),
-    // Bright yellow color:
     color,
     opacity: random(0, 1),
     size: random(10, 20),
     style: {
-      // Pick a random spot in the available space
       top: random(0, 80),
       left: random(0, 80),
-      // Float sparkles above sibling content
       zIndex: 2
     }
   };
 };
 
-function SparkleInstance({ color, size, style }) {
+const SparkleInstance = ({ color, size, style }) => {
   return (
     <SparkleInstanceWrapper>
       <Svg width={size} height={size} viewBox="0 0 160 160" fill="none" style={style}>
@@ -94,7 +91,7 @@ function SparkleInstance({ color, size, style }) {
       </Svg>
     </SparkleInstanceWrapper>
   );
-}
+};
 
 function Sparkles({ children }) {
   const [sparkles, setSparkles] = useState([]);
@@ -114,7 +111,7 @@ function Sparkles({ children }) {
   );
 
   const sparkle = generateSparkle();
-  console.log('sparkle', sparkle);
+
   return (
     <Wrapper>
       <SparkleInstance color={sparkle.color} size={sparkle.size} style={sparkle.style} />

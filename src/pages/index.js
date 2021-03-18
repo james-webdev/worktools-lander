@@ -55,8 +55,8 @@ export default () => (
     </section>
 
     <section>
-    <div className="mt-20 mb-8 ml-10 mr-10">
-      <HighlightText />
+      <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
+        <HighlightText />
       </div>
     </section>
   </Layout>
