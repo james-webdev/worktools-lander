@@ -1,19 +1,49 @@
 import React from 'react';
-import Button from './Button';
+import styled from 'styled-components';
 
-const Burger = () => {
+const Container = styled.div`
+  display: inline-block;
+  cursor: pointer;
+`;
+
+const BurgerDiv = styled.div`
+  .bar1 {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .bar2 {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  &.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 11px);
+  }
+
+  &.change .bar2 {
+    transform: rotate(45deg) translate(6px, -1px);
+  }
+`;
+
+const BurgerMenu = ({ menuOpen, onClick }) => {
   return (
-    <div className="sm:hidden p-1">
+    <>
       <div>
-        <Button className="p-3 mt-5 bg-white m-1 rounded">
-          <svg viewBox="0 0 100 80" width="30" height="30">
-            <rect width="100" height="10" />
-            <rect y="30" width="100" height="8" />
-          </svg>
-        </Button>
+        <Container className="sm:hidden">
+          <BurgerDiv className={menuOpen ? 'change' : ' '} onClick={onClick}>
+            <div className="bar1" />
+            <div className="bar2" />
+          </BurgerDiv>
+        </Container>
       </div>
-    </div>
+    </>
   );
 };
 
-export default Burger;
+export default BurgerMenu;

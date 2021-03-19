@@ -17,8 +17,10 @@ const Button = ({ children, className = '', size }) => {
         hover:bg-blue
         hover:border-black
         hover:text-white
-        rounded
         text-white
+        rounded-tr-lg 
+        rounded-bl-lg
+        rounded-br-lg
     `}
     >
       {children}

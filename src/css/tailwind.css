@@ -45,6 +45,10 @@ h1 {
   font-family: 'Poppins';
 }
 
+.poppins {
+  font-family: 'Poppins';
+}
+
 /* carousel colours */
 
 .tab1 {
@@ -63,6 +67,19 @@ h1 {
 
 .backgroundBlue {
   background-color: #def3f6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.transitionMenu {
+  animation: fadeIn 1.5s;
 }
 
 @tailwind components;

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import '@fontsource/poppins';
-import ScrollAnimation from 'react-animate-on-scroll';
-import 'animate.css/animate.min.css';
 import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
 import CarouselEx from '../components/Carousel';
@@ -16,14 +14,22 @@ import HighlightText from '../components/HighlightText';
 export default () => (
   <Layout>
     <section>
-      <div className="-ml-40 mt-5 w-60 sm:w-full">
+      <div className="-ml-40 sm:ml-0 mt-5 w-60 sm:w-full">
         <img id="laptop" className="-mb-12 z-10" src={LaptopImage} alt="LaptopImage" />
       </div>
       <div className="">
         <Pulse />
       </div>
-      <div className="mt-4 flex justify-center">
-        <Button className="complianceblue">Download Now</Button>
+      <div className="sm:flex sm:flex-col">
+        <div className="z-10 text-left -mt-5 ml-6 mr-10">
+          <h1 className="text-3xl text-black lg:text-4xl font-bold">Continually</h1>
+          <h1 className="text-3xl text-black lg:text-4xl font-bold">assess your</h1>
+          <h1 className="compliancebluetext text-3xl lg:text-4xl font-bold"> compliance to </h1>
+          <h1 className="compliancebluetext text-3xl lg:text-4xl font-bold">IT standards</h1>
+        </div>
+        <div className="mt-4 flex justify-center">
+          <Button className="complianceblue">Download Now</Button>
+        </div>
       </div>
     </section>
 
@@ -41,7 +47,7 @@ export default () => (
       </div>
     </section>
 
-    <div className="backgroundBlue h-40" />
+    {/* <div className="backgroundBlue h-40" /> */}
     <section>
       <div className="mt-20 sm:ml-40 sm:mr-40">
         <CarouselEx />
