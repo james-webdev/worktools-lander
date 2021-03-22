@@ -10,6 +10,7 @@ import Target from '../components/Target';
 import Shield from '../components/Shield';
 import Mobiles from '../components/Mobiles';
 import HighlightText from '../components/HighlightText';
+import Contact from './GetFormContact';
 
 export default () => (
   <Layout>
@@ -65,5 +66,9 @@ export default () => (
         <HighlightText />
       </div>
     </section>
+
+    <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
+      <Contact />
+    </div>
   </Layout>
 );

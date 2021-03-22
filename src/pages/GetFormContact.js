@@ -1,0 +1,74 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+import { Redirect } from 'react-router-dom';
+
+const Contact = () => {
+  const [serverState, setServerState] = useState({
+    submitting: false,
+    status: null,
+    message: false
+  });
+  const handleServerResponse = (ok, msg, form) => {
+    setServerState({
+      submitting: false,
+      status: { ok, msg },
+      message: false
+    });
+    if (ok) {
+      form.reset();
+    }
+    if (msg) {
+      console.log(msg);
+    }
+  };
+  const handleOnSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    setServerState({ submitting: true, message: true });
+    axios({
+      method: 'post',
+      url: 'https://getform.io/f/4a979712-4299-4337-9e90-ef82347d75b3',
+      data: new FormData(form)
+    })
+      .then(r => {
+        handleServerResponse(true, 'Thanks!', form);
+        console.log(r.data);
+      })
+      .catch(r => {
+        handleServerResponse(false, r.response.data.error, form);
+      });
+  };
+  return (
+    <>
+      <div className="bg-black complianceblue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg">
+        <div className="text-white">
+          <h1 className="poppins text-4xl">Get Notified.</h1>
+          <p className="poppins">Sign up to be notified when the product is released</p>
+        </div>
+        <form onSubmit={handleOnSubmit}>
+          <div className="flex flex-col">
+            <input
+              className="mt-4 mb-4 bg-black text-white text-center border-b-3"
+              type="email"
+              name="email"
+              placeholder="You@Example.com"
+            />
+            <button
+              className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg"
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
+      </div>
+      {serverState.message && (
+        <div className="poppins rounded mt-3 p-3 bg-black text-center text-white text-1xl">
+          <p>Thanks! Your email has been submitted.</p>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default Contact;
