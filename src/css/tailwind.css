@@ -104,7 +104,7 @@ h1 {
 .circle {
   fill: none;
   stroke-width: 4;
-  stroke-linecap: square;
+  stroke-linecap: round;
   animation: progress 4s ease-out forwards;
 }
 
