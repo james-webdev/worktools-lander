@@ -79,7 +79,7 @@ h1 {
 }
 
 .transitionMenu {
-  animation: fadeIn 1.5s;
+  animation: fadeIn 1s;
 }
 
 @tailwind components;
