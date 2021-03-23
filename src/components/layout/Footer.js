@@ -53,7 +53,7 @@ const Footer = () => (
         <Facebook />
       </div>
     </div>
-    <div className="ml-4 mr-4">
+    <div className="mapBnW flex justify-center items-center">
       <GoogleMaps />
     </div>
   </footer>

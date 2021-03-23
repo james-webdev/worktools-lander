@@ -142,6 +142,12 @@ h1 {
   }
 }
 
+/* google map */
+
+.mapBnW {
+  filter: grayscale(100%);
+}
+
 @tailwind components;
 
 @tailwind utilities;
