@@ -3,6 +3,7 @@ import Instagram from '../Social_Media/Instagram';
 import Twitter from '../Social_Media/Twitter';
 import LinkedIn from '../Social_Media/LinkedIn';
 import Facebook from '../Social_Media/Facebook';
+import GoogleMaps from '../GoogleMaps';
 
 const Footer = () => (
   <footer className="bg-black pb-10 mt-20 text-white">
@@ -38,7 +39,7 @@ const Footer = () => (
         </a>
       </div>
     </div>
-    {/* <div className="mt-4 ml-8 mb-6 bg-black mr-8 flex items-center justify-between">
+    <div className="mt-4 ml-8 mb-6 bg-black mr-8 flex items-center justify-between">
       <div>
         <Instagram />
       </div>
@@ -51,7 +52,10 @@ const Footer = () => (
       <div>
         <Facebook />
       </div>
-    </div> */}
+    </div>
+    <div>
+      <GoogleMaps />
+    </div>
   </footer>
 );
 
