@@ -38,7 +38,7 @@ const Footer = () => (
         </a>
       </div>
     </div>
-    <div className="mt-4 ml-8 mb-6 bg-black mr-8 flex items-center justify-between">
+    {/* <div className="mt-4 ml-8 mb-6 bg-black mr-8 flex items-center justify-between">
       <div>
         <Instagram />
       </div>
@@ -51,7 +51,7 @@ const Footer = () => (
       <div>
         <Facebook />
       </div>
-    </div>
+    </div> */}
   </footer>
 );
 
