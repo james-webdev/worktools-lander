@@ -22,6 +22,7 @@ const Instagram = () => (
   <InstaWrapper>
     <a href="http://www.instagram.com">
       <img src={InstagramImg} alt="instagram logo" />
+      <i class="fab fa-instagram"></i>
     </a>
   </InstaWrapper>
 );

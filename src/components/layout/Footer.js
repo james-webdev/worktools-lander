@@ -6,7 +6,7 @@ import Facebook from '../Social_Media/Facebook';
 
 const Footer = () => (
   <footer className="bg-black pb-10 mt-20 text-white">
-    <div className="flex p-4 pl-5 pt-4 flex-col">
+    <div className="flex p-4 pl-5 pt-5 flex-col">
       <div className="flex flex-col">
         <h1 className="text-xl">Resources</h1>
         <a className="text-white p-1" href="">
