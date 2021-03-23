@@ -26,4 +26,4 @@ const Facebook = () => (
   </FaceWrapper>
 );
 
-export default Facebook
+export default Facebook;
