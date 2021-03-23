@@ -9,10 +9,10 @@ const Menu = ({ menuOpen }) => {
         menuOpen ? 'transitionMenu flex flex-col text-center sm:hidden' : 'hidden opacity-0'
       }
     >
-      <Link to="/" className="poppins text-black font-semibold p-3" href="#features">
+      <Link to="/" className="poppins text-black font-medium p-3" href="#features">
         Home
       </Link>
-      <Link to="/" className="poppins text-black font-semibold p-3" href="#pricing">
+      <Link to="/" className="poppins text-black font-medium p-3" href="#pricing">
         Cyber Essentials
       </Link>
       <div className="mb-5 mt-5 rounded-tr-lg rounded-bl-lg rounded-br-lg">
