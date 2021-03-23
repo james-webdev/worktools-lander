@@ -8,7 +8,8 @@ const pulseMove = keyframes`
 }
 95% {
   transform: scale(1);
-  box-shadow: 0 0 0 150px rgba(198, 225, 237, 0.1);
+  z-index: -2;
+  box-shadow: 0 0 0 150px rgba(198, 225, 237, 0.4);
 }
 100% {
   transform: scale(0.9);

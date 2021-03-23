@@ -5,17 +5,18 @@ const targetMove = keyframes`
 10% {
   transform: translate(0, 0);
 }
+
 35% {
-  transform: translate(18px, 18px);
+  transform: translate(10px, 10px);
 }
 45% {
-  transform: translate(18px, -18px);
+  transform: translate(10px, -10px);
 }
 65% {
-  transform: translate(-18px, -18px);
+  transform: translate(-10px, -10px);
 }
 85% {
-  transform: translate(-18px, 18px);
+  transform: translate(-10px, 10px);
 }
 
 100% {

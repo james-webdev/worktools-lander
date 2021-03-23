@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Redirect } from 'react-router-dom';
 
 const Contact = () => {
   const [serverState, setServerState] = useState({
     submitting: false,
-    status: null,
-    message: false
+    status: null
   });
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
@@ -48,7 +46,7 @@ const Contact = () => {
         <form onSubmit={handleOnSubmit}>
           <div className="flex flex-col">
             <input
-              className="mt-4 mb-4 bg-black text-white text-center border-b-3"
+              className="h-10 mt-4 mb-4 bg-black text-white text-center border-b-3"
               type="email"
               name="email"
               placeholder="You@Example.com"
@@ -63,7 +61,7 @@ const Contact = () => {
         </form>
       </div>
       {serverState.message && (
-        <div className="poppins rounded mt-3 p-3 bg-black text-center text-white text-1xl">
+        <div className="poppins rounded mt-3 p-3 backgroundBlue text-center text-black text-1xl">
           <p>Thanks! Your email has been submitted.</p>
         </div>
       )}
