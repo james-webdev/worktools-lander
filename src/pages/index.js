@@ -72,10 +72,10 @@ export default () => (
       </div>
     </section>
 
-    <section>
+    {/* <section>
       <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
         <ScrollTest />
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
