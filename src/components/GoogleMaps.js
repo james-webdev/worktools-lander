@@ -38,7 +38,7 @@ function GoogleMaps() {
     <GoogleMap
       mapContainerStyle={containerStyle}
       center={center}
-      zoom={15}
+      zoom={25}
       onLoad={onLoad}
       onUnmount={onUnmount}
     >
