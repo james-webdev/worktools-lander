@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'gatsby';
 import '@fontsource/poppins';
 import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
@@ -10,7 +11,7 @@ import Target from '../components/Target';
 import Shield from '../components/Shield';
 import Mobiles from '../components/Mobiles';
 import HighlightText from '../components/HighlightText';
-import Contact from './GetFormContact';
+import Contact from '../components/GetFormContact';
 import ScrollTest from '../components/ScrollTest';
 
 export default () => (
@@ -30,7 +31,9 @@ export default () => (
           <h1 className="compliancebluetext text-3xl lg:text-4xl font-bold">IT standards</h1>
         </div>
         <div className="mt-4 flex justify-center">
-          <Button className="complianceblue">Download Now</Button>
+          <Link to="download">
+            <Button className="complianceblue">Download Now</Button>
+          </Link>
         </div>
       </div>
     </section>

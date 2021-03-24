@@ -7,7 +7,7 @@ const Menu = ({ menuOpen }) => {
     <div
       className={
         menuOpen ? 'transitionMenu flex flex-col text-center sm:hidden' : 'hidden opacity-0'
-      }
+      }   
     >
       <Link to="/" className="poppins text-black font-medium p-3" href="#features">
         Home
@@ -16,7 +16,9 @@ const Menu = ({ menuOpen }) => {
         Cyber Essentials
       </Link>
       <div className="mb-5 mt-5 rounded-tr-lg rounded-bl-lg rounded-br-lg">
-        <Button className="complianceblue">Download Now</Button>
+        <Link to="download">
+          <Button className="complianceblue">Download Now</Button>
+        </Link>
       </div>
     </div>
   );
