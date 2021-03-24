@@ -10,31 +10,31 @@ const Footer = () => (
     <div className="flex p-4 ml-2 pl-5 pt-5 flex-col">
       <div className="flex flex-col">
         <h1 className="text-xl">Resources</h1>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Visit our online store
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Apple Mac Leasing
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Microsoft Surface Leasing
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Download
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Contact
         </a>
       </div>
       <div className="flex mt-6 flex-col">
         <h1 className="text-xl">Legal</h1>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Terms and Conditions
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Terms of Service
         </a>
-        <a className="text-gray-500 p-1" href="">
+        <a className="text-gray-400 p-1" href="">
           Privacy Statement
         </a>
       </div>

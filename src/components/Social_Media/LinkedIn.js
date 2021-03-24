@@ -7,7 +7,6 @@ const LinkedWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 25px;
   a {
     display: flex;
     align-items: center;
