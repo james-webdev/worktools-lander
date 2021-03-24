@@ -7,7 +7,7 @@ const Menu = ({ menuOpen }) => {
     <div
       className={
         menuOpen ? 'transitionMenu flex flex-col text-center sm:hidden' : 'hidden opacity-0'
-      }   
+      }
     >
       <Link to="/" className="poppins text-black font-medium p-3" href="#features">
         Home
