@@ -7,15 +7,15 @@ const Download = () => {
   return (
     <>
       <Header />
-      <div className="text-center mt-20 mb-20">
-        <div className="text-left poppins border border-black">
+      <div className="text-center mt-20 ml-5 mr-4 mb-20">
+        <div className="text-left poppins">
           <h1 className="text-3xl">Download</h1>
           <div>
             <h2 className="text-lg">works on Mac and Windows operating systems</h2>
           </div>
         </div>
         <div className="hidden sm:flex sm:justify-around">
-          <div className="border border-black flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <svg
               version="1.1"
               id="Layer_1"
@@ -48,7 +48,7 @@ const Download = () => {
 
             <p className="poppins">Free Forever</p>
           </div>
-          <div className="border border-black flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <svg
               version="1.1"
               id="Layer_1"
@@ -81,7 +81,7 @@ const Download = () => {
             </svg>
             <p className="poppins">Easy Installation</p>
           </div>
-          <div className="border border-black flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <svg
               version="1.1"
               id="Layer_1"
@@ -102,8 +102,8 @@ const Download = () => {
             <p className="poppins">Stay protected</p>
           </div>
         </div>
-        <div className="border border-black flex justify-center items-center">
-          <div className="border border-black flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <svg
               version="1.1"
               id="Layer_1"
@@ -153,9 +153,9 @@ const Download = () => {
               </g>
             </svg>
 
-            <p className="poppins border border-black">Download for Windows</p>
+            <p className="poppins">Download for Windows</p>
           </div>
-          <div className="border border-black flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <svg
               version="1.1"
               id="Layer_1"
@@ -202,7 +202,7 @@ const Download = () => {
               </g>
             </svg>
 
-            <p className="poppins border border-black">Download for Mac</p>
+            <p className="poppins">Download for Mac</p>
           </div>
         </div>
       </div>
