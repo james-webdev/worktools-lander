@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import '@fontsource/poppins';
 import Layout from '../components/layout/Layout';
