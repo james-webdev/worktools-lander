@@ -12,6 +12,7 @@ import Shield from '../components/Shield';
 import Mobiles from '../components/Mobiles';
 import HighlightText from '../components/HighlightText';
 import Contact from '../components/GetFormContact';
+import ContactBlue from '../components/GetFormContactBlue';
 import ScrollTest from '../components/ScrollTest';
 
 export default () => (
@@ -80,5 +81,11 @@ export default () => (
         <ScrollTest />
       </div>
     </section> */}
+
+    <section>
+      <div className="mt-20">
+        <ContactBlue />
+      </div>
+    </section>
   </Layout>
 );

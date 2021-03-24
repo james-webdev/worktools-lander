@@ -16,7 +16,9 @@ const Menu = ({ menuOpen }) => {
         Cyber Essentials
       </Link>
       <div className="mb-5 mt-5 rounded-tr-lg rounded-bl-lg rounded-br-lg">
-        <Button className="complianceblue">Download Now</Button>
+        <Link to="download">
+          <Button className="complianceblue">Download Now</Button>
+        </Link>
       </div>
     </div>
   );

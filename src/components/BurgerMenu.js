@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: inline-block;
   cursor: pointer;
+  margin-top: 8px;
 `;
 
 const BurgerDiv = styled.div`

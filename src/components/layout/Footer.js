@@ -6,7 +6,7 @@ import Facebook from '../Social_Media/Facebook';
 import GoogleMaps from '../GoogleMaps';
 
 const Footer = () => (
-  <footer className="bg-black pb-10 mt-20 text-white">
+  <footer className="bg-black pb-10 text-white">
     <div className="sm:flex sm:justify-between">
       <div className="sm:flex sm:flex-col">
         <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-around sm:items-center">

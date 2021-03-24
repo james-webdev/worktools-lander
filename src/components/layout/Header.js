@@ -15,7 +15,9 @@ const Header = () => {
         <div className="container flex justify-between items-center mx-auto py-2 px-8">
           <div className="flex items-center text-2xl">
             <div className="w-32 mr-3">
-              <LogoIcon />
+              <Link to="/">
+                <LogoIcon />
+              </Link>
             </div>
           </div>
 
@@ -34,12 +36,14 @@ const Header = () => {
             </Link>
           </div>
           <div className="hidden md:block">
-            <Button
-              onClick="https://download.worktools.link/GuardianInstaller.exe"
-              className="text-sm"
-            >
-              Download Now
-            </Button>
+            <Link to="download">
+              <Button
+                onClick="https://download.worktools.link/GuardianInstaller.exe"
+                className="text-sm"
+              >
+                Download Now
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="flex justify-center items-center">
