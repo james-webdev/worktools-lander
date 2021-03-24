@@ -58,11 +58,11 @@ export default () => (
     </div>
 
     {/* <div className="backgroundBlue h-40" /> */}
-    <section>
+    {/* <section>
       <div className="mt-20 sm:ml-40 sm:mr-40">
         <CarouselEx />
       </div>
-    </section>
+    </section> */}
 
     <section>
       <div className="mt-20 mb-8 ml-10 mr-10">
