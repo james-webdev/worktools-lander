@@ -7,44 +7,44 @@ import GoogleMaps from '../GoogleMaps';
 
 const Footer = () => (
   <footer className="bg-black pb-10 mt-20 text-white">
-    <div className="flex p-4 pl-5 pt-5 flex-col">
+    <div className="flex p-4 ml-2 pl-5 pt-5 flex-col">
       <div className="flex flex-col">
         <h1 className="text-xl">Resources</h1>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Visit our online store
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Apple Mac Leasing
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Microsoft Surface Leasing
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Download
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Contact
         </a>
       </div>
       <div className="flex mt-6 flex-col">
         <h1 className="text-xl">Legal</h1>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Terms and Conditions
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Terms of Service
         </a>
-        <a className="text-white p-1" href="">
+        <a className="text-gray-500 p-1" href="">
           Privacy Statement
         </a>
       </div>
     </div>
-    {/* <div className="mt-4 ml-8 mb-6 bg-black mr-8 flex items-center justify-between">
-      <div>
-        <Instagram />
-      </div>
+    <div className="mt-4 ml-8 mb-8 bg-black mr-8 flex items-center justify-between">
       <div>
         <Twitter />
+      </div>
+      <div>
+        <Instagram />
       </div>
       <div>
         <LinkedIn />
@@ -52,7 +52,7 @@ const Footer = () => (
       <div>
         <Facebook />
       </div>
-    </div> */}
+    </div>
     <div className="mapBnW flex justify-center items-center">
       <GoogleMaps />
     </div>

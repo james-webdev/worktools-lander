@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import FacebookImg from '../../assets/images/facebook.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 const FaceWrapper = styled.div`
   display: flex;
@@ -12,16 +13,12 @@ const FaceWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
-  img {
-    max-width: 35px;
-    max-height: 35px;
-  }
 `;
 
 const Facebook = () => (
   <FaceWrapper>
     <a href="http://www.facebook.com">
-      <img src={FacebookImg} alt="Facebook logo" />
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faFacebookF} size="2x" />
     </a>
   </FaceWrapper>
 );

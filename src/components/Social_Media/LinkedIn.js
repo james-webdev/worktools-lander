@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import LinkedInImg from '../../assets/images/linkedin.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const LinkedWrapper = styled.div`
   display: flex;
@@ -12,16 +13,12 @@ const LinkedWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
-  img {
-    max-width: 35px;
-    max-height: 35px;
-  }
 `;
 
 const LinkedIn = () => (
   <LinkedWrapper>
     <a href="http://www.LinkedIn.com">
-      <img src={LinkedInImg} alt="LinkedIn logo" />
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faLinkedinIn} size="2x" />
     </a>
   </LinkedWrapper>
 );

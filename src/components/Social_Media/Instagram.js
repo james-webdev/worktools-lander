@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import InstagramImg from '../../assets/images/instagram.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const InstaWrapper = styled.div`
   display: flex;
@@ -12,17 +13,12 @@ const InstaWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
-  img {
-    max-width: 35px;
-    max-height: 35px;
-  }
 `;
 
 const Instagram = () => (
   <InstaWrapper>
     <a href="http://www.instagram.com">
-      <img src={InstagramImg} alt="instagram logo" />
-      <i class="fab fa-instagram"></i>
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faInstagram} size="2x" />
     </a>
   </InstaWrapper>
 );

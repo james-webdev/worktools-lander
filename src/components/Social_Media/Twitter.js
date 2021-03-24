@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import TwitterImg from '../../assets/images/twitter.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const TwitWrapper = styled.div`
   display: flex;
@@ -12,16 +13,12 @@ const TwitWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
-  img {
-    max-width: 35px;
-    max-height: 35px;
-  }
 `;
 
 const Twitter = () => (
   <TwitWrapper>
     <a href="http://www.twitter.com">
-      <img src={TwitterImg} alt="twitter logo" />
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faTwitter} size="2x" />
     </a>
   </TwitWrapper>
 );
