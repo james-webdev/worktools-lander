@@ -9,36 +9,40 @@ const Footer = () => (
   <footer className="bg-black pb-10 text-white">
     <div className="sm:flex sm:justify-between">
       <div className="sm:flex sm:flex-col">
-        <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-around sm:items-center">
-          <div className="flex flex-col sm:p-4">
+        <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-left sm:items-center">
+          <div className="flex flex-col sm:mt-2 sm:p-4">
             <h1 className="text-xl">Resources</h1>
-            <a className="text-gray-400 p-1" href="">
-              Visit our online store
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Apple Mac Leasing
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Microsoft Surface Leasing
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Download
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Contact
-            </a>
+            <div className="sm:mt-1 flex flex-col">
+              <a className="text-gray-400 p-1" href="">
+                Visit our online store
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Apple Mac Leasing
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Microsoft Surface Leasing
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Download
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Contact
+              </a>
+            </div>
           </div>
-          <div className="flex mt-6 sm:mb-5 flex-col sm:p-4">
+          <div className="flex mt-6 sm:mb-20 sm:ml-7 flex-col sm:p-4">
             <h1 className="text-xl">Legal</h1>
-            <a className="text-gray-400 p-1" href="">
-              Terms and Conditions
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Terms of Service
-            </a>
-            <a className="text-gray-400 p-1" href="">
-              Privacy Statement
-            </a>
+            <div className="sm:mt-1 flex flex-col">
+              <a className="text-gray-400 p-1" href="">
+                Terms and Conditions
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Terms of Service
+              </a>
+              <a className="text-gray-400 p-1" href="">
+                Privacy Statement
+              </a>
+            </div>
           </div>
         </div>
         <div className="mt-4 ml-8 mb-8 bg-black mr-8 flex items-center justify-between sm:justify-around sm:p-2">

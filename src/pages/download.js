@@ -2,108 +2,34 @@ import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import Contact from '../components/GetFormContactBlue';
+import MacDownloadButton from '../components/MacDownloadButton';
+import WindowsDownloadButton from '../components/WindowsDownloadButton';
+import FreeForever from '../components/FreeForever';
+import EasyInstallation from '../components/EasyInstallation';
+import StayProtected from '../components/StayProtected';
+import GuardianLogo from '../assets/images/guardianlogo.png';
 
 const Download = () => {
   return (
     <>
       <Header />
-      <div className="text-center mt-20 ml-5 mr-4 mb-20">
-        <div className="text-left poppins">
-          <h1 className="text-3xl">Download</h1>
-          <div>
-            <h2 className="text-lg">works on Mac and Windows operating systems</h2>
+      <div className="text-center mt-8 sm:mt-20 ml-5 mr-4 mb-20">
+        <div className="sm:ml-20 sm:mr-20 text-left poppins">
+          <h1 className="font-bold sm:pb-4 text-4xl">Download</h1>
+          <div className="flex sm:flex sm:justify-start sm:items-center">
+            <img className="w-28 h-24 sm:w-68 sm:h-40" src={GuardianLogo} alt="GuardianLogo" />
+            <h2 className="sm:-ml-16 p-2 pt-6 sm:pt-5 text-center text-lg sm:text-2xl">
+              works on Mac and Windows operating systems.
+            </h2>
           </div>
         </div>
-        <div className="hidden sm:flex sm:justify-around">
-          <div className="flex flex-col justify-center items-center">
-            <svg
-              version="1.1"
-              id="Layer_1"
-              x="0px"
-              y="0px"
-              width="80px"
-              height="80px"
-              viewBox="0 0 1080 1080"
-              enableBackground="new 0 0 1080 1080"
-            >
-              <g>
-                <path
-                  fill="#27AECD"
-                  d="M628.983,543.527c18.853,8.344,35.314,21.391,49.358,39.167c14.043,17.77,21.058,41.791,21.058,72.07
-		c0,21.942-5.368,42.349-16.116,61.209c-10.762,18.873-27.316,34.225-49.703,46.07c-22.374,11.851-49.796,17.777-82.267,17.777
-		h-1.98v52.653h-20.394v-53.975c-41.692-3.946-75.691-17.657-102.024-41.134c-26.32-23.47-41.027-52.54-44.096-87.21h63.84
-		c1.754,18.428,9.765,35.653,24.035,51.67c14.243,16.023,33.667,25.994,58.246,29.947V563.277
-		c-33.8-10.091-60.013-19.192-78.654-27.316c-18.654-8.111-34.889-20.945-48.707-38.503c-13.818-17.544-20.74-41.021-20.74-70.423
-		c0-24.128,6.151-45.418,18.441-63.846c12.276-18.428,29.615-32.684,51.988-42.781c22.374-10.091,48.268-15.139,77.67-15.139
-		v-56.605h20.394v57.263c40.815,3.076,73.286,15.585,97.414,37.52c24.128,21.942,38.397,48.488,42.781,79.637h-64.504
-		c-3.069-16.667-10.961-31.594-23.689-44.754c-12.728-13.167-30.066-21.497-52.002-25.011v161.911
-		C583.558,525.757,610.104,535.197,628.983,543.527z M466.733,476.392c14.256,12.29,34.996,23.038,62.205,32.252V352.002
-		c-25.456,0-45.744,6.251-60.89,18.753c-15.133,12.509-22.706,30.392-22.706,53.643
-		C445.343,446.778,452.478,464.116,466.733,476.392z M613.186,711.363c14.907-14.475,22.374-32.91,22.374-55.283
-		c0-23.251-7.467-41.24-22.374-53.975c-14.92-12.721-36.205-23.463-63.853-32.245v163.226h0.664
-		C577.194,733.086,598.266,725.845,613.186,711.363z"
-                />
-              </g>
-            </svg>
-
-            <p className="poppins">Free Forever</p>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <svg
-              version="1.1"
-              id="Layer_1"
-              x="0px"
-              y="0px"
-              width="80px"
-              height="80px"
-              viewBox="0 0 1080 1080"
-              enableBackground="new 0 0 1080 1080"
-            >
-              <g>
-                <path
-                  fill="#1F7E9B"
-                  d="M416.588,472.207c-16.334,38.561-31.827,75.137-47.979,113.268c114.548,0,227.628,0,342.844,0
-		c-15.893-37.693-31.534-74.79-47.744-113.235c15.514,0,29.724-0.392,43.878,0.32c2.938,0.148,6.991,3.818,8.298,6.833
-		c16.494,38.055,32.884,76.164,48.521,114.576c3.282,8.061,4.639,17.385,4.778,26.161c0.536,33.884,0.319,67.782,0.189,101.673
-		c-0.112,29.147-18.987,47.806-48.397,47.82c-120.461,0.054-240.921,0.051-361.382,0.003c-30.298-0.012-48.693-18.348-48.783-48.561
-		c-0.1-33.484-0.507-66.979,0.269-100.445c0.239-10.317,2.429-21.151,6.28-30.721c14.574-36.216,30.363-71.942,45.282-108.023
-		c2.89-6.989,6.434-10.253,14.358-9.842C389.596,472.685,402.251,472.207,416.588,472.207z M712.757,677.839
-		c-0.326-18.989-16.874-35.029-35.548-34.456c-18.632,0.571-34.144,16.33-34.135,34.678c0.01,19.069,15.999,35.05,34.994,34.975
-		C697.042,712.961,713.081,696.687,712.757,677.839z"
-                />
-                <path
-                  fill="#1F7E9B"
-                  d="M563.29,311.915c0,38.067,0,75.446,0,113.725c22.196,0,43.304,0,62.458,0
-		c-28.932,28.9-58.399,58.332-87.088,86.989c-26.808-26.636-56.42-56.058-86.853-86.296c21.344,0,42.613,0,64.973,0
-		c0-38.856,0-76.225,0-114.418C532.37,311.915,546.86,311.915,563.29,311.915z"
-                />
-              </g>
-            </svg>
-            <p className="poppins">Easy Installation</p>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <svg
-              version="1.1"
-              id="Layer_1"
-              x="0px"
-              y="0px"
-              width="80px"
-              height="80px"
-              viewBox="0 0 1080 1080"
-              enableBackground="new 0 0 1080 1080"
-            >
-              <path
-                fill="#215D9E"
-                d="M539.966,313.146c-154.611,67.355-203.596,55.11-203.596,55.11c7.314,74.74,19.189,133.435,33.66,182.34
-	c55.178,186.48,148.103,207.498,169.935,217.197c21.832-9.699,114.758-30.716,169.936-217.197
-	c14.471-48.905,26.346-107.6,33.66-182.34C743.562,368.256,694.577,380.501,539.966,313.146z"
-              />
-            </svg>
-            <p className="poppins">Stay protected</p>
-          </div>
+        <div className="hidden sm:pt-8 sm:ml-10 sm:mr-10 sm:flex sm:justify-around">
+          <FreeForever />
+          <EasyInstallation />
+          <StayProtected />
         </div>
-        <div className="flex justify-center items-center">
-          <div className="flex flex-col justify-center items-center">
+        <div className="ml-10 mr-10 flex justify-center items-center">
+          <div className="lg:hidden">
             <svg
               version="1.1"
               id="Layer_1"
@@ -152,10 +78,12 @@ const Download = () => {
                 </g>
               </g>
             </svg>
-
             <p className="poppins">Download for Windows</p>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="hidden lg:block mt-10 mb-32">
+            <WindowsDownloadButton />
+          </div>
+          <div className="lg:hidden">
             <svg
               version="1.1"
               id="Layer_1"
@@ -201,9 +129,14 @@ const Download = () => {
                 </g>
               </g>
             </svg>
-
             <p className="poppins">Download for Mac</p>
           </div>
+          <div className="hidden lg:block mt-10 mb-32">
+            <MacDownloadButton />
+          </div>
+        </div>
+        <div className="lg:hidden pt-40">
+          <p>Please view this page on a laptop or a desktop to download guardian to your device</p>
         </div>
       </div>
       <div className="hidden sm:block">

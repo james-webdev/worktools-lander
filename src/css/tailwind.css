@@ -13,9 +13,22 @@ body {
   color: #000a8d;
 }
 
-#laptop {
-  width: 525px;
+@media only screen and (max-width: 600px) {
+  #laptop {
+    width: 525px !important;
+  }
 }
+
+@media only screen and (min-width: 600px) {
+  #laptop {
+    width: 680px !important;
+  }
+}
+
+
+/* #laptop {
+  width: 525px;
+} */
 
 a {
   @apply text-primary;

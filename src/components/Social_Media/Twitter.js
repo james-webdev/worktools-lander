@@ -17,7 +17,7 @@ const TwitWrapper = styled.div`
 const Twitter = () => (
   <TwitWrapper>
     <a href="http://www.twitter.com">
-      <FontAwesomeIcon style={{ color: 'gray' }} icon={faTwitter} size="2x" />
+      <FontAwesomeIcon style={{ color: 'white' }} icon={faTwitter} size="2x" />
     </a>
   </TwitWrapper>
 );

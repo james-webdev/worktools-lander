@@ -18,23 +18,37 @@ import ScrollTest from '../components/ScrollTest';
 export default () => (
   <Layout>
     <section>
-      <div className="-ml-40 sm:ml-0 mt-5 w-60 sm:w-full">
-        <img id="laptop" className="-mb-12 z-10" src={LaptopImage} alt="LaptopImage" />
-      </div>
-      <div className="">
-        <Pulse />
-      </div>
-      <div className="sm:flex sm:flex-col">
-        <div className="z-10 text-left -mt-5 ml-6 mr-10">
-          <h1 className="text-3xl text-black lg:text-4xl font-bold">Continually</h1>
-          <h1 className="text-3xl text-black lg:text-4xl font-bold">assess your</h1>
-          <h1 className="compliancebluetext text-3xl lg:text-4xl font-bold"> compliance to </h1>
-          <h1 className="compliancebluetext text-3xl lg:text-4xl font-bold">IT standards</h1>
+      <div className="flex flex-col-reverse sm:flex sm:flex-row">
+        <div className="sm:flex sm:flex-col sm:justify-center sm:items-left sm:ml-10 sm:mt-10 sm:-mr-8">
+          <div className="z-10 text-left -mt-5 ml-6 mr-10">
+            <h1 className="text-3xl text-black md:text-5xl font-bold">Continually</h1>
+            <h1 className="text-3xl text-black md:text-5xl font-bold">assess your</h1>
+            <h1 className="compliancebluetext text-3xl md:text-5xl font-bold"> compliance to </h1>
+            <h1 className="compliancebluetext text-3xl md:text-5xl font-bold">IT standards</h1>
+          </div>
+          <div className="w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
+            Resolve compliance, cybersecurity & common IT issues yourself. We are on hand to help.{' '}
+          </div>
+          <div className="mt-4 flex justify-center sm:justify-start sm:ml-6">
+            <Link to="download">
+              <Button className="complianceblue">Download Now</Button>
+            </Link>
+          </div>
         </div>
-        <div className="mt-4 flex justify-center">
-          <Link to="download">
-            <Button className="complianceblue">Download Now</Button>
-          </Link>
+        <div>
+          <div className="-ml-32 sm:ml-0 sm:mt-10 sm:mr-6 mt-5 w-68">
+            <img
+              id="laptop"
+              className="-mb-12 sm:-mb-48 z-10"
+              src={LaptopImage}
+              alt="LaptopImage"
+            />
+          </div>
+          <div className="">
+            <div className="sm:mb-60">
+              <Pulse />
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -28,13 +28,17 @@ const PulseDiv = styled.div`
   width: 35px;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
   transform: scale(1);
+  z-index: -2;
 `;
 
 const Pulse = () => {
   return (
     <div className="text-center">
       <div className="flex-col justify-center items-center">
-        <div id="blob" className="-z-1 -mb-20 flex mr-20 mt-24 justify-end items-center">
+        <div
+          id="blob"
+          className="-z-1 -mb-20 sm:mb-4 flex mr-20 sm:mr-0 mt-24 sm:mt-0 sm:ml-8 justify-end sm:justify-start items-center sm:items-start sm:h-20"
+        >
           <PulseDiv>
             <div className="blob" />
           </PulseDiv>

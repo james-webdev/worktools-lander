@@ -18,7 +18,7 @@ const InstaWrapper = styled.div`
 const Instagram = () => (
   <InstaWrapper>
     <a href="http://www.instagram.com">
-      <FontAwesomeIcon style={{ color: 'gray' }} icon={faInstagram} size="2x" />
+      <FontAwesomeIcon style={{ color: 'white' }} icon={faInstagram} size="2x" />
     </a>
   </InstaWrapper>
 );
