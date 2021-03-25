@@ -38,13 +38,13 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="bg-black complianceblue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg">
+      <div className="bg-black complianceblue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg sm:flex sm:p-8">
         <div className="text-white">
           <h1 className="poppins text-4xl">Get Notified.</h1>
           <p className="poppins">Sign up to be notified when the product is released</p>
         </div>
-        <form onSubmit={handleOnSubmit}>
-          <div className="flex flex-col">
+        <form className="" onSubmit={handleOnSubmit}>
+          <div className="flex flex-col sm:flex-row">
             <input
               className="h-10 mt-4 mb-4 bg-black text-white text-center border-b-3"
               type="email"

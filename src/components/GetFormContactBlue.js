@@ -43,21 +43,23 @@ const Contact = () => {
           <p>Thanks! Your email has been submitted.</p>
         </div>
       )}
-      <div className="backgroundBlue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg">
-        <div className="text-black">
+      <div className="flex justify-around backgroundBlue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg">
+        <div className="text-black ml-10">
           <h1 className="poppins text-4xl">Get Notified.</h1>
           <p className="poppins">Sign up to be notified when the product is released</p>
         </div>
-        <form onSubmit={handleOnSubmit}>
-          <div className="flex flex-col">
+        <form className="flex w-1/2 justify-between" onSubmit={handleOnSubmit}>
+          <div>
             <input
-              className="h-10 mt-4 mb-4 backgroundBlue text-black text-center border-b-3"
+              className="h-10 ml-4 mt-4 mb-4 backgroundBlue text-black text-center border border-b-3"
               type="email"
               name="email"
               placeholder="You@Example.com"
             />
+          </div>
+          <div>
             <button
-              className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg"
+              className="ml-10 mr-20 mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg"
               type="submit"
             >
               Subscribe

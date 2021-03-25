@@ -67,7 +67,7 @@ export default () => (
       </div>
     </section>
 
-    <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
+    <div className="mt-20 mb-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48">
       <Contact />
     </div>
 
