@@ -79,7 +79,7 @@ const Download = () => {
                   </g>
                 </g>
               </svg>
-              <p className="poppins">Download for Windows</p>
+              <p className="text-xs poppins">Download for Windows</p>
             </div>
             <div className="hidden lg:block mt-10 mb-32">
               <WindowsDownloadButton />
@@ -130,7 +130,7 @@ const Download = () => {
                   </g>
                 </g>
               </svg>
-              <p className="poppins">Download for Mac</p>
+              <p className="text-xs poppins">Download for Mac</p>
             </div>
             <div className="hidden lg:block mt-10 mb-32">
               <MacDownloadButton />

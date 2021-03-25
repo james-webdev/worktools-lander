@@ -10,7 +10,7 @@ const Footer = () => (
     <div className="sm:flex sm:justify-between">
       <div className="sm:flex sm:flex-col">
         <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-left sm:items-center">
-          <div className="flex flex-col sm:mt-2 sm:p-4">
+          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
             <h1 className="text-medium sm:text-xl">Resources</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="text-gray-400 p-1" href="">
@@ -65,7 +65,7 @@ const Footer = () => (
           All rights reserved.
         </div>
       </div>
-      <div className="mapBnW flex justify-center items-center m-5 sm:p-5 sm:mr-20">
+      <div className="mapBnW flex justify-center items-center m-1 sm:p-5 sm:mr-20">
         <GoogleMaps />
       </div>
     </div>
