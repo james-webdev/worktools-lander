@@ -9,7 +9,7 @@ function CarouselEx() {
   return (
     <>
       <div className="flex bold text-center pb-5">
-        <h1 className="text-5xl bold">We think our clients put it best!</h1>
+        <h1 className="ml-5 mr-5 poppins text-3xl">We think our clients put it best!</h1>
       </div>
       <div className="mt-8">
         <Carousel

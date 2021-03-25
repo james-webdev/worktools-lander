@@ -11,8 +11,8 @@ const Footer = () => (
       <div className="sm:flex sm:flex-col">
         <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-left sm:items-center">
           <div className="flex flex-col sm:mt-2 sm:p-4">
-            <h1 className="text-xl">Resources</h1>
-            <div className="sm:mt-1 flex flex-col">
+            <h1 className="text-medium sm:text-xl">Resources</h1>
+            <div className="sm:mt-1 text-small flex flex-col">
               <a className="text-gray-400 p-1" href="">
                 Visit our online store
               </a>
@@ -31,8 +31,8 @@ const Footer = () => (
             </div>
           </div>
           <div className="flex mt-6 sm:mb-20 sm:ml-7 flex-col sm:p-4">
-            <h1 className="text-xl">Legal</h1>
-            <div className="sm:mt-1 flex flex-col">
+            <h1 className="text-medium sm:text-xl">Legal</h1>
+            <div className="sm:mt-1 text-small flex flex-col">
               <a className="text-gray-400 p-1" href="">
                 Terms and Conditions
               </a>
@@ -45,7 +45,7 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        <div className="mt-4 ml-8 mb-8 bg-black mr-8 flex items-center justify-between sm:justify-around sm:p-2">
+        <div className="mt-4 ml-10 mb-8 bg-black mr-10 flex items-center justify-between sm:justify-around sm:p-2">
           <div>
             <Twitter />
           </div>
@@ -65,7 +65,7 @@ const Footer = () => (
           All rights reserved.
         </div>
       </div>
-      <div className="mapBnW flex justify-center items-center sm:p-5 sm:mr-20">
+      <div className="mapBnW flex justify-center items-center m-5 sm:p-5 sm:mr-20">
         <GoogleMaps />
       </div>
     </div>
