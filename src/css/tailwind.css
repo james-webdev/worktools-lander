@@ -25,7 +25,6 @@ body {
   }
 }
 
-
 /* #laptop {
   width: 525px;
 } */
@@ -159,6 +158,10 @@ h1 {
 
 .mapBnW {
   filter: grayscale(100%);
+}
+
+.footergrey {
+  color: gray;
 }
 
 @tailwind components;

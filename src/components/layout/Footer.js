@@ -13,19 +13,19 @@ const Footer = () => (
           <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
             <h1 className="text-medium sm:text-xl">Resources</h1>
             <div className="sm:mt-1 text-small flex flex-col">
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Visit our online store
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Apple Mac Leasing
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Microsoft Surface Leasing
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Download
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Contact
               </a>
             </div>
@@ -33,13 +33,13 @@ const Footer = () => (
           <div className="flex mt-6 sm:mb-20 sm:ml-7 flex-col sm:p-4">
             <h1 className="text-medium sm:text-xl">Legal</h1>
             <div className="sm:mt-1 text-small flex flex-col">
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Terms and Conditions
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Terms of Service
               </a>
-              <a className="text-gray-400 p-1" href="">
+              <a className="footergrey p-1" href="">
                 Privacy Statement
               </a>
             </div>
@@ -59,7 +59,7 @@ const Footer = () => (
             <Facebook />
           </div>
         </div>
-        <div className="hidden sm:flex sm:p-3 sm:ml-5 sm:mb-8 sm:text-center sm:text-sm text-gray-400">
+        <div className="footergrey hidden sm:flex sm:p-3 sm:ml-5 sm:mb-8 sm:text-center sm:text-sm text-gray-400">
           Wortktools is a trading name of DeskServe LTD. Registered in England, Company Number
           09251779. Registered Office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ © 2019.
           All rights reserved.
