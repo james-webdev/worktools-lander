@@ -3,42 +3,42 @@ import styled, { keyframes } from 'styled-components';
 
 const highlight = keyframes` 
     
-    15% {
+    55% {
       background-color:  #27aecc;
       color: white;
     }
     100% {
-      background-color: none;
+      background-color:  #27aecc;
+      color: white;
     }
 `;
 
 const ColourOneDiv = styled.div`
   display: inline;
   padding: 2px;
-  border-radius: 4px;
   animation-name: ${highlight};
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
 `;
 
 const highlightTwo = keyframes` 
     
-    15% { 
+    55% { 
       background-color:  #1f7d9c;
       color: white;
     }
     100% {
-      background-color: none;
+      background-color:  #1f7d9c;
+      color: white;
     }
 `;
 
 const ColourTwoDiv = styled.div`
   display: inline;
   padding: 2px;
-  border-radius: 4px;
   animation-name: ${highlightTwo};
-  animation-duration: 5.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
 `;
 
 const highlightThree = keyframes` 
@@ -48,17 +48,17 @@ const highlightThree = keyframes`
       color: white;
     }
     100% {
-      background-color: none;
+      background-color:  #2b5794;
+      color: white;
     }
 `;
 
 const ColourThreeDiv = styled.div`
   display: inline;
   padding: 2px;
-  border-radius: 4px;
   animation-name: ${highlightThree};
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
 `;
 
 const HighlightText = () => {
