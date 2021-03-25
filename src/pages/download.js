@@ -18,7 +18,7 @@ const Download = () => {
           <h1 className="font-bold sm:pb-4 text-4xl">Download</h1>
           <div className="flex sm:flex sm:justify-start sm:items-center">
             <img className="w-28 h-24 sm:w-68 sm:h-40" src={GuardianLogo} alt="GuardianLogo" />
-            <h2 className="sm:-ml-16 p-2 pt-6 sm:pt-5 text-center text-lg sm:text-2xl">
+            <h2 className="sm:-ml-16 p-2 pt-8 sm:pt-5 text-center text-lg sm:text-2xl">
               works on Mac and Windows operating systems.
             </h2>
           </div>
@@ -29,7 +29,7 @@ const Download = () => {
           <StayProtected />
         </div>
         <div className="ml-10 mr-10 flex justify-center items-center">
-          <div className="lg:hidden">
+          <div className="lg:hidden ml-5">
             <svg
               version="1.1"
               id="Layer_1"
@@ -83,7 +83,7 @@ const Download = () => {
           <div className="hidden lg:block mt-10 mb-32">
             <WindowsDownloadButton />
           </div>
-          <div className="lg:hidden">
+          <div className="lg:hidden mr-5">
             <svg
               version="1.1"
               id="Layer_1"

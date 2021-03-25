@@ -19,8 +19,8 @@ export default () => (
   <Layout>
     <section>
       <div className="flex flex-col-reverse sm:flex sm:flex-row">
-        <div className="sm:flex sm:flex-col sm:justify-center sm:items-left sm:ml-10 sm:mt-10 sm:-mr-8">
-          <div className="z-10 text-left -mt-5 ml-6 mr-10">
+        <div className="sm:flex sm:flex-col sm:justify-center sm:items-left sm:ml-16 sm:mt-10 sm:-mr-8">
+          <div className="z-10 text-left -mt-1 ml-6 mr-10">
             <h1 className="text-3xl text-black md:text-5xl font-bold">Continually</h1>
             <h1 className="text-3xl text-black md:text-5xl font-bold">assess your</h1>
             <h1 className="compliancebluetext text-3xl md:text-5xl font-bold"> compliance to </h1>
@@ -72,17 +72,17 @@ export default () => (
     </div>
 
     {/* <div className="backgroundBlue h-40" /> */}
-    {/* <section>
+    <section>
       <div className="mt-20 sm:ml-40 sm:mr-40">
         <CarouselEx />
       </div>
-    </section> */}
+    </section>
 
-    <section>
+    {/* <section>
       <div className="mt-20 mb-8 ml-10 mr-10">
         <Mobiles />
       </div>
-    </section>
+    </section> */}
 
     <section>
       <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
@@ -96,10 +96,10 @@ export default () => (
       </div>
     </section> */}
 
-    {/* <section>
+    <section>
       <div className="mt-20">
         <ContactBlue />
       </div>
-    </section> */}
+    </section>
   </Layout>
 );
