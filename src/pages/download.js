@@ -17,7 +17,7 @@ const Download = () => {
         <div className="overflow-x-hidden	text-center mt-8 sm:mt-20 ml-8 mr-8 mb-20">
           <div className="sm:ml-20 sm:mr-20 text-left poppins">
             <h1 className="font-bold sm:pb-4 text-4xl">Download</h1>
-            <div className="flex sm:flex sm:justify-start sm:items-center">
+            <div className="flex hidden sm:flex sm:justify-start sm:items-center">
               <img className="w-28 h-24 sm:w-68 sm:h-40" src={GuardianLogo} alt="GuardianLogo" />
               <h2 className="sm:-ml-16 p-2 pt-6 sm:pt-5 text-center text-lg sm:text-2xl">
                 works on Mac and Windows operating systems.
