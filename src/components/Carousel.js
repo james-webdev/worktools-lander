@@ -8,7 +8,7 @@ function CarouselEx() {
 
   return (
     <>
-      <div className="flex bold text-center pb-5">
+      <div className="flex bold text-center justify-center items-center pb-5">
         <h1 className="ml-5 mr-5 poppins text-3xl">We think our clients put it best!</h1>
       </div>
       <div className="mt-8">

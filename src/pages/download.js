@@ -14,22 +14,22 @@ const Download = () => {
     <>
       <div className="overflow-x-hidden">
         <Header />
-        <div className="overflow-x-hidden	border border-black text-center mt-8 sm:mt-20 ml-8 mr-8 mb-20">
-          <div className="border border-black sm:ml-20 sm:mr-20 text-left poppins">
+        <div className="overflow-x-hidden	text-center mt-8 sm:mt-20 ml-8 mr-8 mb-20">
+          <div className="sm:ml-20 sm:mr-20 text-left poppins">
             <h1 className="font-bold sm:pb-4 text-4xl">Download</h1>
-            <div className="border border-black flex sm:flex sm:justify-start sm:items-center">
+            <div className="flex sm:flex sm:justify-start sm:items-center">
               <img className="w-28 h-24 sm:w-68 sm:h-40" src={GuardianLogo} alt="GuardianLogo" />
               <h2 className="sm:-ml-16 p-2 pt-6 sm:pt-5 text-center text-lg sm:text-2xl">
                 works on Mac and Windows operating systems.
               </h2>
             </div>
           </div>
-          <div className="border border-black hidden sm:pt-8 sm:ml-10 sm:mr-10 sm:flex sm:justify-around">
+          <div className="hidden sm:pt-8 sm:ml-10 sm:mr-10 sm:flex sm:justify-around">
             <FreeForever />
             <EasyInstallation />
             <StayProtected />
           </div>
-          <div className="border border-black ml-10 mr-10 flex justify-center items-center">
+          <div className="ml-10 mr-10 flex justify-center items-center">
             <div className="lg:hidden">
               <svg
                 version="1.1"
