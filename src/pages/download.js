@@ -30,7 +30,7 @@ const Download = () => {
             <StayProtected />
           </div>
           <div className="ml-10 mr-10 flex justify-center items-center">
-            <div className="lg:hidden">
+            <div className="-mr-5 lg:hidden">
               <svg
                 version="1.1"
                 id="Layer_1"
@@ -84,7 +84,7 @@ const Download = () => {
             <div className="hidden lg:block mt-10 mb-32">
               <WindowsDownloadButton />
             </div>
-            <div className="lg:hidden">
+            <div className="-ml-6 lg:hidden">
               <svg
                 version="1.1"
                 id="Layer_1"
