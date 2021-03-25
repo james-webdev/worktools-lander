@@ -96,10 +96,10 @@ export default () => (
       </div>
     </section> */}
 
-    <section>
+    {/* <section>
       <div className="mt-20">
         <ContactBlue />
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
