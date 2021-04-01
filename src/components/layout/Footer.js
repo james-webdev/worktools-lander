@@ -61,7 +61,7 @@ const Footer = () => (
         </div>
         <div className="footergrey hidden sm:flex sm:p-3 sm:ml-5 sm:mb-8 sm:text-center sm:text-sm text-gray-400">
           Wortktools is a trading name of DeskServe LTD. Registered in England, Company Number
-          09251779. Registered Office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ © 2019.
+          09251779. Registered Office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ © 2021.
           All rights reserved.
         </div>
       </div>

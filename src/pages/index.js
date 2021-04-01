@@ -4,7 +4,7 @@ import '@fontsource/poppins';
 import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
 import CarouselEx from '../components/Carousel';
-import Pulse from '../components/Pulse';
+
 import LaptopImage from '../assets/images/Laptop1.png';
 import Heart from '../components/Heart';
 import Target from '../components/Target';
@@ -14,6 +14,7 @@ import HighlightText from '../components/HighlightText';
 import Contact from '../components/GetFormContact';
 import ContactBlue from '../components/GetFormContactBlue';
 import ScrollTest from '../components/ScrollTest';
+import Pulse from '../components/Pulse';
 
 export default () => (
   <Layout>
