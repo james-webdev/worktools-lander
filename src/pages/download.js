@@ -12,9 +12,9 @@ import GuardianLogo from '../assets/images/guardianlogo.png';
 const Download = () => {
   return (
     <>
-      <div className="overflow-x-hidden">
+      <div className="">
         <Header />
-        <div className="overflow-x-hidden	text-center mt-8 sm:mt-20 ml-8 mr-8 mb-20">
+        <div className="text-center mt-8 sm:mt-20 ml-8 mr-8 mb-20">
           <div className="sm:ml-20 sm:mr-20 text-left poppins">
             <h1 className="font-bold sm:pb-4 text-4xl">Download</h1>
             <div className="flex hidden sm:flex sm:justify-start sm:items-center">

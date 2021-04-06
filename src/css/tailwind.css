@@ -91,7 +91,9 @@ h1 {
 }
 
 .transitionMenu {
-  animation: fadeIn 1s;
+  animation: fadeIn 3s;
+  height: 100vh !important;
+  width: 100% !important;
 }
 
 /* animated charts */
@@ -163,6 +165,8 @@ h1 {
 .footergrey {
   color: gray;
 }
+
+
 
 @tailwind components;
 

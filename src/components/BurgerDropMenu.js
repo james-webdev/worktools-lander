@@ -1,36 +1,34 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Button from './Button';
-import Twitter from './Social_Media/Twitter';
-import Instagram from './Social_Media/Instagram';
-import LinkedIn from './Social_Media/LinkedIn';
-import Facebook from './Social_Media/Facebook';
-import Contact from './GetFormContact';
+import ContactMobile from './GetFormMobile';
+import FacebookMobile from './Social_Media/FaceBookMobile';
+import LinkedInMobile from './Social_Media/LinkedinMobile';
+import InstagramMobile from './Social_Media/InstagramMobile';
+import TwitterMobile from './Social_Media/TwitterMobile';
 
 const Menu = ({ menuOpen }) => {
   return (
     <div
       className={
-        menuOpen
-          ? 'transitionMenu h-screen flex flex-col text-center sm:hidden'
-          : 'hidden opacity-0'
+        menuOpen ? 'transitionMenu flex flex-col text-center sm:hidden' : 'hidden opacity-0'
       }
     >
-      <div className="border border-black ml-5 mr-5 mt-20">
+      <div className="mt-4">
         <div>
           <Link
             to="/"
-            className="border border-black flex justify-around items-center poppins text-black font-medium p-3"
+            className=" flex justify-left items-center poppins text-black font-medium p-3"
             href="#features"
           >
-            <div className="border border-black">
+            <div className="">
               <svg
                 version="1.1"
                 id="Layer_1"
                 x="0px"
                 y="0px"
-                width="70px"
-                height="50px"
+                width="52px"
+                height="38px"
                 viewBox="0 0 2000 1500"
                 enableBackground="new 0 0 2000 1500"
               >
@@ -63,7 +61,7 @@ const Menu = ({ menuOpen }) => {
                 </g>
               </svg>{' '}
             </div>
-            <div className="border border-black font-bold text-3xl">
+            <div className=" font-bold text-2xl">
               <h1>Home</h1>
             </div>
           </Link>
@@ -71,17 +69,17 @@ const Menu = ({ menuOpen }) => {
         <div>
           <Link
             to="/download"
-            className="border border-black flex justify-around items-center poppins text-black font-medium p-3"
+            className=" flex justify-left items-center poppins text-black font-medium p-3"
             href="#features"
           >
-            <div className="border border-black">
+            <div className="">
               <svg
                 version="1.1"
                 id="Layer_1"
                 x="0px"
                 y="0px"
-                width="70px"
-                height="50px"
+                width="52px"
+                height="38px"
                 viewBox="0 0 2000 1500"
                 enableBackground="new 0 0 2000 1500"
               >
@@ -101,7 +99,7 @@ const Menu = ({ menuOpen }) => {
                 />
               </svg>
             </div>
-            <div className="border border-black font-bold text-3xl">
+            <div className=" font-bold text-2xl">
               <h1>Download</h1>
             </div>
           </Link>
@@ -109,17 +107,17 @@ const Menu = ({ menuOpen }) => {
         <div>
           <Link
             to="/"
-            className="border border-black flex justify-around items-center poppins text-black font-medium p-3"
+            className=" flex justify-left items-center poppins text-black font-medium p-3"
             href="#features"
           >
-            <div className="border border-black">
+            <div className="">
               <svg
                 version="1.1"
                 id="Layer_1"
                 x="0px"
                 y="0px"
-                width="70px"
-                height="50px"
+                width="52px"
+                height="38px"
                 viewBox="0 0 2000 1500"
                 enableBackground="new 0 0 2000 1500"
               >
@@ -131,38 +129,38 @@ const Menu = ({ menuOpen }) => {
                 />
               </svg>
             </div>
-            <div className="border border-black font-bold text-3xl">
+            <div className=" font-bold text-2xl">
               <h1>Cyber Essentials</h1>
             </div>
           </Link>
         </div>
       </div>
-      <div className="flex justify-around items-center border border-black">
-        <div className="poppins">
+      <div className="flex p-2 justify-around items-center ">
+        <div className="poppins text-left ">
           <div>Email</div>
-          <div className="font-bold text-xl">hi@work.tools</div>
+          <div className="text-xl font-bold">hi@work.tools</div>
         </div>
-        <div className="poppins">
+        <div className="poppins text-left ">
           <div>Phone</div>
-          <div className="font-bold text-xl">0333 0508 805</div>
+          <div className="text-xl font-bold">0333 0508 805</div>
         </div>
       </div>
-      <div className="mt-4 ml-10 mb-8 mr-10 flex items-center justify-between">
+      <div className="mt-4 ml-8 mr-8 p-2 flex items-center justify-between">
         <div>
-          <Twitter />
+          <LinkedInMobile />
         </div>
         <div>
-          <Instagram />
+          <TwitterMobile />
         </div>
         <div>
-          <LinkedIn />
+          <FacebookMobile />
         </div>
         <div>
-          <Facebook />
+          <InstagramMobile />
         </div>
       </div>
-      <div className="">
-        <Contact className="" />
+      <div className="ml-10 mr-10">
+        <ContactMobile />
       </div>
     </div>
   );
