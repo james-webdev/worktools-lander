@@ -11,7 +11,9 @@ const Menu = ({ menuOpen }) => {
   return (
     <div
       className={
-        menuOpen ? 'transitionMenu flex flex-col text-center sm:hidden' : 'hidden opacity-0'
+        menuOpen
+          ? 'ml-6 mr-6 transitionMenu flex flex-col text-center sm:hidden'
+          : 'hidden opacity-0'
       }
     >
       <div className="mt-4">
