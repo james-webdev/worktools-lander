@@ -38,7 +38,7 @@ const BurgerMenu = ({ menuOpen, onClick }) => {
       <div>
         <Container className="sm:hidden">
           <BurgerDiv className={menuOpen ? 'change' : ' '} onClick={onClick}>
-            <div className="bar1"> &nbsp;</div>
+            <div className="bar1"/>
             <div className="bar2" />
           </BurgerDiv>
         </Container>

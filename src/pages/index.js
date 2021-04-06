@@ -15,6 +15,7 @@ import Contact from '../components/GetFormContact';
 import ContactBlue from '../components/GetFormContactBlue';
 import ScrollTest from '../components/ScrollTest';
 import Pulse from '../components/Pulse';
+import Price from '../components/Price';
 
 export default () => (
   <Layout>
@@ -85,12 +86,17 @@ export default () => (
       </div>
     </section> */}
 
-    <section>
+    {/* <section>
       <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
         <HighlightText />
       </div>
-    </section>
+    </section> */}
 
+    <section>
+      <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
+        <Price />
+      </div>
+    </section>
     {/* <section>
       <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
         <ScrollTest />

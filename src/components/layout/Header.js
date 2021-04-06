@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 import BurgerMenu from '../BurgerMenu';
-import Menu from '../Menu';
+import BurgerDropMenu from '../BurgerDropMenu';
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -37,17 +37,12 @@ const Header = () => {
           </div>
           <div className="hidden md:block">
             <Link to="download">
-              <Button
-                onClick="https://download.worktools.link/GuardianInstaller.exe"
-                className="text-sm"
-              >
-                Download Now
-              </Button>
+              <Button className="text-sm">Download Now</Button>
             </Link>
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <Menu menuOpen={menu} />
+          <BurgerDropMenu menuOpen={menu} />
         </div>
       </header>
     </>
