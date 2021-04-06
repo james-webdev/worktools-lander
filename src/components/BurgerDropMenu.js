@@ -109,7 +109,7 @@ const Menu = ({ menuOpen }) => {
         <div>
           <Link
             to="/"
-            className=" flex justify-left items-center poppins text-black font-medium p-3"
+            className="flex justify-left items-center poppins text-black font-medium p-3"
             href="#features"
           >
             <div className="">
@@ -140,14 +140,14 @@ const Menu = ({ menuOpen }) => {
       <div className="flex p-2 justify-around items-center ">
         <div className="poppins text-left ">
           <div>Email</div>
-          <div className="text-xl font-bold">hi@work.tools</div>
+          <div className="text-lg font-bold">hi@work.tools</div>
         </div>
         <div className="poppins text-left ">
           <div>Phone</div>
-          <div className="text-xl font-bold">0333 0508 805</div>
+          <div className="text-lg font-bold">0333 0508 805</div>
         </div>
       </div>
-      <div className="mt-4 ml-8 mr-8 p-2 flex items-center justify-between">
+      <div className="mt-4 ml-4 mr-4 p-2 flex items-center justify-between">
         <div>
           <LinkedInMobile />
         </div>
@@ -161,7 +161,7 @@ const Menu = ({ menuOpen }) => {
           <InstagramMobile />
         </div>
       </div>
-      <div className="ml-10 mr-10">
+      <div className="mt-8 ml-2 mr-2">
         <ContactMobile />
       </div>
     </div>

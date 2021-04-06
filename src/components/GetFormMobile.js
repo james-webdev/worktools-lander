@@ -38,9 +38,9 @@ const ContactMobile = () => {
   };
   return (
     <>
-      <div className="p-4 text-center mt-5">
+      <div className="p-2 text-center mt-5">
         <div className="text-black">
-          <p className="poppins">Be notified when the product is released</p>
+          <p className="poppins">Be notified when the product is officially released</p>
         </div>
         <form className="" onSubmit={handleOnSubmit}>
           <div className="flex flex-col sm:flex-row">
@@ -48,7 +48,7 @@ const ContactMobile = () => {
               className="h-10 mt-1 mb-1 text-black text-center border-b-3"
               type="email"
               name="email"
-              placeholder="You@Example.com"
+              placeholder="you@example.com"
             />
             <button
               className="mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg w-full"
