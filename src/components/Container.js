@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import { Link } from 'gatsby';
 import '@fontsource/poppins';
 import Layout from './layout/Layout';
@@ -20,6 +20,16 @@ import Complete from './Pricing/Complete';
 import CyberBook from './CyberBook';
 
 const Container = () => {
+  const useToggle = (initialValue = false) => {
+    const [value, setValue] = useState(initialValue);
+    const toggle = useCallback(() => {
+      setValue(v => !v);
+    }, []);
+    return [value, toggle];
+  };
+
+  const [isOn, toggleIsOn] = useToggle();
+
   return (
     <Layout>
       <section>
@@ -84,28 +94,68 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="mt-20 mb-8 ml-10 mr-10">
-          <Individual />
+        <div className="mt-20 text-center ml-10 mr-10">
+          <h1 className="poppins text-5xl gray opacity-50">Toggle</h1>
+        </div>
+        <div className="mb-8 ml-10 mr-10 flex">
+          <button
+            className="mt-5 mb-5 mr-2 p-3 tab1 text-white poppins rounded-full py-3 px-6 w-5/6"
+            type="button"
+            onClick={toggleIsOn}
+          >
+            <div className="flex justify-center items-center">
+              <p>Individual </p>
+              <div className="ml-3">
+                <svg className="" height="30" width="30">
+                  <circle className="" cx="15" cy="15" r="15" fill="white" />
+                </svg>
+              </div>
+            </div>
+          </button>
+          <button
+            className="mt-5 mb-5 ml-2 p-3 tab3 text-white poppins rounded-full py-3 px-6 w-5/6"
+            type="button"
+            onClick={toggleIsOn}
+          >
+            <div className="flex justify-center items-center">
+              <p>Company </p>
+              <div className="ml-3">
+                <svg className="" height="30" width="30">
+                  <circle className="" cx="15" cy="15" r="15" fill="white" />
+                </svg>
+              </div>
+            </div>
+          </button>
         </div>
       </section>
 
-      <section>
-        <div className="mt-20 mb-8 ml-10 mr-10">
-          <Essential />
-        </div>
-      </section>
+      {isOn ? (
+        <section>
+          <div className="mt-20 mb-8 ml-10 mr-10">
+            <Individual />
+          </div>
+        </section>
+      ) : (
+        <>
+          <section>
+            <div className="mt-20 mb-8 ml-10 mr-10">
+              <Essential />
+            </div>
+          </section>
 
-      <section>
-        <div className="mt-20 mb-8 ml-10 mr-10">
-          <Enhanced />
-        </div>
-      </section>
+          <section>
+            <div className="mt-20 mb-8 ml-10 mr-10">
+              <Enhanced />
+            </div>
+          </section>
 
-      <section>
-        <div className="mt-20 mb-8 ml-10 mr-10">
-          <Complete />
-        </div>
-      </section>
+          <section>
+            <div className="mt-20 mb-8 ml-10 mr-10">
+              <Complete />
+            </div>
+          </section>
+        </>
+      )}
 
       <section>
         <div className="mt-20">

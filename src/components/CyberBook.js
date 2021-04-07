@@ -8,7 +8,7 @@ const CyberBook = () => {
           <h1 className="poppins font-medium text-3xl">Download our cyber security eBook!</h1>
           <p className="poppins mt-5">
             Learn everything you need to keep you, your clients and your company safe with our
-            easy-to-foolow 12 page eBook
+            easy-to-follow 12 page eBook
           </p>
         </div>
 
