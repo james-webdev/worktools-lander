@@ -16,6 +16,7 @@ import ContactBlue from './GetFormContactBlue';
 import ScrollTest from './ScrollTest';
 import Pulse from './Pulse';
 import Price from './Price';
+import Individual from './Pricing/Individual';
 
 const Container = () => {
   return (
@@ -78,6 +79,12 @@ const Container = () => {
       <section>
         <div className="mt-20 sm:ml-40 sm:mr-40">
           <CarouselEx />
+        </div>
+      </section>
+
+      <section>
+        <div className="mt-20 mb-8 ml-10 mr-10">
+          <Individual />
         </div>
       </section>
 
