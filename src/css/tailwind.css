@@ -4,15 +4,6 @@ body {
   overflow-x: hidden !important;
 }
 
-.guardianblue {
-  background-color: #000a8d;
-  /* color: #000a8d; */
-}
-
-.guardianbluetext {
-  color: #000a8d;
-}
-
 @media only screen and (max-width: 600px) {
   #laptop {
     width: 525px !important;
@@ -48,6 +39,16 @@ a:hover {
 
 .compliancebluetext {
   color: #27aecc;
+}
+
+.complianceborder {
+  border: #27aecc 4px solid;
+  border-radius: 0px 25px 25px 25px;
+}
+
+.compliancebuttonborder {
+  border: #27aecc 2px solid;
+  border-radius: 0px 25px 25px 25px;
 }
 
 /* font */
@@ -166,7 +167,12 @@ h1 {
   color: gray;
 }
 
+/* pricing */
 
+.absolutely {
+  position: absolute;
+  bottom: 4px;
+}
 
 @tailwind components;
 

@@ -1,15 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Individual = () => {
+const Essential = () => {
   return (
     <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-5 text-center sm:flex">
       <div>
-        <h1 className="text-2xl font-bold">Individual</h1>
+        <h1 className="text-2xl font-bold">Essential</h1>
       </div>
       <div className="flex justify-center items-center">
         <p className="text-5xl font-bold">£0</p>
-        <p className="text-sm mt-4">/month</p>
+        <div className="relative">
+          <p className="text-sm mt-4 absolutely">*</p>
+        </div>
+        <p className="text-sm mt-4 font-semibold">/month</p>
       </div>
       <div className="text-left">
         <div className="p-1 flex items-center">
@@ -54,7 +57,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Continuous Assessment</p>
+          <p>Certification Toolkit*</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -76,7 +79,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Self-Help & E-learning</p>
+          <p>Smart IT Policies</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -98,7 +101,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Expert help (+£60)</p>
+          <p>Risk Management</p>
         </div>
       </div>
 
@@ -112,4 +115,4 @@ const Individual = () => {
   );
 };
 
-export default Individual;
+export default Essential;

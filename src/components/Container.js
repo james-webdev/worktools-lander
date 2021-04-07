@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import '@fontsource/poppins';
 import Layout from './layout/Layout';
 import Button from './Button';
 import CarouselEx from './Carousel';
-
 import LaptopImage from '../assets/images/Laptop1.png';
 import Heart from './Heart';
 import Target from './Target';
 import Shield from './Shield';
-import Mobiles from './Mobiles';
 import HighlightText from './HighlightText';
 import Contact from './GetFormContact';
 import ContactBlue from './GetFormContactBlue';
 import ScrollTest from './ScrollTest';
 import Pulse from './Pulse';
-import Price from './Price';
 import Individual from './Pricing/Individual';
+import Essential from './Pricing/Essential';
+import Enhanced from './Pricing/Enhanced';
+import Complete from './Pricing/Complete';
 
 const Container = () => {
   return (
@@ -88,6 +88,24 @@ const Container = () => {
         </div>
       </section>
 
+      <section>
+        <div className="mt-20 mb-8 ml-10 mr-10">
+          <Essential />
+        </div>
+      </section>
+
+      <section>
+        <div className="mt-20 mb-8 ml-10 mr-10">
+          <Enhanced />
+        </div>
+      </section>
+
+      <section>
+        <div className="mt-20 mb-8 ml-10 mr-10">
+          <Complete />
+        </div>
+      </section>
+
       {/* <section>
       <div className="mt-20 mb-8 ml-10 mr-10">
         <Mobiles />
@@ -100,11 +118,6 @@ const Container = () => {
       </div>
     </section> */}
 
-      <section>
-        <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
-          <Price />
-        </div>
-      </section>
       {/* <section>
       <div className="mt-20 mb-20 mb-8 ml-10 mr-10">
         <ScrollTest />

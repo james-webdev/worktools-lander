@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Individual = () => {
+const Complete = () => {
   return (
     <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-5 text-center sm:flex">
       <div>
-        <h1 className="text-2xl font-bold">Individual</h1>
+        <h1 className="text-2xl font-bold">Complete</h1>
       </div>
-      <div className="flex justify-center items-center">
-        <p className="text-5xl font-bold">£0</p>
-        <p className="text-sm mt-4">/month</p>
+      <div className="mr-20 flex text-left">
+        <p className="text-md font-extralight opacity-50 mt-4">Essential Plan Plus</p>
       </div>
       <div className="text-left">
         <div className="p-1 flex items-center">
@@ -32,7 +31,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Unlimited Devices</p>
+          <p className="poppins">Windows & Linux Servers</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -54,7 +53,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Continuous Assessment</p>
+          <p className="poppins">Data Loss Detection</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -76,7 +75,7 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Self-Help & E-learning</p>
+          <p className="poppins">Active Threat Detection</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -98,18 +97,18 @@ const Individual = () => {
               </g>
             </svg>
           </div>
-          <p>Expert help (+£60)</p>
+          <p className="poppins">Custom Device Packs</p>
         </div>
       </div>
 
       <Link
         to="/download"
-        className="border border-black mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg w-5/6"
+        className="compliancebuttonborder mt-5 mb-5 p-3 compliancebluetext poppins rounded-tr-lg rounded-bl-lg rounded-br-lg w-5/6"
       >
-        Get Started
+        Coming Soon
       </Link>
     </div>
   );
 };
 
-export default Individual;
+export default Complete;
