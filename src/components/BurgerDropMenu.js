@@ -16,7 +16,7 @@ const Menu = ({ menuOpen }) => {
           : 'hidden opacity-0'
       }
     >
-      <div className="mt-4">
+      <div className="mt-1">
         <div>
           <Link
             to="/"
@@ -63,7 +63,7 @@ const Menu = ({ menuOpen }) => {
                 </g>
               </svg>{' '}
             </div>
-            <div className=" font-bold text-2xl">
+            <div className="ml-1 font-bold text-2xl">
               <h1>Home</h1>
             </div>
           </Link>
@@ -101,7 +101,7 @@ const Menu = ({ menuOpen }) => {
                 />
               </svg>
             </div>
-            <div className=" font-bold text-2xl">
+            <div className="ml-1 font-bold text-2xl">
               <h1>Download</h1>
             </div>
           </Link>
@@ -131,23 +131,23 @@ const Menu = ({ menuOpen }) => {
                 />
               </svg>
             </div>
-            <div className=" font-bold text-2xl">
+            <div className="ml-1 font-bold text-2xl">
               <h1>Cyber Essentials</h1>
             </div>
           </Link>
         </div>
       </div>
-      <div className="flex p-2 justify-around items-center ">
+      <div className="flex p-2 mt-5 items-center ">
         <div className="poppins text-left ">
           <div>Email</div>
           <div className="text-lg font-bold">hi@work.tools</div>
         </div>
-        <div className="poppins text-left ">
+        <div className="poppins text-left ml-3">
           <div>Phone</div>
           <div className="text-lg font-bold">0333 0508 805</div>
         </div>
       </div>
-      <div className="mt-4 ml-4 mr-4 p-2 flex items-center justify-between">
+      <div className="mt-6 ml-4 mr-4 p-2 flex items-center justify-between">
         <div>
           <LinkedInMobile />
         </div>

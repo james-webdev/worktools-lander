@@ -81,7 +81,7 @@ const Enhanced = () => {
 
       <Link
         to="/download"
-        className="compliancebuttonborder mt-5 mb-5 p-3 compliancebluetext poppins rounded-tr-lg rounded-bl-lg rounded-br-lg w-5/6"
+        className="compliancebuttonborder mt-5 mb-5 p-3 compliancebluetext poppins w-5/6"
       >
         Coming Soon
       </Link>

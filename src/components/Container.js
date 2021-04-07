@@ -17,6 +17,7 @@ import Individual from './Pricing/Individual';
 import Essential from './Pricing/Essential';
 import Enhanced from './Pricing/Enhanced';
 import Complete from './Pricing/Complete';
+import CyberBook from './CyberBook';
 
 const Container = () => {
   return (
@@ -103,6 +104,12 @@ const Container = () => {
       <section>
         <div className="mt-20 mb-8 ml-10 mr-10">
           <Complete />
+        </div>
+      </section>
+
+      <section>
+        <div className="mt-20">
+          <CyberBook />
         </div>
       </section>
 

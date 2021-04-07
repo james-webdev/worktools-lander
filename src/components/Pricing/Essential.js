@@ -107,7 +107,7 @@ const Essential = () => {
 
       <Link
         to="/download"
-        className="border border-black mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg w-5/6"
+        className="mt-5 mb-5 p-3 complianceblue text-white poppins compliancebuttonborder w-5/6"
       >
         Get Started
       </Link>
