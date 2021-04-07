@@ -97,7 +97,7 @@ const Container = () => {
         <div className="mt-20 text-center ml-10 mr-10">
           <h1 className="poppins text-5xl gray opacity-50">Toggle</h1>
         </div>
-        <div className="mb-8 ml-10 mr-10 flex">
+        <div className="mb-8 ml-10 mr-10">
           <button
             className="mt-5 mb-5 mr-2 p-3 tab1 text-white poppins rounded-full py-3 px-6 w-5/6"
             type="button"
