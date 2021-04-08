@@ -18,6 +18,7 @@ import Essential from './Pricing/Essential';
 import Enhanced from './Pricing/Enhanced';
 import Complete from './Pricing/Complete';
 import CyberBook from './CyberBook';
+import Company from './Company';
 
 const Container = () => {
   const useToggle = (initialValue = false) => {
@@ -95,7 +96,7 @@ const Container = () => {
 
       <section>
         <div className="mt-20 text-center ml-6 mr-6">
-          <h1 className="poppins text-5xl gray opacity-50">Toggle</h1>
+          <h1 className="poppins text-5xl gray opacity-75">Toggle</h1>
         </div>
         <div className="flex justify-center items-center mb-8 ml-6 mr-6">
           {isOn ? (
@@ -136,6 +137,11 @@ const Container = () => {
 
       {isOn ? (
         <>
+          <section>
+            <div className="text-center mt-20 mb-8 ml-10 mr-10">
+              <Company />
+            </div>
+          </section>
           <section>
             <div className="mt-20 mb-8 ml-10 mr-10">
               <Essential />
