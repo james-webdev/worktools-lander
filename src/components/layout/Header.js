@@ -28,10 +28,10 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex mt-4 sm:mt-0">
-            <Link to="/" className="poppins text-black font-semibold px-4" href="#features">
+            <Link to="/" className="poppins text-black font-semibold px-4">
               Home
             </Link>
-            <Link to="/" className="poppins text-black font-semibold px-4" href="#pricing">
+            <Link to="/cyberessentials" className="poppins text-black font-semibold px-4">
               Cyber Essentials
             </Link>
           </div>

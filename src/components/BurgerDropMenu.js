@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Button from './Button';
 import ContactMobile from './GetFormMobile';
 import FacebookMobile from './Social_Media/FaceBookMobile';
 import LinkedInMobile from './Social_Media/LinkedinMobile';
@@ -108,9 +107,8 @@ const Menu = ({ menuOpen }) => {
         </div>
         <div>
           <Link
-            to="/"
+            to="/cyberessentials"
             className="flex justify-left items-center poppins text-black font-medium p-3"
-            href="#features"
           >
             <div className="">
               <svg
@@ -137,7 +135,7 @@ const Menu = ({ menuOpen }) => {
           </Link>
         </div>
       </div>
-      <div className="flex p-2 mt-5 items-center ">
+      {/* <div className="flex p-2 mt-5 items-center ">
         <div className="poppins text-left ">
           <div>Email</div>
           <div className="text-lg font-bold">hi@work.tools</div>
@@ -146,8 +144,8 @@ const Menu = ({ menuOpen }) => {
           <div>Phone</div>
           <div className="text-lg font-bold">0333 0508 805</div>
         </div>
-      </div>
-      <div className="mt-6 ml-4 mr-4 p-2 flex items-center justify-between">
+      </div> */}
+      {/* <div className="mt-6 ml-4 mr-4 p-2 flex items-center justify-between">
         <div>
           <LinkedInMobile />
         </div>
@@ -160,7 +158,7 @@ const Menu = ({ menuOpen }) => {
         <div>
           <InstagramMobile />
         </div>
-      </div>
+      </div> */}
       <div className="mt-8 ml-2 mr-2">
         <ContactMobile />
       </div>

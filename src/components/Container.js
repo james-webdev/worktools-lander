@@ -96,8 +96,8 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="mt-20 text-center ml-6 mr-6">
-          <h1 className="poppins text-5xl gray opacity-75">Toggle</h1>
+        <div className="opacity-25 mt-20 text-center ml-6 mr-6">
+          <h1 className="poppins text-5xl gray">Toggle</h1>
         </div>
         <div className="flex justify-center items-center mb-8 ml-6 mr-6">
           {isOn ? (
