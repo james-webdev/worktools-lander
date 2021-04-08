@@ -94,48 +94,47 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="mt-20 text-center ml-10 mr-10">
+        <div className="mt-20 text-center ml-6 mr-6">
           <h1 className="poppins text-5xl gray opacity-50">Toggle</h1>
         </div>
-        <div className="mb-8 ml-10 mr-10">
-          <button
-            className="mt-5 mb-5 mr-2 p-3 tab1 text-white poppins rounded-full py-3 px-6 w-5/6"
-            type="button"
-            onClick={toggleIsOn}
-          >
-            <div className="flex justify-center items-center">
-              <p>Individual </p>
-              <div className="ml-3">
-                <svg className="" height="30" width="30">
-                  <circle className="" cx="15" cy="15" r="15" fill="white" />
-                </svg>
+        <div className="flex justify-center items-center mb-8 ml-6 mr-6">
+          {isOn ? (
+            <div className="mt-5 mb-5 mr-2 p-3 bg-gray-300 text-white poppins rounded-full py-3 px-6">
+              <div className="flex justify-center items-center">
+                <p>Individual </p>
               </div>
             </div>
-          </button>
-          <button
-            className="mt-5 mb-5 ml-2 p-3 tab3 text-white poppins rounded-full py-3 px-6 w-5/6"
-            type="button"
-            onClick={toggleIsOn}
-          >
-            <div className="flex justify-center items-center">
-              <p>Company </p>
-              <div className="ml-3">
-                <svg className="" height="30" width="30">
-                  <circle className="" cx="15" cy="15" r="15" fill="white" />
-                </svg>
+          ) : (
+            <div className="mt-5 mb-5 mr-2 p-3 tab1 text-white poppins rounded-full py-3 px-6">
+              <div className="flex justify-center items-center">
+                <p>Individual </p>
               </div>
             </div>
-          </button>
+          )}
+
+          <div>
+            <label className="switch mr-2">
+              <input type="checkbox" onClick={toggleIsOn} />
+              <span className="slider round" />
+            </label>
+          </div>
+          {isOn ? (
+            <div className="mt-5 mb-5 mr-2 p-3 tab3 text-white poppins rounded-full py-3 px-6">
+              <div className="flex justify-center items-center">
+                <p>Company </p>
+              </div>
+            </div>
+          ) : (
+            <div className="mt-5 mb-5 mr-2 p-3 bg-gray-300 text-white poppins rounded-full py-3 px-6">
+              <div className="flex justify-center items-center">
+                <p>Company </p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
       {isOn ? (
-        <section>
-          <div className="mt-20 mb-8 ml-10 mr-10">
-            <Individual />
-          </div>
-        </section>
-      ) : (
         <>
           <section>
             <div className="mt-20 mb-8 ml-10 mr-10">
@@ -155,6 +154,12 @@ const Container = () => {
             </div>
           </section>
         </>
+      ) : (
+        <section>
+          <div className="mt-20 mb-8 ml-10 mr-10">
+            <Individual />
+          </div>
+        </section>
       )}
 
       <section>
