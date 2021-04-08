@@ -173,14 +173,13 @@ const Container = () => {
               <IndividualPrice />
             </div>
           </section>
+          <section>
+            <div className="mt-20">
+              <CyberBook />
+            </div>
+          </section>
         </>
       )}
-
-      <section>
-        <div className="mt-20">
-          <CyberBook />
-        </div>
-      </section>
 
       {/* <section>
       <div className="mt-20 mb-8 ml-10 mr-10">
