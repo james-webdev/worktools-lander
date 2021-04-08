@@ -1,4 +1,5 @@
 import React from 'react';
+import CyberBook from '../components/CyberBook';
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
 
@@ -127,7 +128,7 @@ const CyberEssentials = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <CyberBook />
     </>
   );
 };
