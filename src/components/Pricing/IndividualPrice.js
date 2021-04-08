@@ -1,16 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Individual = () => {
+const IndividualPrice = () => {
   return (
     <>
-      <div className="text-center">
-        <span role="img">🧍</span>
-      </div>
-      <div className="font-bold poppins ml-4 mr-4 mt-6 mb-6 text-3xl">
-        <p>Stay alert to security issues and become aware</p>
-      </div>
-
       <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-5 text-center sm:flex">
         <div>
           <h1 className="text-2xl font-bold">Individual</h1>
@@ -121,4 +114,4 @@ const Individual = () => {
   );
 };
 
-export default Individual;
+export default IndividualPrice;

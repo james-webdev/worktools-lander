@@ -13,12 +13,13 @@ import Contact from './GetFormContact';
 import ContactBlue from './GetFormContactBlue';
 import ScrollTest from './ScrollTest';
 import Pulse from './Pulse';
-import Individual from './Pricing/Individual';
 import Essential from './Pricing/Essential';
 import Enhanced from './Pricing/Enhanced';
 import Complete from './Pricing/Complete';
 import CyberBook from './CyberBook';
 import Company from './Company';
+import IndividualPrice from './Pricing/IndividualPrice';
+import Individual from './Individual';
 
 const Container = () => {
   const useToggle = (initialValue = false) => {
@@ -161,11 +162,18 @@ const Container = () => {
           </section>
         </>
       ) : (
-        <section>
-          <div className="mt-20 mb-8 ml-10 mr-10">
-            <Individual />
-          </div>
-        </section>
+        <>
+          <section>
+            <div className="mt-20 mb-8 ml-10 mr-10">
+              <Individual />
+            </div>
+          </section>
+          <section>
+            <div className="mt-20 mb-8 ml-10 mr-10">
+              <IndividualPrice />
+            </div>
+          </section>
+        </>
       )}
 
       <section>
