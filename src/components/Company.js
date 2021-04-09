@@ -1,6 +1,4 @@
 import React from 'react';
-import onBoard from '../assets/images/onboard.PNG';
-import NSCS from '../assets/images/nscs.PNG';
 
 const Company = () => {
   return (
@@ -11,9 +9,7 @@ const Company = () => {
         </p>
       </div>
       <div>
-        <div>
-          <img src={onBoard} alt="appscreenshot" />
-        </div>
+        <div>{/* <img src={onBoard} alt="appscreenshot" /> */}</div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">
             Understand and improve your business security posture
@@ -25,9 +21,7 @@ const Company = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div>
-          <img src={NSCS} alt="appscreenshot" />
-        </div>
+        <div>{/* <img src={NSCS} alt="appscreenshot" /> */}</div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">
             Simple certifcation with continuous assessment against standards.
