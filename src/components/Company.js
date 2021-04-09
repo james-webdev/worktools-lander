@@ -1,6 +1,6 @@
 import React from 'react';
-import onBoard from '../assets/images/onboard.png';
-import NSCS from '../assets/images/nscs.png';
+import onBoard from '../assets/images/onboard.PNG';
+import NSCS from '../assets/images/nscs.PNG';
 
 const Company = () => {
   return (
