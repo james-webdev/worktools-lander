@@ -1,4 +1,6 @@
 import React from 'react';
+import onBoard from '../assets/images/Mobiles.png';
+import NSCS from '../assets/images/Laptop1.png';
 
 const Company = () => {
   return (
@@ -9,7 +11,9 @@ const Company = () => {
         </p>
       </div>
       <div>
-        <div>{/* <img src={onBoard} alt="appscreenshot" /> */}</div>
+        <div>
+          <img src={onBoard} alt="appscreenshot" />
+        </div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">
             Understand and improve your business security posture
@@ -21,7 +25,9 @@ const Company = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div>{/* <img src={NSCS} alt="appscreenshot" /> */}</div>
+        <div>
+          <img src={NSCS} alt="appscreenshot" />
+        </div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">
             Simple certifcation with continuous assessment against standards.
@@ -33,7 +39,7 @@ const Company = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div className="flex items-center mt-9 justify-center">
+        <div className="flex items-center mt-20 justify-center">
           <svg
             version="1.1"
             id="Layer_1"
@@ -120,7 +126,7 @@ const Company = () => {
           <h2 className="text-2xl mt-4 font-bold">
             81% of businesses struggle to manage their data loss.
           </h2>
-          <p className="text-xl mt-20">Can we help you make it simple?</p>
+          <p className="text-2xl font-bold mt-20">Can we help you make it simple?</p>
         </div>
       </div>
     </>

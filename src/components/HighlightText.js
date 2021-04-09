@@ -67,7 +67,7 @@ const ColourThreeDiv = styled.div`
 const HighlightText = () => {
   return (
     <div className="">
-      <p className="leading-loose text-center text-xl sm:text-4xl sm:ml-20 sm:mr-20">
+      <p className="leading-loose text-center text-2xl font-bold sm:text-4xl sm:ml-20 sm:mr-20">
         Could you do more to protect your
         <ColourOneDiv>self?</ColourOneDiv>
       </p>

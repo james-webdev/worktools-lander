@@ -1,5 +1,6 @@
 import React from 'react';
-
+import onBoard from '../assets/images/Mobiles.png';
+import NSCS from '../assets/images/Laptop1.png';
 import HighlightText from './HighlightText';
 
 const Individual = () => {
@@ -9,7 +10,9 @@ const Individual = () => {
         <p>Stay alert to security issues and become cyber-aware.</p>
       </div>
       <div>
-        <div>{/* <img src={onBoard} alt="appscreenshot" /> */}</div>
+        <div>
+          <img src={onBoard} alt="appscreenshot" />
+        </div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">Continuously monitor your devices.</h2>
           <p className="mt-4">
@@ -19,7 +22,9 @@ const Individual = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div>{/* <img src={NSCS} alt="appscreenshot" /> */}</div>
+        <div>
+          <img src={NSCS} alt="appscreenshot" />
+        </div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">Secure your devices and get instant expert help.</h2>
           <p className="mt-4">
@@ -29,7 +34,7 @@ const Individual = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div className="flex items-center mt-8 justify-center">
+        <div className="flex items-center mt-20 justify-center">
           <svg
             className=""
             version="1.1"
