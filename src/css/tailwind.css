@@ -41,6 +41,10 @@ a:hover {
   color: #27aecc;
 }
 
+.compliancedarkbluetext {
+  color: #2b5794;
+}
+
 .complianceborder {
   border: #27aecc 4px solid;
   border-radius: 0px 25px 25px 25px;
