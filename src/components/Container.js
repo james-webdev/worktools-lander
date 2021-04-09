@@ -95,10 +95,7 @@ const Container = () => {
         </div>
       </section>
 
-      <section>
-        <div className="opacity-25 mt-20 text-center ml-6 mr-6">
-          <h1 className="poppins text-5xl gray">Toggle</h1>
-        </div>
+      <section className="mt-20">
         <div className="flex justify-center items-center mb-8 ml-6 mr-6">
           {isOn ? (
             <div className="mt-5 mb-5 mr-2 p-3 bg-gray-300 text-white poppins rounded-full py-3 px-6">
@@ -139,24 +136,24 @@ const Container = () => {
       {isOn ? (
         <>
           <section>
-            <div className="text-center mt-20 mb-8 ml-10 mr-10">
+            <div className="text-center mt-8 mb-8 ml-10 mr-10">
               <Company />
             </div>
           </section>
           <section>
-            <div className="mt-20 mb-8 ml-10 mr-10">
+            <div className="mt-10 mb-8 ml-10 mr-10">
               <Essential />
             </div>
           </section>
 
           <section>
-            <div className="mt-20 mb-8 ml-10 mr-10">
+            <div className="mt-10 mb-8 ml-10 mr-10">
               <Enhanced />
             </div>
           </section>
 
           <section>
-            <div className="mt-20 mb-8 ml-10 mr-10">
+            <div className="mt-10 mb-8 ml-10 mr-10">
               <Complete />
             </div>
           </section>
@@ -164,7 +161,7 @@ const Container = () => {
       ) : (
         <>
           <section>
-            <div className="mt-20 mb-8 ml-10 mr-10">
+            <div className="mt-8 mb-8 ml-10 mr-10">
               <Individual />
             </div>
           </section>

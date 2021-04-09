@@ -16,9 +16,10 @@ const highlight = keyframes`
 const ColourOneDiv = styled.div`
   display: inline;
   padding: 2px;
+  border-radius: 5px 5px 5px 5px;
   animation-name: ${highlight};
-  animation-duration: 15s;
-  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
 `;
 
 const highlightTwo = keyframes` 
@@ -35,10 +36,11 @@ const highlightTwo = keyframes`
 
 const ColourTwoDiv = styled.div`
   display: inline;
+  border-radius: 15px 15px 15px 15px;
   padding: 2px;
   animation-name: ${highlightTwo};
-  animation-duration: 15s;
-  animation-fill-mode: forwards;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 `;
 
 const highlightThree = keyframes` 
@@ -55,20 +57,19 @@ const highlightThree = keyframes`
 
 const ColourThreeDiv = styled.div`
   display: inline;
+  border-radius: 5px 5px 5px 5px;
   padding: 2px;
   animation-name: ${highlightThree};
-  animation-duration: 15s;
-  animation-fill-mode: forwards;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 `;
 
 const HighlightText = () => {
   return (
     <div className="">
       <p className="leading-loose text-center text-xl sm:text-4xl sm:ml-20 sm:mr-20">
-        <ColourOneDiv className="">Our aim </ColourOneDiv> is to provide ways for SMBs to
-        <ColourTwoDiv> manage and secure their IT</ColourTwoDiv>
-        &nbsp;and have <ColourThreeDiv> instant access to expert support </ColourThreeDiv> to aid
-        with challenging issues
+        Could you do more to protect your
+        <ColourOneDiv>self?</ColourOneDiv>
       </p>
     </div>
   );
