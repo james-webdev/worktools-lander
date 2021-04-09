@@ -96,7 +96,7 @@ const Container = () => {
       </section>
 
       <section className="mt-20">
-        <div className="flex justify-center text-xl items-center mb-8 ml-6 mr-6">
+        <div className="flex justify-center text-2xl items-center mb-8 ml-6 mr-6">
           {isOn ? (
             <div className="mt-5 mb-5 mr-2 p-3 text-gray-300 poppins">
               <div className="flex text-center justify-center items-center">
@@ -104,7 +104,7 @@ const Container = () => {
               </div>
             </div>
           ) : (
-            <div className="mt-5 mb-5 mr-2 compliancebluetext font-bold p-3 text-xl poppins">
+            <div className="mt-5 mb-5 mr-2 compliancebluetext font-bold p-3 text-2xl poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a freelancer </p>
               </div>
@@ -118,13 +118,13 @@ const Container = () => {
             </label>
           </div>
           {isOn ? (
-            <div className="mt-8 mb-5 mr-2 p-3 compliancedarkbluetext text-xl font-bold poppins">
+            <div className="mt-8 mb-5 mr-2 p-3 compliancedarkbluetext text-2xl font-bold poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I want to protect my business </p>
               </div>
             </div>
           ) : (
-            <div className="mt-8 mb-5 mr-2 text-gray-300 font-bold p-3 text-xl poppins">
+            <div className="mt-8 mb-5 mr-2 text-gray-300 p-3 text-2xl poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I want to protect my business </p>
               </div>
