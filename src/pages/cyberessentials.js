@@ -1,5 +1,6 @@
 import React from 'react';
 import CyberBook from '../components/CyberBook';
+import DropdownMenu from '../components/DropDown';
 import GettingCertified from '../components/GettingCertified';
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
@@ -885,29 +886,32 @@ const CyberEssentials = () => {
       </div>
       <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 text-center sm:flex">
         <div className="text-left">
-          <div className="p-1 flex items-center">
-            <div className=""></div>
+          <div className="dropdown p-1 flex justify-between items-center">
             <p>Liability</p>
+            <DropdownMenu
+              words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
+            hic numquam"
+            />
           </div>
-          <div className="p-1 flex items-center">
-            <div className="mr-2"></div>
+          <div className="dropdown p-1 flex items-center justify-between">
             <p>Extortion Demands</p>
+            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
           </div>
-          <div className="p-1 flex items-center">
-            <div className="mr-2"></div>
+          <div className="dropdown p-1 flex items-center justify-between">
             <p>Business Interuption</p>
+            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
           </div>
-          <div className="p-1 flex items-center">
-            <div className="mr-2"></div>
+          <div className="dropdown p-1 flex items-center justify-between">
             <p>Event management</p>
+            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
           </div>
-          <div className="p-1 flex items-center">
-            <div className="mr-2"></div>
+          <div className="dropdown p-1 flex items-center justify-between">
             <p>Regulatory Investigations</p>
+            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
           </div>
-          <div className="p-1 flex items-center">
-            <div className="mr-2"></div>
+          <div className="dropdown p-1 flex items-center justify-between">
             <p>Loss of Electronic Data</p>
+            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
           </div>
         </div>
       </div>
