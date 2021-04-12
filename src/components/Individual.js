@@ -10,7 +10,7 @@ const Individual = () => {
         <p>Stay alert to security issues and become cyber-aware.</p>
       </div>
       <div>
-        <div>
+        <div className="shadow-xl">
           <img src={onBoard} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
@@ -22,7 +22,7 @@ const Individual = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div>
+        <div className="shadow-xl">
           <img src={NSCS} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">

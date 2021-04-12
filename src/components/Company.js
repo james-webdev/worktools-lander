@@ -1,6 +1,6 @@
 import React from 'react';
-import onBoard from '../assets/images/Mobiles.png';
-import NSCS from '../assets/images/Laptop1.png';
+import onBoard from '../assets/images/devices.jpg';
+import NSCS from '../assets/images/support.jpg';
 
 const Company = () => {
   return (
@@ -11,7 +11,7 @@ const Company = () => {
         </p>
       </div>
       <div>
-        <div>
+        <div className="shadow-xl">
           <img src={onBoard} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
@@ -25,7 +25,7 @@ const Company = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div>
+        <div className="shadow-xl">
           <img src={NSCS} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
