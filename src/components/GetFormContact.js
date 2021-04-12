@@ -38,7 +38,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="bg-black complianceblue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg sm:flex sm:p-8">
+      <div className="compliancedarkblue p-4 mt-5 text-center rounded-tr-lg rounded-bl-lg rounded-br-lg sm:flex sm:p-8">
         <div className="text-white">
           <h1 className="poppins text-4xl">Get Notified.</h1>
           <p className="poppins">Sign up to be notified when the product is released</p>
@@ -46,13 +46,13 @@ const Contact = () => {
         <form className="" onSubmit={handleOnSubmit}>
           <div className="flex flex-col sm:flex-row">
             <input
-              className="h-10 mt-4 mb-4 bg-black text-white text-center border-b-3"
+              className="h-10 mt-4 mb-4 compliancedarkblue text-white text-center border-b-3"
               type="email"
               name="email"
               placeholder="You@Example.com"
             />
             <button
-              className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue text-white poppins rounded-tr-lg rounded-bl-lg rounded-br-lg"
+              className="ml-10 mr-10 mt-5 mb-5 p-3 bg-white text-black poppins rounded-tr-lg rounded-bl-lg rounded-br-lg"
               type="submit"
             >
               Subscribe

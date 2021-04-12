@@ -30,7 +30,7 @@ const Company = () => {
         </div>
         <div className="text-center poppins mt-2">
           <h2 className="text-2xl font-bold">
-            Simple certifcation with continuous assessment against standards.
+            Simple certification with continuous assessment against standards.
           </h2>
           <p className="mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
