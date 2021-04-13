@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import CyberBook from '../components/CyberBook';
 import DropdownMenu from '../components/DropDown';
@@ -10,19 +11,19 @@ const CyberEssentials = () => {
     <>
       <Header />
       <div className="flex flex-col justify-center items-start p-4 mt-5 sm:flex">
-        <div>
-          <div className="text-2xl font-bold">
+        <div className="ml-5 mr-5">
+          <div className="text-4xl font-bold">
             <h1>What is Cyber Essentials?</h1>
           </div>
 
-          <p>
+          <p className="mt-4 mr-10">
             {' '}
             Cyber Essentials is a government-backed scheme helping you to guard your organisation,
             whatever its size, against a range of the most common cyber attacks.
           </p>
         </div>
-        <div className="mt-10">
-          <div className="text-2xl font-bold">
+        <div className="mt-10 mr-4 ml-4">
+          <div className="text-3xl font-bold">
             {' '}
             <p>The two types of certification</p>
           </div>
@@ -359,7 +360,7 @@ const CyberEssentials = () => {
                 </g>
               </svg>
             </div>
-            <div className="text-base flex justify-center items-center">
+            <div className="text-base ml-2 flex justify-center items-center">
               <p>Lightweight and easy to follow self-assessed certification.</p>
             </div>
           </div>
@@ -738,22 +739,22 @@ const CyberEssentials = () => {
                 </g>
               </svg>
             </div>
-            <div className="text-base flex justify-center items-center">
+            <div className="text-base flex ml-2 justify-center items-center">
               <p>Verified by independant Certification Body.</p>
             </div>
           </div>
           <div>
-            <p>
+            <p className="mr-16 mt-3">
               Both options give protection against a wide variety of the most common cyber attacks
             </p>{' '}
           </div>
         </div>
         <div>
-          <h1 className="text-2xl ml-4 mr-4 mt-10 font-bold">Why get Cyber Essentials?</h1>
+          <h1 className="text-3xl ml-6 mr-6 mt-10 font-bold">Why get Cyber Essentials?</h1>
         </div>
 
-        <div className="mt-2 ml-2 text-left">
-          <div className="p-1 flex items-center">
+        <div className="mt-3 ml-2 text-left">
+          <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
                 version="1.1"
@@ -775,7 +776,7 @@ const CyberEssentials = () => {
             </div>
             <p>Certified cyber security</p>
           </div>
-          <div className="p-1 flex items-center">
+          <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
                 version="1.1"
@@ -797,7 +798,7 @@ const CyberEssentials = () => {
             </div>
             <p>Reassure customers that they are secure</p>
           </div>
-          <div className="p-1 flex items-center">
+          <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
                 version="1.1"
@@ -819,7 +820,7 @@ const CyberEssentials = () => {
             </div>
             <p>Attract new business with evidence of cyber scurity measures in place</p>
           </div>
-          <div className="p-1 flex items-center">
+          <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
                 version="1.1"
@@ -841,7 +842,7 @@ const CyberEssentials = () => {
             </div>
             <p>Have a clear picture of your organisation's security level</p>
           </div>
-          <div className="p-1 flex items-center">
+          <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
                 version="1.1"
@@ -866,25 +867,28 @@ const CyberEssentials = () => {
         </div>
       </div>
       <GettingCertified />
-      <div className="flex flex-col justify-center items-start p-4 mt-5 sm:flex">
+      <div className="flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:flex">
         <div>
-          <h2 className="text-xl">Government Contracts</h2>
-          <p>
+          <h2 className="text-3xl font-bold">Government Contracts</h2>
+          <p className="mt-4">
             If you would like to bid for central government contracts which involve handling
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
-            on the Gov.UK website.
+            on the{' '}
+            <Link className="complianceblue text-white rounded" to="https://gov.uk">
+              Gov.UK website{' '}
+            </Link>
           </p>
         </div>
         <div>
-          <p className="text-xl">£25,000 of Cybersecurity insurance cover</p>
-          <p>
+          <p className="text-3xl mt-8 font-bold">£25,000 of Cybersecurity insurance cover</p>
+          <p className="mt-4">
             Having achieved Cyber Essentials compliance a company is then eligible for £25,000 of
             cybersecurity insurance cover from AXA that can be used for:
           </p>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 text-center sm:flex">
+      <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 mb-20 text-center sm:flex">
         <div className="text-left">
           <div className="dropdown p-1 flex justify-between items-center">
             <p>Liability</p>
@@ -899,7 +903,7 @@ const CyberEssentials = () => {
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Business Interuption</p>
-            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
+            <DropdownMenu words="Loss of profit and/or operational expenses caused by a network compromise" />
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Event management</p>
