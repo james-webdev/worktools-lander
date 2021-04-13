@@ -1,4 +1,5 @@
 import React from 'react';
+import Mailto from './MailTo';
 
 const GettingCertified = () => {
   return (
@@ -12,10 +13,14 @@ const GettingCertified = () => {
 
       <div className="flex flex-col sm:flex-row">
         <button
-          className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue text-white poppins compliancebuttonborder"
+          className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue poppins compliancebuttonborder"
           type="submit"
         >
-          Get in touch
+          <div className="">
+            <Mailto email="hi@work.tools" subject="I have a question" body="Hey!">
+              Get in touch
+            </Mailto>
+          </div>
         </button>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from 'react';
 import CyberBook from '../components/CyberBook';
 import DropdownMenu from '../components/DropDown';
@@ -875,9 +874,9 @@ const CyberEssentials = () => {
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
             on the{' '}
-            <Link className="complianceblue text-white rounded" to="https://gov.uk">
+            <a className="complianceblue text-white rounded" to="https://gov.uk">
               Gov.UK website{' '}
-            </Link>
+            </a>
           </p>
         </div>
         <div>
