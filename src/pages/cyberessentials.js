@@ -874,7 +874,7 @@ const CyberEssentials = () => {
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
             on the{' '}
-            <a className="complianceblue text-white rounded" to="https://gov.uk">
+            <a className="complianceblue text-white rounded" href="https://gov.uk">
               Gov.UK website{' '}
             </a>
           </p>
