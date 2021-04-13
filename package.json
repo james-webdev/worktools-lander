@@ -33,6 +33,7 @@
     "react-highlight-words": "^0.17.0",
     "react-router-dom": "^5.2.0",
     "react-simply-carousel": "^4.2.0",
+    "react-text-loop": "^2.3.0",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

@@ -29,7 +29,7 @@ const DropdownMenu = ({ words }) => {
         </div>
       </button>
       <div ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
-        <div className="compliancebluetext text-xs p-1">
+        <div className="text-xs p-1">
           <p>{words}</p>
         </div>
       </div>

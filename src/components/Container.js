@@ -96,15 +96,15 @@ const Container = () => {
       </section>
 
       <section className="mt-20">
-        <div className="flex justify-center text-xl items-center mb-8 ml-6 mr-6">
+        <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
           {isOn ? (
-            <div className="mt-5 mb-5 mr-2 p-3 text-gray-300 poppins">
+            <div className="mt-5 mb-5  p-3 text-gray-300 poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a freelancer </p>
               </div>
             </div>
           ) : (
-            <div className="mt-5 mb-5 mr-2 compliancebluetext font-bold p-3 text-xl poppins">
+            <div className="mt-5 mb-5 compliancebluetext font-semibold p-3 text-xl poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a freelancer </p>
               </div>
@@ -112,21 +112,21 @@ const Container = () => {
           )}
 
           <div>
-            <label className="switch mr-2">
+            <label className="switch">
               <input type="checkbox" onClick={toggleIsOn} />
               <span className="slider round" />
             </label>
           </div>
           {isOn ? (
-            <div className="mt-8 mb-5 mr-2 p-3 compliancedarkbluetext text-xl font-bold poppins">
+            <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-semibold poppins">
               <div className="flex text-center justify-center items-center">
-                <p>I want to protect my business </p>
+                <p>I'm a business owner </p>
               </div>
             </div>
           ) : (
-            <div className="mt-8 mb-5 mr-2 text-gray-300 p-3 text-xl poppins">
+            <div className="mt-8 mb-5 text-gray-300 p-3 text-xl poppins">
               <div className="flex text-center justify-center items-center">
-                <p>I want to protect my business </p>
+                <p>I'm a business owner </p>
               </div>
             </div>
           )}
@@ -140,23 +140,28 @@ const Container = () => {
               <Company />
             </div>
           </section>
-          <section>
-            <div className="mt-10 mb-8 ml-10 mr-10">
-              <Essential />
-            </div>
-          </section>
+          <div className="text-4xl ml-10 mr-10 text-left font-bold mt-20 poppins">
+            <h2>Pricing</h2>{' '}
+          </div>
+          <div className="sm:flex sm:justify-center sm:items-center">
+            <section>
+              <div className="mb-8 ml-10 mr-10">
+                <Essential />
+              </div>
+            </section>
 
-          <section>
-            <div className="mt-10 mb-8 ml-10 mr-10">
-              <Enhanced />
-            </div>
-          </section>
+            <section>
+              <div className="mt-10 mb-8 ml-10 mr-10">
+                <Enhanced />
+              </div>
+            </section>
 
-          <section>
-            <div className="mt-10 mb-8 ml-10 mr-10">
-              <Complete />
-            </div>
-          </section>
+            <section>
+              <div className="mt-10 mb-8 ml-10 mr-10">
+                <Complete />
+              </div>
+            </section>
+          </div>
         </>
       ) : (
         <>
@@ -165,8 +170,11 @@ const Container = () => {
               <Individual />
             </div>
           </section>
+          <div className="text-4xl ml-10 mr-10 text-left font-bold mt-20 poppins">
+            <h2>Pricing</h2>{' '}
+          </div>
           <section>
-            <div className="mt-20 mb-8 ml-10 mr-10">
+            <div className="mb-8 ml-10 mr-10">
               <IndividualPrice />
             </div>
           </section>

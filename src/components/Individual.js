@@ -1,20 +1,20 @@
 import React from 'react';
 import onBoard from '../assets/images/devices.jpg';
 import NSCS from '../assets/images/support.jpg';
-import HighlightText from './HighlightText';
+import TextLooper from './TextLoop';
 
 const Individual = () => {
   return (
     <>
-      <div className="font-bold text-center poppins ml-4 mr-4 mt-6 mb-6 text-3xl">
+      <div className="font-bold text-center poppins ml-4 mr-4 mt-6 text-3xl">
         <p>Stay alert to security issues and become cyber-aware.</p>
       </div>
       <div>
-        <div className="shadow-xl">
+        <div className="shadow-xl mt-5">
           <img src={onBoard} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
-          <h2 className="text-2xl font-bold">Continuously monitor your devices.</h2>
+          <h2 className="text-2xl mt-5 font-bold">Continuously monitor your devices.</h2>
           <p className="mt-4">
             Our product works in the background continuously securing you so you have one less thing
             to worry about!
@@ -26,7 +26,9 @@ const Individual = () => {
           <img src={NSCS} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
-          <h2 className="text-2xl font-bold">Secure your devices and get instant expert help.</h2>
+          <h2 className="text-2xl mt-5 font-bold">
+            Secure your devices and get instant expert help.
+          </h2>
           <p className="mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
             hic numquam, ipsum labore cum saepe quae veritatis?
@@ -546,8 +548,8 @@ const Individual = () => {
             hic numquam, ipsum labore cum saepe quae veritatis?
           </p>
         </div>
-        <div className="mt-20">
-          <HighlightText />
+        <div className="mt-5 -ml-10 -mr-10">
+          <TextLooper />
         </div>
       </div>
     </>

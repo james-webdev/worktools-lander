@@ -48,6 +48,16 @@ a:hover {
   color: #2b5794;
 }
 
+.companydarkblueborder {
+  border: #2b5794 1px solid;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.freelancerblueborder {
+  border: #27aecc 1px solid;
+  border-radius: 25px 25px 25px 25px;
+}
+
 .complianceborder {
   border: #27aecc 4px solid;
   border-radius: 0px 25px 25px 25px;
@@ -238,7 +248,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* arrow down */
+/* arrow dropdown cyberessentials */
 
 .arrow {
   border: solid black;
@@ -264,7 +274,7 @@ input:checked + .slider:before {
   padding: 4px 6px;
   border: none;
   vertical-align: middle;
-  margin-left: auto; /* Strictly for positioning */
+  margin-left: auto;
 }
 
 .menu-trigger span {
@@ -295,6 +305,22 @@ input:checked + .slider:before {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+/* textloop */
+
+.loop {
+  position: relative !important;
+}
+
+.looped {
+  position: absolute;
+  bottom: 60px;
+  left: 185px;
+}
+
+.companygreen {
+  background-color: #7dc184;
 }
 
 @tailwind components;
