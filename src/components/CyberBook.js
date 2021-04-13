@@ -1,6 +1,10 @@
 import React from 'react';
 
 const CyberBook = () => {
+  const downloadFile = () => {
+    window.location.href =
+      'https://docs.google.com/open?id=1UXbAK_L_ruVoeGQSWAoGQV_betqeEhTzVLFMytU6IBQ&authuser=ben%40work.tools&usp=drive_fs';
+  };
   return (
     <>
       <div className="backgroundBlue p-4 mt-5 text-center sm:flex sm:p-8">
@@ -14,6 +18,7 @@ const CyberBook = () => {
 
         <div className="flex flex-col sm:flex-row">
           <button
+            onClick={downloadFile}
             className="ml-10 mr-10 mt-5 mb-5 p-3 complianceblue text-white poppins compliancebuttonborder"
             type="submit"
           >

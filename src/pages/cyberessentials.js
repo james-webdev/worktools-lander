@@ -745,7 +745,7 @@ const CyberEssentials = () => {
           </div>
           <div>
             <p className="mr-16 mt-3">
-              Both options give protection against a wide variety of the most common cyber attacks
+              Both options give protection against a wide variety of the most common cyber attacks.
             </p>{' '}
           </div>
         </div>
@@ -892,14 +892,11 @@ const CyberEssentials = () => {
         <div className="text-left">
           <div className="dropdown p-1 flex justify-between items-center">
             <p>Liability</p>
-            <DropdownMenu
-              words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
-            hic numquam"
-            />
+            <DropdownMenu words="Claims made against you arising out of media activities and privacy and security wrongful acts." />
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Extortion Demands</p>
-            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
+            <DropdownMenu words="Ransoms and other cyber extortion." />
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Business Interuption</p>
@@ -907,15 +904,15 @@ const CyberEssentials = () => {
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Event management</p>
-            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
+            <DropdownMenu words="Costs, including emergency costs, following a data breach, including the costs of notifying data subjects. These might typically include payment for Legal, IT, Forensic & PR specialists." />
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Regulatory Investigations</p>
-            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
+            <DropdownMenu words="Defence costs & regulatory fines (where insurable by law)." />
           </div>
           <div className="dropdown p-1 flex items-center justify-between">
             <p>Loss of Electronic Data</p>
-            <DropdownMenu words="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore " />
+            <DropdownMenu words="Costs of remedying the issue that allowed the loss or damage to your data and costs to replace, restore or update your data." />
           </div>
         </div>
       </div>
