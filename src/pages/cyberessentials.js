@@ -817,7 +817,7 @@ const CyberEssentials = () => {
                 </g>
               </svg>
             </div>
-            <p>Attract new business with evidence of cyber scurity measures in place</p>
+            <p>Attract new business with evidence of cyber security measures in place</p>
           </div>
           <div className="p-2 flex items-center">
             <div className="mr-2">
