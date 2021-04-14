@@ -15,9 +15,9 @@ const FaceWrapper = styled.div`
 `;
 
 const Facebook = () => (
-  <FaceWrapper>
-    <a href="http://www.facebook.com">
-      <FontAwesomeIcon style={{ color: 'gray' }} icon={faFacebookF} size="2x" />
+  <FaceWrapper className="text-2xl">
+    <a href="https://www.facebook.com/WORKdotTOOLS/">
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faFacebookF} />
     </a>
   </FaceWrapper>
 );

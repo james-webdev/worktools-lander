@@ -15,9 +15,9 @@ const LinkedWrapper = styled.div`
 `;
 
 const LinkedIn = () => (
-  <LinkedWrapper>
-    <a href="http://www.LinkedIn.com">
-      <FontAwesomeIcon style={{ color: 'gray' }} icon={faLinkedinIn} size="2x" />
+  <LinkedWrapper className="text-2xl">
+    <a href="https://www.linkedin.com/company/work-tools">
+      <FontAwesomeIcon style={{ color: 'gray' }} icon={faLinkedinIn} />
     </a>
   </LinkedWrapper>
 );
