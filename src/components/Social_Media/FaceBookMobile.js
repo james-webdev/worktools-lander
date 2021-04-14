@@ -15,9 +15,9 @@ const FaceWrapper = styled.div`
 `;
 
 const FacebookMobile = () => (
-  <FaceWrapper>
+  <FaceWrapper className="text-3xl">
     <a href="http://www.facebook.com">
-      <FontAwesomeIcon style={{ color: 'rgba(33, 93, 155, 255)' }} icon={faFacebookF} size="1x" />
+      <FontAwesomeIcon style={{ color: 'rgba(33, 93, 155, 255)' }} icon={faFacebookF} />
     </a>
   </FaceWrapper>
 );

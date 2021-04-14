@@ -5,6 +5,7 @@ import FacebookMobile from './Social_Media/FaceBookMobile';
 import LinkedInMobile from './Social_Media/LinkedinMobile';
 import InstagramMobile from './Social_Media/InstagramMobile';
 import TwitterMobile from './Social_Media/TwitterMobile';
+import WhatsAppMobile from './Social_Media/WhatsAppMobile';
 
 const Menu = ({ menuOpen }) => {
   return (
@@ -135,17 +136,17 @@ const Menu = ({ menuOpen }) => {
           </Link>
         </div>
       </div>
-      {/* <div className="flex p-2 mt-5 items-center ">
+      <div className="flex p-2 mt-5 justify-around items-center ">
         <div className="poppins text-left ">
-          <div>Email</div>
+          <div className="opacity-50">Email</div>
           <div className="text-lg font-bold">hi@work.tools</div>
         </div>
         <div className="poppins text-left ml-3">
-          <div>Phone</div>
+          <div className="opacity-50">Phone</div>
           <div className="text-lg font-bold">0333 0508 805</div>
         </div>
-      </div> */}
-      {/* <div className="mt-6 ml-4 mr-4 p-2 flex items-center justify-between">
+      </div>
+      <div className="mt-6 ml-3 mr-3 p-2 flex items-center justify-between">
         <div>
           <LinkedInMobile />
         </div>
@@ -156,10 +157,10 @@ const Menu = ({ menuOpen }) => {
           <FacebookMobile />
         </div>
         <div>
-          <InstagramMobile />
+          <WhatsAppMobile />
         </div>
-      </div> */}
-      <div className="mt-8 ml-2 mr-2">
+      </div>
+      <div className="ml-2 mr-2">
         <ContactMobile />
       </div>
     </div>

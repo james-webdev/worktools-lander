@@ -16,9 +16,9 @@ const TwitWrapper = styled.div`
 `;
 
 const TwitterMobile = () => (
-  <TwitWrapper>
+  <TwitWrapper className="text-3xl">
     <a href="http://www.twitter.com">
-      <FontAwesomeIcon style={{ color: 'rgba(67,162,194,255)' }} icon={faTwitter} size="1x" />
+      <FontAwesomeIcon style={{ color: 'rgba(67,162,194,255)' }} icon={faTwitter} />
     </a>
   </TwitWrapper>
 );

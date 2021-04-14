@@ -16,9 +16,9 @@ const LinkedWrapper = styled.div`
 `;
 
 const LinkedInMobile = () => (
-  <LinkedWrapper>
+  <LinkedWrapper className="text-3xl">
     <a href="http://www.LinkedIn.com">
-      <FontAwesomeIcon style={{ color: 'rgba(130,202,223,255)' }} icon={faLinkedinIn} size="1x" />
+      <FontAwesomeIcon style={{ color: 'rgba(130,202,223,255)' }} icon={faLinkedinIn} />
     </a>
   </LinkedWrapper>
 );
