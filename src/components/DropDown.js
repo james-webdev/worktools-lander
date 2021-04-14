@@ -23,8 +23,8 @@ const DropdownMenu = ({ words }) => {
 
   return (
     <div className="menu-container">
-      <button type="button" onClick={onClick} className="menu-trigger">
-        <div className=" p-1 flex justify-center items-center">
+      <button type="button" onClick={onClick} className="menu-trigger ml-1">
+        <div className="p-1 flex justify-center items-center">
           <div className={`arrow ${isActive ? 'active' : 'inactive'}`} />
         </div>
       </button>
