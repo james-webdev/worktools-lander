@@ -137,16 +137,16 @@ const Menu = ({ menuOpen }) => {
         </div>
       </div>
       <div className="flex p-2 mt-5 justify-around items-center ">
-        <div className="poppins text-left ">
-          <div className="opacity-50">Email</div>
-          <div className="text-lg font-bold">hi@work.tools</div>
+        <div className="poppins text-left">
+          <div className="opacity-50 text-xs">Email</div>
+          <div className="text-sm font-semibold">hi@work.tools</div>
         </div>
         <div className="poppins text-left ml-3">
-          <div className="opacity-50">Phone</div>
-          <div className="text-lg font-bold">0333 0508 805</div>
+          <div className="opacity-50 text-xs">Phone</div>
+          <div className="text-sm font-semibold">0333 0508 805</div>
         </div>
       </div>
-      <div className="mt-6 ml-3 mr-3 p-2 flex items-center justify-between">
+      <div className="mt-3 ml-3 mr-3 p-2 flex items-center justify-between">
         <div>
           <LinkedInMobile />
         </div>
@@ -160,7 +160,7 @@ const Menu = ({ menuOpen }) => {
           <WhatsAppMobile />
         </div>
       </div>
-      <div className="ml-2 mr-2">
+      <div className="ml-2 mt-20 mr-2">
         <ContactMobile />
       </div>
     </div>

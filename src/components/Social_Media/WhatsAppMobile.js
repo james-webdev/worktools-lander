@@ -16,7 +16,7 @@ const WassapWrapper = styled.div`
 `;
 
 const WhatsAppMobile = () => (
-  <WassapWrapper className="text-3xl">
+  <WassapWrapper className="text-2xl">
     <a href="http://www.instagram.com">
       <FontAwesomeIcon style={{ color: 'rgba(33, 93, 155, 255)' }} icon={faWhatsapp} />
     </a>

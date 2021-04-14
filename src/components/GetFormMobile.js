@@ -38,7 +38,7 @@ const ContactMobile = () => {
   };
   return (
     <>
-      <div className="p-2 text-center mt-8">
+      <div className="p-2 text-center">
         <div className="text-left text-sm text-black">
           <p className="poppins">Be notified when the product is officially released.</p>
         </div>
