@@ -160,7 +160,7 @@ const Menu = ({ menuOpen }) => {
           <WhatsAppMobile />
         </div>
       </div>
-      <div className="ml-2 mt-20 mr-2">
+      <div className="ml-2 mt-10 mr-2">
         <ContactMobile />
       </div>
     </div>
