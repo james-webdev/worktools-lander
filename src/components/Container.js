@@ -96,6 +96,12 @@ const Container = () => {
       </section>
 
       <section className="mt-20">
+        <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
+          <p>We have plans which target your specific needs.</p>
+        </div>
+        <div className="mt-8 flex justify-center text-left font-bold text-2xl items-center ml-10 mr-10 poppins">
+          <p className=""> Which are you?</p>
+        </div>
         <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
           {isOn ? (
             <div className="mt-5 mb-5  p-3 text-gray-300 poppins">

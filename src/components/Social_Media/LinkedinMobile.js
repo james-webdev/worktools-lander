@@ -17,7 +17,7 @@ const LinkedWrapper = styled.div`
 
 const LinkedInMobile = () => (
   <LinkedWrapper className="text-2xl">
-    <a href="http://www.LinkedIn.com">
+    <a href="https://www.linkedin.com/company/work-tools">
       <FontAwesomeIcon style={{ color: 'rgba(130,202,223,255)' }} icon={faLinkedinIn} />
     </a>
   </LinkedWrapper>
