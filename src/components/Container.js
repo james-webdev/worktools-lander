@@ -100,9 +100,12 @@ const Container = () => {
         </div>
       </section>
 
-      <div>
-        <Sticky>
-          <section className="mt-20 backgroundBlue shadow rounded bg-opacity-100 z-50">
+      <div
+        className="relative
+      "
+      >
+        {/* <Sticky className="opacity-100"> */}
+          <section className="mt-20 backgroundBlue shadow rounded opacity-100">
             {/* <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
           <p>We have plans which target your specific needs.</p>
         </div>
@@ -125,8 +128,8 @@ const Container = () => {
                 </div>
               )}
 
-              <div className="z-20">
-                <label className="switch z-20">
+              <div className="">
+                <label className="switch">
                   <input type="checkbox" onClick={toggleIsOn} />
                   <span className="slider round" />
                 </label>
@@ -146,7 +149,7 @@ const Container = () => {
               )}
             </div>
           </section>
-        </Sticky>
+        {/* </Sticky> */}
       </div>
 
       {isOn ? (

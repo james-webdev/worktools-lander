@@ -1,8 +1,11 @@
 @tailwind base;
 
-.sticky .stickyToggle {
-  top: 90px !important;
+/* .zindex {
+  position: static !important;
 }
+.sticky .stickyToggle {
+  position: static !important;
+} */
 
 body {
   overflow-x: hidden !important;
