@@ -1,6 +1,8 @@
 import React, { useState, useCallback } from 'react';
 import { Link } from 'gatsby';
+import styled from 'styled-components';
 import '@fontsource/poppins';
+import Sticky from 'react-sticky-el';
 import Layout from './layout/Layout';
 import Button from './Button';
 import CarouselEx from './Carousel';
@@ -32,6 +34,9 @@ const Container = () => {
 
   const [isOn, toggleIsOn] = useToggle();
 
+  // const StickyToggle = {
+  //   top: '87px'
+  // };
   return (
     <Layout>
       <section>
@@ -95,49 +100,54 @@ const Container = () => {
         </div>
       </section>
 
-      <section className="mt-20">
-        <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
+      <div>
+        <Sticky>
+          <section className="mt-20 backgroundBlue rounded bg-opacity-100 z-20">
+            {/* <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
           <p>We have plans which target your specific needs.</p>
         </div>
         <div className="mt-8 flex justify-center text-left font-bold text-2xl items-center ml-10 mr-10 poppins">
           <p className=""> Which are you?</p>
-        </div>
-        <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
-          {isOn ? (
-            <div className="mt-5 mb-5  p-3 text-gray-300 poppins">
-              <div className="flex text-center justify-center items-center">
-                <p>I'm a freelancer </p>
-              </div>
-            </div>
-          ) : (
-            <div className="mt-5 mb-5 compliancebluetext font-semibold p-3 text-xl poppins">
-              <div className="flex text-center justify-center items-center">
-                <p>I'm a freelancer </p>
-              </div>
-            </div>
-          )}
+        </div> */}
 
-          <div>
-            <label className="switch">
-              <input type="checkbox" onClick={toggleIsOn} />
-              <span className="slider round" />
-            </label>
-          </div>
-          {isOn ? (
-            <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-semibold poppins">
-              <div className="flex text-center justify-center items-center">
-                <p>I'm a business owner </p>
+            <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
+              {isOn ? (
+                <div className="mb-5 p-3 text-gray-300 poppins">
+                  <div className="flex text-center justify-center items-center">
+                    <p>I'm a freelancer </p>
+                  </div>
+                </div>
+              ) : (
+                <div className="mt-5 mb-5 compliancebluetext font-semibold p-3 text-xl poppins">
+                  <div className="flex text-center justify-center items-center">
+                    <p>I'm a freelancer </p>
+                  </div>
+                </div>
+              )}
+
+              <div>
+                <label className="switch z-50">
+                  <input type="checkbox" onClick={toggleIsOn} />
+                  <span className="slider round" />
+                </label>
               </div>
+              {isOn ? (
+                <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-semibold poppins">
+                  <div className="flex text-center justify-center items-center">
+                    <p>I'm a business owner </p>
+                  </div>
+                </div>
+              ) : (
+                <div className="mt-8 mb-5 text-gray-300 p-3 text-xl poppins">
+                  <div className="flex text-center justify-center items-center">
+                    <p>I'm a business owner </p>
+                  </div>
+                </div>
+              )}
             </div>
-          ) : (
-            <div className="mt-8 mb-5 text-gray-300 p-3 text-xl poppins">
-              <div className="flex text-center justify-center items-center">
-                <p>I'm a business owner </p>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
+          </section>
+        </Sticky>
+      </div>
 
       {isOn ? (
         <>
@@ -172,7 +182,7 @@ const Container = () => {
       ) : (
         <>
           <section>
-            <div className="mt-8 mb-8 ml-10 mr-10">
+            <div className="z-0 mt-8 mb-8 ml-10 mr-10">
               <Individual />
             </div>
           </section>
