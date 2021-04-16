@@ -102,7 +102,7 @@ const Container = () => {
 
       <div>
         <Sticky>
-          <section className="mt-20 backgroundBlue rounded bg-opacity-100 z-20">
+          <section className="mt-20 backgroundBlue shadow rounded bg-opacity-100 z-50">
             {/* <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
           <p>We have plans which target your specific needs.</p>
         </div>
@@ -125,8 +125,8 @@ const Container = () => {
                 </div>
               )}
 
-              <div>
-                <label className="switch z-50">
+              <div className="z-20">
+                <label className="switch z-20">
                   <input type="checkbox" onClick={toggleIsOn} />
                   <span className="slider round" />
                 </label>
