@@ -30,18 +30,18 @@ function CarouselEx() {
           forwardBtnProps={{
             children: '>',
             style: {
-              width: 60,
-              height: 60,
-              minWidth: 60,
+              width: 25,
+              height: 25,
+              minWidth: 25,
               alignSelf: 'center'
             }
           }}
           backwardBtnProps={{
             children: '<',
             style: {
-              width: 60,
-              height: 60,
-              minWidth: 60,
+              width: 25,
+              height: 25,
+              minWidth: 25,
               alignSelf: 'center'
             }
           }}
@@ -51,20 +51,20 @@ function CarouselEx() {
           <div
             className="border border-black tab1 m-2 rounded-tr-lg rounded-bl-lg rounded-br-lg border border-8 border-white"
             style={{
-              width: 225,
-              height: 338,
+              width: 281.25,
+              height: 422.5,
               textAlign: 'center',
               boxSizing: 'border-box'
             }}
           >
             {' '}
             <div className="mr-6 ml-6">
-              <p className="text-2xl p-2 pt-2 mt-1 text-white">Beatnik Games</p>
+              <p className="text-3xl p-2 pt-2 mt-1 text-white">Beatnik Games</p>
               <div className="flex opacity-25 -ml-5 -mb-12">
                 <Icon className="w-10 -mr-5 h-10" icon={commaIcon} color="white" rotate="180deg" />
                 <Icon className="w-10 h-10" icon={commaIcon} color="white" rotate="180deg" />
               </div>
-              <p className="text-sm p-2 mt-5 text-white">
+              <p className="text-md p-2 mt-5 text-white">
                 For us, its the most convenient way to manage out IT Security
               </p>
               <div className="flex justify-end opacity-25 -mr-5 -mt-5">
@@ -72,7 +72,7 @@ function CarouselEx() {
                 <Icon className="w-10 -ml-5 h-10" icon={commaIcon} color="white" />
               </div>
               <div className="">
-                <p className="text-md p-2 mt-4 text-white font-semibold">Damien Cerri</p>
+                <p className="text-lg p-2 mt-4 text-white font-semibold">Damien Cerri</p>
                 <p className="opacity-75 text-white">CEO</p>
               </div>
             </div>
@@ -81,20 +81,20 @@ function CarouselEx() {
           <div
             className="tab2 m-2 rounded-tr-lg rounded-bl-lg rounded-br-lg border border-8 border-white"
             style={{
-              width: 225,
-              height: 338,
+              width: 281.25,
+              height: 422.5,
               textAlign: 'center',
               boxSizing: 'border-box'
             }}
           >
             {' '}
-            <div className="mr-6 ml-6">
-              <p className="text-2xl p-2 pt-2 mt-1 text-white">AD Dynamo</p>
+            <div className="mr-3 ml-3">
+              <p className="text-3xl p-2 pt-2 mt-1 text-white">AD Dynamo</p>
               <div className="flex mt-4 opacity-25 -ml-5 -mb-12">
                 <Icon className="w-10 -mr-5 h-10" icon={commaIcon} color="white" rotate="180deg" />
                 <Icon className="w-10 h-10" icon={commaIcon} color="white" rotate="180deg" />
               </div>
-              <p className="text-sm p-2 mt-5 text-white">
+              <p className="text-md p-2 mt-5 text-white">
                 Worktools helped us to fix all our historic non-compliances within 48 hours of
                 on-boarding - result!
               </p>
@@ -103,7 +103,7 @@ function CarouselEx() {
                 <Icon className="w-10 -ml-5 h-10" icon={commaIcon} color="white" />
               </div>
               <div className="">
-                <p className="text-md p-2 mt-4 text-white font-semibold">Sam Wriley</p>
+                <p className="text-lg p-2 mt-4 text-white font-semibold">Sam Wriley</p>
                 <p className="opacity-75 text-white">Director</p>
               </div>
             </div>
@@ -112,20 +112,20 @@ function CarouselEx() {
           <div
             className="rounded-tr-lg rounded-bl-lg rounded-br-lg m-2 tab3 border border-8 border-white"
             style={{
-              width: 225,
-              height: 338,
+              width: 281.25,
+              height: 422.5,
               textAlign: 'center',
               boxSizing: 'border-box'
             }}
           >
             {' '}
             <div className="mr-6 ml-6">
-              <p className="text-2xl p-2 pt-2 mt-1 text-white">Adam Knibb Architects</p>
+              <p className="text-3xl p-2 pt-2 mt-1 text-white">Adam Knibb Architects</p>
               <div className="flex opacity-25 -ml-5 -mb-12">
                 <Icon className="w-10 -mr-5 h-10" icon={commaIcon} color="white" rotate="180deg" />
                 <Icon className="w-10 h-10" icon={commaIcon} color="white" rotate="180deg" />
               </div>
-              <p className="text-sm p-2 mt-5 text-white">
+              <p className="text-md p-2 mt-5 text-white">
                 Awesome! Glad we decided to go with Worktools. Saved us loads of time and hassle.
               </p>
               <div className="flex justify-end opacity-25 -mr-5 -mt-5">
@@ -133,7 +133,7 @@ function CarouselEx() {
                 <Icon className="w-10 -ml-5 h-10" icon={commaIcon} color="white" />
               </div>
               <div className="">
-                <p className="text-md p-2 mt-4 text-white font-semibold">Adam Knibb</p>
+                <p className="text-lg p-2 mt-4 text-white font-semibold">Adam Knibb</p>
                 <p className="opacity-75 text-white">Director</p>
               </div>
             </div>
