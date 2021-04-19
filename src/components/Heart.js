@@ -47,6 +47,7 @@ const Heart = () => {
           </g>
           <animateTransform
             attributeName="transform"
+            attributeType="XML"
             type="scale"
             dur="1s"
             values="1; 1.5; 1.25; 1.5; 1.5; 1;"
