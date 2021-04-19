@@ -115,7 +115,7 @@ const Container = () => {
 
             <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
               {isOn ? (
-                <div className="mb-5 p-3 text-gray-300 poppins">
+                <div className="mb-5 p-3 text-gray-500 poppins">
                   <div className="flex text-center justify-center items-center">
                     <p>I'm a freelancer </p>
                   </div>
@@ -141,7 +141,7 @@ const Container = () => {
                   </div>
                 </div>
               ) : (
-                <div className="mt-8 mb-5 text-gray-300 p-3 text-xl poppins">
+                <div className="mt-8 mb-5 text-gray-500 p-3 text-xl poppins">
                   <div className="flex text-center justify-center items-center">
                     <p>I'm a business owner </p>
                   </div>
