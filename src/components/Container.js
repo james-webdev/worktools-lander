@@ -89,7 +89,7 @@ const Container = () => {
         </div>
       </section>
 
-      <div className="mt-20 mb-20 mb-8 ml-12 mr-12 sm:ml-48 sm:mr-48">
+      <div className="mt-20 mb-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48">
         <Contact />
       </div>
 
@@ -105,7 +105,7 @@ const Container = () => {
       "
       >
         {/* <Sticky className="opacity-100"> */}
-          <section className="mt-20 backgroundBlue shadow rounded opacity-100">
+          <section className="mt-20 backgroundBlue shadow-sm  opacity-100">
             {/* <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
           <p>We have plans which target your specific needs.</p>
         </div>
@@ -121,7 +121,7 @@ const Container = () => {
                   </div>
                 </div>
               ) : (
-                <div className="mt-5 mb-5 compliancebluetext font-semibold p-3 text-xl poppins">
+                <div className="mt-5 mb-5 compliancebluetext font-bold p-3 text-xl poppins">
                   <div className="flex text-center justify-center items-center">
                     <p>I'm a freelancer </p>
                   </div>
@@ -135,7 +135,7 @@ const Container = () => {
                 </label>
               </div>
               {isOn ? (
-                <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-semibold poppins">
+                <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-bold poppins">
                   <div className="flex text-center justify-center items-center">
                     <p>I'm a business owner </p>
                   </div>
