@@ -19,7 +19,7 @@ export default function SlidePage() {
 
   return (
     <div className="App">
-      <section className="mt-20 backgroundBlue shadow-sm opacity-100">
+      <section className="mt-20 shadow-sm opacity-100">
         <div className="flex justify-center text-xl items-center ml-10 mr-10">
           {page === 2 ? (
             <div className="mt-5 mb-5 p-3 text-gray-500 poppins">
@@ -56,12 +56,6 @@ export default function SlidePage() {
           )}
         </div>
       </section>
-      {/* <div className="flex justify-center items-center mb-8 ml-10 mr-10">
-        <label className="switch">
-          <input type="checkbox" onClick={() => setPage(page === 1 ? 2 : 1)} />
-          <span className="slider round" />
-        </label>
-      </div> */}
 
       <div className="wrapper">
         <motion.div
