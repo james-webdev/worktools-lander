@@ -75,6 +75,16 @@ a:hover {
   border-radius: 0px 25px 25px 25px;
 }
 
+.complianceborderwhite {
+  border: white 4px solid;
+  border-radius: 0px 25px 25px 25px;
+}
+
+.compliancebuttonborderwhite {
+  border: white 2px solid;
+  border-radius: 0px 25px 25px 25px;
+}
+
 /* font */
 
 p,
@@ -421,6 +431,7 @@ input:checked + .slider:before {
   position: absolute;
   top: 0;
   background: #2b5794;
+  border-radius: 5px 5px 5px 5px;
   z-index: 1;
 }
 

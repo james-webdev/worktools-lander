@@ -3,12 +3,12 @@ import { Link } from 'gatsby';
 
 const Enhanced = () => {
   return (
-    <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-5 text-center sm:flex">
+    <div className="flex flex-col justify-center items-center border-2 complianceborderwhite p-4 mt-5 text-center sm:flex">
       <div>
-        <h1 className="text-2xl font-bold">Enhanced</h1>
+        <h1 className="text-2xl text-white font-bold">Enhanced</h1>
       </div>
       <div className="mr-20 flex text-left">
-        <p className="text-md font-extralight opacity-50 mt-4">Essential Plan Plus</p>
+        <p className="text-md font-extralight opacity-50 text-white mt-4">Essential Plan Plus</p>
       </div>
       <div className="text-left">
         <div className="p-1 flex items-center">
@@ -31,7 +31,7 @@ const Enhanced = () => {
               </g>
             </svg>
           </div>
-          <p className="poppins">Phone/Tablet Access</p>
+          <p className="poppins text-white">Phone/Tablet Access</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -53,7 +53,7 @@ const Enhanced = () => {
               </g>
             </svg>
           </div>
-          <p className="poppins">MDM Integration</p>
+          <p className="poppins text-white">MDM Integration</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -75,13 +75,13 @@ const Enhanced = () => {
               </g>
             </svg>
           </div>
-          <p className="poppins">Third-party Integrations</p>
+          <p className="poppins text-white">Third-party Integrations</p>
         </div>
       </div>
 
       <Link
         to="/download"
-        className="compliancebuttonborder mt-5 mb-5 p-3 compliancebluetext poppins w-5/6"
+        className="compliancebuttonborderwhite mt-5 mb-5 p-3 text-white poppins w-5/6"
       >
         Coming Soon
       </Link>

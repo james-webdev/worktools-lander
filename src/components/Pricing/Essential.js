@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 
 const Essential = () => {
   return (
-    <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-4 text-center sm:flex">
+    <div className="flex flex-col justify-center items-center border-2 complianceborderwhite p-4 mt-4 text-center sm:flex">
       <div>
-        <h1 className="text-2xl font-bold">Essential</h1>
+        <h1 className="text-2xl text-white font-bold">Essential</h1>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex text-white justify-center items-center">
         <p className="text-5xl font-bold">£0</p>
         <div className="relative">
           <p className="text-sm mt-4 absolutely">*</p>
@@ -35,7 +35,7 @@ const Essential = () => {
               </g>
             </svg>
           </div>
-          <p>Unlimited Devices</p>
+          <p className="text-white">Unlimited Devices</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -57,7 +57,7 @@ const Essential = () => {
               </g>
             </svg>
           </div>
-          <p>Certification Toolkit*</p>
+          <p className="text-white">Certification Toolkit*</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -79,7 +79,7 @@ const Essential = () => {
               </g>
             </svg>
           </div>
-          <p>Smart IT Policies</p>
+          <p className="text-white">Smart IT Policies</p>
         </div>
         <div className="p-1 flex items-center">
           <div className="mr-2">
@@ -101,13 +101,13 @@ const Essential = () => {
               </g>
             </svg>
           </div>
-          <p>Risk Management</p>
+          <p className="text-white">Risk Management</p>
         </div>
       </div>
 
       <Link
         to="/download"
-        className="mt-5 mb-5 p-3 complianceblue text-white poppins compliancebuttonborder w-5/6"
+        className="mt-5 mb-5 p-3 bg-white text-black poppins compliancebuttonborderwhite w-5/6"
       >
         Get Started
       </Link>
