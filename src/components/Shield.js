@@ -40,7 +40,7 @@ const Shield = () => {
         </Sparkles>
       </div>
       <div className="p-2 ml-4 text-left flex-col">
-        <h1 className="text-lg">Compliance</h1>
+        <h1 className="font-bold text-lg">Compliance</h1>
         <p>Easily manage your NCSC Cyber Essentials and GDPR compliance</p>
       </div>
     </div>

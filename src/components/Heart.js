@@ -84,7 +84,7 @@ const Heart = () => {
         </svg>
       </HeartDiv>
       <div className="p-2 text-left flex-col">
-        <h1 className="text-lg">IT Health</h1>
+        <h1 className="font-bold text-lg">IT Health</h1>
         <p>Know exactly when IT issues may be on the horizon</p>
       </div>
     </div>

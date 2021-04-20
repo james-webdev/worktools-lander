@@ -150,7 +150,7 @@ const Target = () => {
       </div>
       {/* </TargetDiv> */}
       <div className="p-2 text-left flex-col">
-        <h1 className="text-lg">Cybersecurity</h1>
+        <h1 className="font-bold text-lg">Cybersecurity</h1>
         <p>Understand the threats that your users and devices face</p>
       </div>
     </div>
