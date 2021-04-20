@@ -1,11 +1,39 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
+
+const animateHeart = keyframes`
+0% {
+  transform: scale(0.8);
+}
+5% {
+  transform: scale(0.9);
+}
+10% {
+  transform: scale(0.8);
+}
+15% {
+  transform: scale(1);
+}
+50% {
+  transform: scale(0.8);
+}
+100% {
+  transform: scale(0.8);
+}
+`;
+
+const HeartDiv = styled.div`
+  animation-name: ${animateHeart};
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+`;
 
 const Heart = () => {
   return (
     <div className="flex justify-center items-center ml-4 mr-4">
-      <div>
+      <HeartDiv>
         <svg
-          className="w-32 pt-10 pb-10 p-4"
+          className="w-32 pt-10 pb-10"
           version="1.1"
           id="Layer_1"
           x="0px"
@@ -45,16 +73,16 @@ const Heart = () => {
 		C250.61,188.511,253.516,191.23,257.5,195.027z"
             />
           </g>
-          <animateTransform
+          {/* <animateTransform
             attributeName="transform"
             type="scale"
             dur="1s"
             values="1; 1.5; 1.25; 1.5; 1.5; 1;"
             repeatCount="indefinite"
             additive="sum"
-          />
+          /> */}
         </svg>
-      </div>
+      </HeartDiv>
       <div className="p-2 text-left flex-col">
         <h1 className="text-lg">IT Health</h1>
         <p>Know exactly when IT issues may be on the horizon</p>

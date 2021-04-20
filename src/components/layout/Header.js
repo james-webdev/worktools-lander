@@ -22,7 +22,7 @@ const Header = () => {
           </div>
 
           <div>
-            <div className="mr-10 sm:hidden">
+            <div className="mr-5 sm:hidden">
               <BurgerMenu menuOpen={menu} onClick={onBurgerClick} />
             </div>
           </div>
