@@ -106,18 +106,20 @@ const Target = () => {
               d="M13.191,268.851c-6.974,0-12.627-5.653-12.627-12.627l0,0c0-6.974,5.653-12.627,12.627-12.627h156.312
    c6.974,0,12.627,5.653,12.627,12.627l0,0c0,6.974-5.653,12.627-12.627,12.627H13.191z"
             />
-            {/* <circle
-              id="targetPulse"
+            <circle
               className="moveThisCircle"
-              fill="#27aecc"
+              id="targetPulse"
+              fill="#162862"
               cx="257"
               cy="256.224"
               r="42.67"
-            /> */}
+            />
             <circle
-              className="moveThisBit"
               id="targetPulse"
-              fill="#162862"
+              className="moveThisBit"
+              stroke="#46A4CB"
+              strokeWidth="8px"
+              fill="none"
               cx="257"
               cy="256.224"
               r="42.67"
