@@ -6,7 +6,7 @@ import TextLooperTwo from './TextLoopTwo';
 const Company = () => {
   return (
     <>
-      <div className="font-bold text-center poppins ml-4 mr-4 mt-6 text-2xl text-left">
+      <div className="font-bold text-center text-white poppins ml-4 mr-4 mt-6 text-2xl text-left">
         <p>
           Effective management of risks with lower insurance premiums or £25K of free Cyber cover.
         </p>
@@ -16,10 +16,10 @@ const Company = () => {
           <img src={onBoard} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
-          <h2 className="text-2xl mt-6 font-bold">
+          <h2 className="text-2xl text-white mt-6 font-bold">
             Understand and improve your business security posture
           </h2>
-          <p className="mt-2">
+          <p className="mt-2 text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
             hic numquam, ipsum labore cum saepe quae veritatis?
           </p>
@@ -30,10 +30,10 @@ const Company = () => {
           <img src={NSCS} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2">
-          <h2 className="text-2xl mt-6 font-bold">
+          <h2 className="text-2xl text-white mt-6 font-bold">
             Simple certification with continuous assessment against standards.
           </h2>
-          <p className="mt-4">
+          <p className="mt-4 text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
             hic numquam, ipsum labore cum saepe quae veritatis?
           </p>
@@ -127,7 +127,7 @@ const Company = () => {
           <div className="text-2xl mt-4 font-bold">
             <TextLooperTwo />
           </div>
-          <p className="text-2xl font-bold mt-10 mb-8">Can we help you make it simple?</p>
+          <p className="text-2xl text-white font-bold mt-10 mb-8">Can we help you make it simple?</p>
         </div>
         
       </div>

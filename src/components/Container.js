@@ -22,6 +22,7 @@ import CyberBook from './CyberBook';
 import Company from './Company';
 import IndividualPrice from './Pricing/IndividualPrice';
 import Individual from './Individual';
+import SlidePage from './SlidePage';
 
 const Container = () => {
   const useToggle = (initialValue = false) => {
@@ -100,59 +101,58 @@ const Container = () => {
         </div>
       </section>
 
-      <div
+      <section>
+        <div className="mt-20">
+          <SlidePage />
+        </div>
+      </section>
+
+      {/* <div
         className="relative
       "
       >
-        {/* <Sticky className="opacity-100"> */}
-          <section className="mt-20 backgroundBlue shadow-sm  opacity-100">
-            {/* <div className="flex justify-center text-center font-bold text-2xl items-center ml-10 mr-10 poppins">
-          <p>We have plans which target your specific needs.</p>
-        </div>
-        <div className="mt-8 flex justify-center text-left font-bold text-2xl items-center ml-10 mr-10 poppins">
-          <p className=""> Which are you?</p>
-        </div> */}
-
-            <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
-              {isOn ? (
-                <div className="mt-5 mb-5 p-3 text-gray-500 poppins">
-                  <div className="flex text-center justify-center items-center">
-                    <p>I'm a freelancer </p>
-                  </div>
+        {/* <Sticky className="opacity-100"> 
+        <section className="mt-20 backgroundBlue shadow-sm  opacity-100">
+          <div className="flex justify-center text-xl items-center mb-8 ml-10 mr-10">
+            {isOn ? (
+              <div className="mt-5 mb-5 p-3 text-gray-500 poppins">
+                <div className="flex text-center justify-center items-center">
+                  <p>I'm a freelancer </p>
                 </div>
-              ) : (
-                <div className="mt-5 mb-5 compliancebluetext font-bold p-3 text-xl poppins">
-                  <div className="flex text-center justify-center items-center">
-                    <p>I'm a freelancer </p>
-                  </div>
-                </div>
-              )}
-
-              <div className="">
-                <label className="switch">
-                  <input type="checkbox" onClick={toggleIsOn} />
-                  <span className="slider round" />
-                </label>
               </div>
-              {isOn ? (
-                <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-bold poppins">
-                  <div className="flex text-center justify-center items-center">
-                    <p>I'm a business owner </p>
-                  </div>
+            ) : (
+              <div className="mt-5 mb-5 compliancebluetext font-bold p-3 text-xl poppins">
+                <div className="flex text-center justify-center items-center">
+                  <p>I'm a freelancer </p>
                 </div>
-              ) : (
-                <div className="mt-8 mb-5 text-gray-500 p-3 text-xl poppins">
-                  <div className="flex text-center justify-center items-center">
-                    <p>I'm a business owner </p>
-                  </div>
-                </div>
-              )}
-            </div>
-          </section>
-        {/* </Sticky> */}
-      </div>
+              </div>
+            )}
 
-      {isOn ? (
+            <div className="">
+              <label className="switch">
+                <input type="checkbox" onClick={toggleIsOn} />
+                <span className="slider round" />
+              </label>
+            </div>
+            {isOn ? (
+              <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-bold poppins">
+                <div className="flex text-center justify-center items-center">
+                  <p>I'm a business owner </p>
+                </div>
+              </div>
+            ) : (
+              <div className="mt-8 mb-5 text-gray-500 p-3 text-xl poppins">
+                <div className="flex text-center justify-center items-center">
+                  <p>I'm a business owner </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+        {/* </Sticky> 
+      </div> */}
+
+      {/* {isOn ? (
         <>
           <section>
             <div className="text-center mt-8 mb-8 ml-10 mr-10">
@@ -203,7 +203,7 @@ const Container = () => {
             </div>
           </section>
         </>
-      )}
+      )} */}
 
       {/* <section>
       <div className="mt-20 mb-8 ml-10 mr-10">

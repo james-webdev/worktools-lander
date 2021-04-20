@@ -408,6 +408,22 @@ input:checked + .slider:before {
   }
 }
 
+/* slide page */
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.page {
+  width: 100%;
+}
+.page-blue {
+  position: absolute;
+  top: 0;
+  background: #2b5794;
+  z-index: 1;
+}
+
 @tailwind components;
 
 @tailwind utilities;
