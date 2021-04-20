@@ -115,7 +115,7 @@ const Target = () => {
               r="42.67"
             /> */}
             <circle
-              className="moveThisCircle"
+              className="moveThisBit"
               id="targetPulse"
               fill="#162862"
               cx="257"

@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="rounded sticky top-0 z-20 bg-white shadow">
+      <header className="sticky top-0 z-20 bg-white shadow">
         <div className="container flex justify-between items-center mx-auto py-2 px-8">
           <div className="flex items-center text-2xl">
             <div className="w-32 mr-3">
