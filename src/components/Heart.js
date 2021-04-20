@@ -42,7 +42,7 @@ const Heart = () => {
           enableBackground="new 0 0 512 512"
           xmlSpace="preserve"
         >
-          <g transform="translate(120 120)">
+          <g transform="translate(100 120)">
             <path
               opacity="0.4"
               fill="#27AECD"
