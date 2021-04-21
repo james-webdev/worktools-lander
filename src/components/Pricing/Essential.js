@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Essential = () => {
   return (
-    <div className="flex flex-col justify-center items-center border-2 complianceborderwhite p-4 mt-4 text-center sm:flex">
+    <div className="flex flex-col justify-center items-center border-2 complianceborderwhite p-4 mt-4 text-center sm:flex sm:mb-10">
       <div>
         <h1 className="text-2xl text-white font-bold">Essential</h1>
       </div>

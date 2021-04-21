@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const IndividualPrice = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-4 text-center sm:flex">
+      <div className="flex flex-col justify-center items-center border-2 complianceborder p-4 mt-4 text-center sm:flex sm:w-1/2">
         <div>
           <h1 className="text-2xl font-bold">Individual</h1>
         </div>

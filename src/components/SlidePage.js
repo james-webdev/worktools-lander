@@ -71,12 +71,15 @@ export default function SlidePage() {
                 <Individual />
               </div>
             </section>
-            <div className="text-4xl ml-10 mr-10 text-left font-bold mt-20 poppins">
+            <div className="text-4xl ml-10 mr-10 text-left font-bold mt-20 poppins sm:hidden">
               <h2>Pricing</h2>{' '}
             </div>
             <section>
-              <div className="mb-8 ml-10 mr-10">
+              <div className="mb-8 ml-10 mr-10 sm:flex sm:justify-center sm:items-center">
                 <IndividualPrice />
+                <div className="hidden sm:flex text-4xl font-bold poppins sm:w-1/3 sm:p-10">
+                  <p>One simple pricing plan.</p>
+                </div>
               </div>
             </section>
             <section>
@@ -101,24 +104,24 @@ export default function SlidePage() {
                   <Company />
                 </div>
               </section>
-              <div className="text-4xl text-white ml-10 mr-10 text-left font-bold mt-20 poppins">
+              <div className="text-4xl text-white ml-10 mr-10 text-left font-bold mt-20 poppins sm:hidden">
                 <h2>Pricing</h2>{' '}
               </div>
-              <div className="sm:flex sm:justify-center sm:items-center">
+              <div className="sm:flex sm:justify-center sm:items-start sm:ml-10 sm:mr-10 sm:mb-10">
                 <section>
-                  <div className="mb-8 ml-10 mr-10">
+                  <div className="mb-8 ml-10 mr-10 sm:ml-3 sm:mr-3">
                     <Essential />
                   </div>
                 </section>
 
                 <section>
-                  <div className="mt-10 mb-8 ml-10 mr-10">
+                  <div className="mt-10 mb-8 ml-10 mr-10 sm:ml-3 sm:mr-3 sm:mt-0">
                     <Enhanced />
                   </div>
                 </section>
 
                 <section>
-                  <div className="mt-10 mb-8 ml-10 mr-10">
+                  <div className="mt-10 mb-8 ml-10 mr-10 sm:ml-3 sm:mr-3  sm:mt-0">
                     <Complete />
                   </div>
                 </section>

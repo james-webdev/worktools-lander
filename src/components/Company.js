@@ -6,42 +6,46 @@ import TextLooperTwo from './TextLoopTwo';
 const Company = () => {
   return (
     <>
-      <div className="font-bold text-center text-white poppins ml-4 mr-4 mt-6 text-2xl text-left">
-        <p>
-          Effective management of risks with lower insurance premiums or £25K of free Cyber cover.
-        </p>
+      {' '}
+      <div className="sm:flex sm:justify-center">
+        <div className="font-bold text-center text-white poppins ml-4 mr-4 mt-6 text-2xl sm:mt-10 sm:mb-10 sm:font-medium sm:w-1/2 sm:flex sm:justify-center sm:text-3xl">
+          <p>
+            Effective management of risks with lower insurance premiums or £25K of free Cyber cover.
+          </p>
+        </div>
       </div>
-      <div>
-        <div className="shadow-xl mt-5">
+      <div className="sm:flex sm:flex-row-reverse sm:items-center sm:justify-center">
+        <div className="shadow-xl mt-5 sm:w-1/3">
           <img src={onBoard} alt="appscreenshot" />
         </div>
-        <div className="text-center poppins mt-2">
-          <h2 className="text-2xl text-white mt-6 font-bold">
+        <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:justify-center sm:w-1/4 sm:mr-5 sm:mt-5 sm:mb-5 sm:text-right sm:p-4">
+          <h2 className="text-2xl text-white mt-6 font-bold sm:font-medium ">
             Understand and improve your business security posture
           </h2>
-          <p className="mt-2 text-white">
+          <p className="mt-2 text-white opacity-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
             hic numquam, ipsum labore cum saepe quae veritatis?
           </p>
         </div>
       </div>
-      <div className="mt-10">
-        <div className="shadow-xl">
+      <div className="sm:flex sm:flex-row sm:items-center sm:justify-center">
+        <div className="shadow-xl mt-5 sm:w-1/3">
           <img src={NSCS} alt="appscreenshot" />
         </div>
-        <div className="text-center poppins mt-2">
-          <h2 className="text-2xl text-white mt-6 font-bold">
+        <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:justify-center sm:w-1/4 sm:ml-5 sm:mt-5 sm:mb-5 sm:text-left sm:p-4">
+          <h2 className="text-2xl text-white mt-6 font-bold sm:font-medium ">
             Simple certification with continuous assessment against standards.
           </h2>
-          <p className="mt-4 text-white">
+          <p className="mt-2 text-white opacity-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
             hic numquam, ipsum labore cum saepe quae veritatis?
           </p>
         </div>
       </div>
-      <div className="mt-10">
-        <div className="flex items-center mt-20 justify-center">
+      <div className="mt-10 sm:flex sm:flex-row-reverse sm:justify-around sm:items-center">
+        <div className="flex items-center mt-20 sm:mb-16 justify-center">
           <svg
+            className=""
             version="1.1"
             id="Layer_1"
             x="0px"
@@ -123,14 +127,12 @@ const Company = () => {
             />
           </svg>
         </div>
-        <div className="text-center poppins mt-6">
-          <div className="text-2xl mt-4 font-bold">
-            <TextLooperTwo />
-          </div>
-          <p className="text-2xl text-white font-bold mt-10 mb-8">
-            Can we help you make it simple?
-          </p>
+        <div className="text-2xl mt-4 font-bold">
+          <TextLooperTwo className=""/>
         </div>
+      </div>
+      <div className="text-center poppins mt-6">
+        <p className="text-2xl text-white font-bold mt-10 mb-8 sm:text-4xl">Can we help you make it simple?</p>
       </div>
     </>
   );

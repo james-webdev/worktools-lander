@@ -431,7 +431,7 @@ input:checked + .slider:before {
   position: absolute;
   top: 0;
   background: #2b5794;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 2px 2px 2px 2px;
   z-index: 1;
 }
 
