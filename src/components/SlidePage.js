@@ -42,13 +42,13 @@ export default function SlidePage() {
             </label>
           </div>
           {page === 2 ? (
-            <div className="mt-8 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-bold poppins">
+            <div className="mt-5 mb-5 p-3 rounded-lg compliancedarkbluetext text-xl font-bold poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a business owner </p>
               </div>
             </div>
           ) : (
-            <div className="mt-8 mb-5 text-gray-500 p-3 text-xl poppins">
+            <div className="mt-5 mb-5 text-gray-500 p-3 text-xl poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a business owner </p>
               </div>
