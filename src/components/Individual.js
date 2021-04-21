@@ -43,9 +43,9 @@ const Individual = () => {
       </div>
 
       <div className="mt-10">
-        <div className="flex items-center mt-20 justify-center">
+        <div className="sm:flex sm:items-center mt-20 sm:justify-center">
           <svg
-            className="sm:w-1/2 sm:h-40"
+            className="sm:w-1/2"
             version="1.1"
             id="Layer_1"
             x="0px"

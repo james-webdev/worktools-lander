@@ -429,7 +429,7 @@ input:checked + .slider:before {
 }
 .page-blue {
   position: absolute;
-  top: 0;
+  top: 32px;
   background: #2b5794;
   border-radius: 2px 2px 2px 2px;
   z-index: 1;
