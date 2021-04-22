@@ -28,7 +28,7 @@ export default function SlidePage() {
               </div>
             </div>
           ) : (
-            <div className="mt-5 mb-5 compliancebluetext font-bold p-3 text-xl poppins">
+            <div className="mt-5 mb-5 text-black font-bold p-3 text-xl poppins">
               <div className="flex text-center justify-center items-center">
                 <p>I'm a freelancer </p>
               </div>
@@ -75,7 +75,7 @@ export default function SlidePage() {
               <h2>Pricing</h2>{' '}
             </div>
             <section>
-              <div className="mb-8 ml-10 mr-10 sm:flex sm:justify-center sm:items-center">
+              <div className="mb-8 ml-10 mr-10 sm:flex sm:justify-center sm:items-center sm:mt-16">
                 <IndividualPrice />
                 <div className="hidden sm:flex text-4xl font-bold poppins sm:w-1/3 sm:p-10">
                   <p>One simple pricing plan.</p>

@@ -7,32 +7,30 @@ const Individual = () => {
   return (
     <>
       <div className="sm:flex sm:justify-center">
-        <div className="font-bold text-center text-black poppins ml-4 mr-4 mt-6 text-2xl sm:mt-10 sm:mb-10 sm:w-1/2 sm:flex sm:justify-center sm:text-3xl">
+        <div className="font-bold text-center text-black poppins ml-4 mr-4 mt-6 text-2xl sm:mt-10 sm:mb-10 sm:w-1/2 sm:flex sm:justify-center sm:text-4xl">
           <p>Stay alert to security issues and become cyber-aware.</p>
         </div>
       </div>
-      <div>
-        <div className="sm:flex sm:flex-row sm:items-center sm:justify-center">
-          <div className="shadow-xl mt-5 sm:w-1/3">
-            <img src={onBoard} alt="appscreenshot" />
-          </div>
-          <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:justify-center sm:w-1/4 sm:ml-5 sm:mt-5 sm:mb-5 sm:text-left sm:p-4">
-            <h2 className="text-2xl text-black mt-6 font-bold">
-              Continuously monitor your devices.
-            </h2>
-            <p className="mt-2 text-black opacity-50">
-              Our product works in the background continuously securing you so you have one less
-              thing to worry about!
-            </p>
-          </div>
+      <div className="sm:flex sm:flex-row sm:items-start sm:justify-center sm:mt-20 sm:p-2">
+        <div className="shadow-xl mt-5 sm:w-5/12">
+          <img src={onBoard} alt="appscreenshot" />
+        </div>
+        <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:items-start sm:w-1/4 sm:ml-5 sm:text-left sm:p-4">
+          <h2 className="text-2xl text-black mt-6 font-bold sm:mt-0">
+            Continuously monitor your devices.
+          </h2>
+          <p className="mt-2 text-black opacity-50">
+            Our product works in the background continuously securing you so you have one less thing
+            to worry about!
+          </p>
         </div>
       </div>
-      <div className="sm:flex sm:flex-row-reverse sm:items-center sm:justify-center">
-        <div className="shadow-xl mt-5 sm:w-1/3">
+      <div className="sm:flex sm:flex-row-reverse sm:items-start sm:justify-center sm:mt-20">
+        <div className="shadow-xl mt-5 sm:w-5/12">
           <img src={NSCS} alt="appscreenshot" />
         </div>
-        <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:justify-center sm:w-1/4 sm:mr-5 sm:mt-5 sm:mb-5 sm:text-right sm:p-4">
-          <h2 className="text-2xl text-black mt-6 font-bold">
+        <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:items-start sm:w-1/4 sm:mr-5 sm:text-right sm:p-4">
+          <h2 className="text-2xl text-black mt-6 font-bold sm:mt-0">
             Secure your devices and get instant expert help.
           </h2>
           <p className="mt-2 text-black opacity-50">
@@ -43,9 +41,9 @@ const Individual = () => {
       </div>
 
       <div className="mt-10">
-        <div className="sm:flex sm:items-center mt-20 sm:justify-center">
+        <div className="sm:flex sm:items-center mt-20 sm:justify-around">
           <svg
-            className="sm:w-1/2"
+            className="sm:w-1/2 sm-mr-10"
             version="1.1"
             id="Layer_1"
             x="0px"
@@ -547,7 +545,7 @@ const Individual = () => {
               </g>
             </g>
           </svg>
-          <div className="text-center poppins mt-6 sm:w-1/3">
+          <div className="text-center poppins mt-6 sm:w-1/3 sm:mr-40">
             <h2 className="text-2xl mt-8 font-bold">95% of breaches are cause by human error.</h2>
             <p className="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
@@ -555,7 +553,7 @@ const Individual = () => {
             </p>
           </div>
         </div>
-        <div className="mt-5 -ml-10 -mr-10 sm:mt-10 sm:mb-10">
+        <div className="mt-5 -ml-10 -mr-10 sm:mt-24 sm:mb-10 sm:ml-0 sm:mr-0 sm:flex sm:justify-center sm:items-center">
           <TextLooper />
         </div>
       </div>

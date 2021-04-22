@@ -42,7 +42,7 @@ const Heart = () => {
           enableBackground="new 0 0 512 512"
           xmlSpace="preserve"
         >
-          <g transform="translate(100 120)">
+          <g transform="translate(100 90)">
             <path
               opacity="0.4"
               fill="#27AECD"
@@ -83,9 +83,9 @@ const Heart = () => {
           /> */}
         </svg>
       </HeartDiv>
-      <div className="p-2 text-left flex-col sm:text-center sm:ml-10 sm:mr-10">
+      <div className="p-2 mb-5 text-left flex-col sm:text-center sm:ml-10 sm:mr-10 sm:mb-0 sm:mt-3">
         <h1 className="font-bold text-lg">IT Health</h1>
-        <p>Know exactly when IT issues may be on the horizon</p>
+        <p className="sm:mt-1">Know exactly when IT issues may be on the horizon</p>
       </div>
     </div>
   );

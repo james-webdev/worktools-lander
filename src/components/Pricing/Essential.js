@@ -22,6 +22,7 @@ const Essential = () => {
               id="Layer_1"
               x="0px"
               y="0px"
+              fill="#FFFFFF"
               width="28px"
               height="28px"
               viewBox="0 0 256 256"

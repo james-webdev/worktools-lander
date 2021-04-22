@@ -23,6 +23,7 @@ import Company from './Company';
 import IndividualPrice from './Pricing/IndividualPrice';
 import Individual from './Individual';
 import SlidePage from './SlidePage';
+import Testimonials from './Testimonials';
 
 const Container = () => {
   const useToggle = (initialValue = false) => {
@@ -94,10 +95,13 @@ const Container = () => {
         <Contact />
       </div>
 
-      {/* <div className="backgroundBlue h-40" /> */}
+      <div className="backgroundBlue h-40 z-0" />
       <section>
-        <div className="mt-20 sm:ml-40 sm:mr-40">
+        <div className="mt-20 sm:ml-40 sm:mr-40 md:hidden">
           <CarouselEx />
+        </div>
+        <div className="hidden md:block mt-20">
+          <Testimonials />
         </div>
       </section>
 

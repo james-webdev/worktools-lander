@@ -66,7 +66,7 @@ const Footer = () => (
             <WhatsAppMobile />
           </div>
         </div>
-        <div className="mt-5 justify-center items-center flex mb-5 p-4">
+        <div className="mt-5 justify-center items-center flex mb-5 p-4 sm:hidden">
           <div className="text-sm footergrey flex justify-center items-center">
             <p>Cyber Essentials Certified</p>
           </div>
