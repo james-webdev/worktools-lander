@@ -112,8 +112,17 @@ h1 {
 
 /* mobiles images */
 
+.overbackground {
+  z-index: 1;
+}
+
 .backgroundBlue {
+  
   background-color: #def3f6;
+  margin-top: -32px;
+  margin-bottom: -390px;
+  height: 500px !important;
+  z-index: 0 !important;
 }
 
 @keyframes fadeIn {
