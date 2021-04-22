@@ -41,9 +41,9 @@ const Individual = () => {
       </div>
 
       <div className="mt-10">
-        <div className="border border-black sm:flex sm:items-center mt-20 sm:justify-around">
+        <div className="sm:flex sm:items-center mt-20 sm:justify-around">
           <svg
-            className="border border-black sm:w-1/2 sm-mr-60"
+            className="sm:w-1/2 sm-mr-0"
             version="1.1"
             id="Layer_1"
             x="0px"
@@ -545,7 +545,7 @@ const Individual = () => {
               </g>
             </g>
           </svg>
-          <div className="border border-black text-center poppins mt-6 sm:w-1/3 sm:mr-48">
+          <div className="text-center poppins mt-6 sm:w-1/3 sm:mr-48">
             <h2 className="text-2xl mt-8 font-bold">95% of breaches are cause by human error.</h2>
             <p className="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa quis cupiditate
