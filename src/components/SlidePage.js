@@ -28,7 +28,10 @@ export default function SlidePage() {
               </div>
             </div>
           ) : (
-            <div className="mt-5 mb-5 text-black font-bold p-3 text-xl poppins">
+            <div
+              className="mt-5 mb-5 .compliancebluetext {
+              font-bold p-3 text-xl poppins"
+            >
               <div className="flex text-center justify-center items-center">
                 <p>I'm a freelancer </p>
               </div>
