@@ -43,7 +43,7 @@ const Company = () => {
         </div>
       </div>
       <div className="mt-10 sm:flex sm:flex-row-reverse sm:justify-center sm:items-center">
-        <div className="flex items-center mt-20 sm:mb-16 justify-center sm:h-40 sm:w-1/2">
+        <div className="flex items-center mt-20 sm:mb-16 justify-center sm:h-40 sm:w-1/3">
           <svg
             className=""
             version="1.1"
@@ -127,7 +127,7 @@ const Company = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl mt-4 font-bold sm:w-1/3">
+        <div className=" text-2xl mt-4 font-bold sm:w-1/3">
           <div className="p-2 leading-loose text-white text-xl sm:text-3xl">
             81% of businesses struggle to manage their
           </div>

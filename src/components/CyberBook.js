@@ -7,8 +7,8 @@ const CyberBook = () => {
   };
   return (
     <>
-      <div className="backgroundBlue p-4 mt-5 text-center sm:flex">
-        <div className="text-black text-left p-3 pl-8 pr-8 sm:w-2/3">
+      <div className="backgroundBlue p-4 mt-5 text-center sm:flex sm:p-8">
+        <div className="text-black text-left p-3 pl-8 pr-8">
           <h1 className="poppins font-medium text-3xl">Download our cyber security eBook!</h1>
           <p className="poppins mt-5">
             Learn everything you need to keep you, your clients and your company safe with our
