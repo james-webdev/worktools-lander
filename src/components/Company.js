@@ -128,7 +128,7 @@ const Company = () => {
           </svg>
         </div>
         <div className="text-2xl mt-4 font-bold sm:w-1/3">
-          <div className="p-2 leading-loose text-white text-3xl">
+          <div className="p-2 leading-loose text-white text-xl sm:text-3xl">
             81% of businesses struggle to manage their
           </div>
           <TextLooperTwo className="" />
