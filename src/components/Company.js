@@ -33,7 +33,7 @@ const Company = () => {
           <img src={NSCS} alt="appscreenshot" />
         </div>
         <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:items-start sm:w-1/4 sm:ml-5 sm:text-left sm:p-4">
-          <h2 className="border border-white text-2xl text-white mt-6 font-bold sm:mt-0">
+          <h2 className="text-2xl text-white mt-6 font-bold sm:mt-0">
             Simple certification with continuous assessment against standards.
           </h2>
           <p className="mt-2 text-white opacity-50">
