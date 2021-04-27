@@ -4,6 +4,7 @@ import DropdownMenu from '../components/DropDown';
 import GettingCertified from '../components/GettingCertified';
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
+import Kitty from '../svg/kitty';
 
 const CyberEssentials = () => {
   return (
@@ -13,6 +14,10 @@ const CyberEssentials = () => {
         <div className="ml-5 mr-5">
           <div className="text-4xl font-bold">
             <h1>What is Cyber Essentials?</h1>
+          </div>
+
+          <div className="sm:w-1/3">
+            <Kitty />
           </div>
 
           <p className="mt-4 mr-10">
