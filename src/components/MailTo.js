@@ -5,7 +5,7 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
   if (subject) params += `subject=${encodeURIComponent(subject)}`;
   if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
 
-  return <a className="text-white" href={`mailto:${email}${params}`}>{children}</a>;
+  return <a className="text-black" href={`mailto:${email}${params}`}>{children}</a>;
 };
 
 export default Mailto;

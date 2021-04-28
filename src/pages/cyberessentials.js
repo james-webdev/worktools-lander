@@ -12,22 +12,24 @@ const CyberEssentials = () => {
       <Header />
       <div className="flex flex-col justify-center items-start p-4 mt-5 sm:flex">
         <div className="ml-5 mr-5">
-          <div className="text-4xl font-bold">
-            <h1>What is Cyber Essentials?</h1>
-          </div>
-
           <div className="sm:w-1/3">
             <Kitty />
           </div>
 
-          <p className="mt-4 mr-10">
-            {' '}
-            Cyber Essentials is a government-backed scheme helping you to guard your organisation,
-            whatever its size, against a range of the most common cyber attacks.
-          </p>
+          <div className="sm:flex">
+            <div className="text-4xl font-bold">
+              <h1>What is Cyber Essentials?</h1>
+            </div>
+
+            <p className="mt-4 mr-10">
+              {' '}
+              Cyber Essentials is a government-backed scheme helping you to guard your organisation,
+              whatever its size, against a range of the most common cyber attacks.
+            </p>
+          </div>
         </div>
-        <div className="mt-10 mr-4 ml-4">
-          <div className="text-3xl font-bold">
+        <div className="mt-10 mr-4 ml-4 sm:flex sm:flex-row-reverse">
+          <div className="text-3xl font-bold sm:text-4xl">
             {' '}
             <p>The two types of certification</p>
           </div>
@@ -748,16 +750,39 @@ const CyberEssentials = () => {
             </div>
           </div>
           <div>
-            <p className="mr-16 mt-3">
+            <p className="mr-16 mt-3 sm:hidden">
               Both options give protection against a wide variety of the most common cyber attacks.
             </p>{' '}
           </div>
         </div>
-        <div>
-          <h1 className="text-3xl ml-6 mr-6 mt-10 font-bold">Why get Cyber Essentials?</h1>
+        <div className="sm:mr-5 sm:ml-5">
+          <div className="text-center">
+            <h1 className="text-3xl ml-6 mr-6 mt-10 font-bold">Why get Cyber Essentials?</h1>
+          </div>
+          <div className="sm:flex sm:justify-around sm:mt-6">
+            <div className="tab1 p-10 m-3 ml-5 mr-5 text-center text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
+              {' '}
+              <p>Certified cyber security</p>
+            </div>
+            <div className="tab2 p-10 m-3 ml-5 mr-5 text-center sm:text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
+              <p>Reassure customers that they are secure</p>
+            </div>
+            <div className="tab3 p-10 m-3 ml-5 mr-5 text-center sm:text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
+              <p>Attract new business with evidence of cyber security measures in place</p>
+            </div>
+          </div>
+          <div className="sm:flex sm:justify-around sm:mt-4">
+            <div className="tab3 p-10 m-3 ml-5 mr-5 text-center sm:text-lg sm:w-1/3 font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
+              {' '}
+              <p>Have a clear picture of your organisation's security level</p>
+            </div>
+            <div className="tab1 p-10 m-3 ml-5 mr-5 text-center sm:text-lg sm:w-1/3 font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
+              <p>Some government contracts require Cyber Essentials certification</p>
+            </div>
+          </div>
         </div>
 
-        <div className="mt-3 ml-2 text-left">
+        {/* <div className="mt-3 ml-2 text-left">
           <div className="p-2 flex items-center">
             <div className="mr-2">
               <svg
@@ -868,13 +893,17 @@ const CyberEssentials = () => {
             </div>
             <p>Some government contracts require Cyber Essentials certification</p>
           </div>
-        </div>
+        </div> */}
       </div>
-      <GettingCertified />
+
+      <div className="tab3 mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48 ">
+        <GettingCertified />
+        <div />
+      </div>
       <div className="flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:flex">
-        <div>
-          <h2 className="text-3xl font-bold">Government Contracts</h2>
-          <p className="mt-4">
+        <div className="sm:flex">
+          <h2 className="text-3xl font-bold sm:text-4xl">Government Contracts</h2>
+          <p className="mt-4 sm:w-2/3">
             If you would like to bid for central government contracts which involve handling
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
@@ -892,7 +921,7 @@ const CyberEssentials = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 mb-20 text-center sm:flex">
+      {/* <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 mb-20 text-center sm:flex">
         <div className="text-left">
           <div className="dropdown p-1 flex justify-between items-center">
             <p>Liability</p>
@@ -919,7 +948,7 @@ const CyberEssentials = () => {
             <DropdownMenu words="Costs of remedying the issue that allowed the loss or damage to your data and costs to replace, restore or update your data." />
           </div>
         </div>
-      </div>
+      </div> */}
       <CyberBook />
     </>
   );
