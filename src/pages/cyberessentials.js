@@ -14,12 +14,12 @@ const CyberEssentials = () => {
       <Header />
       <div className="border border-black flex flex-col justify-center items-start p-4 mt-5 sm:flex">
         <div className="ml-5 mr-5">
-          <div className="sm:w-1/3">
+          {/* <div className="sm:w-1/3">
             <Kitty />
-          </div>
+          </div> */}
 
           <div className="border border-black sm:flex">
-            <div className="border border-black text-4xl font-bold">
+            <div className="border border-black text-4xl font-bold sm:text-5xl">
               <h1>What is Cyber Essentials?</h1>
             </div>
 
@@ -31,11 +31,11 @@ const CyberEssentials = () => {
           </div>
         </div>
         <div className="border border-black mt-10 mr-4 ml-4 sm:flex sm:flex-row-reverse sm:mt-20">
-          <div className="border border-black text-3xl font-bold sm:text-4xl">
+          <div className="border border-black text-3xl font-bold sm:text-5xl">
             {' '}
             <p>The two types of certification</p>
           </div>
-          <div className="mt-5 flex p-4">
+          <div className="border border-black mt-5 flex p-4">
             <div className="border border-black">
               <CyberEssentialsLogo />
             </div>
@@ -59,7 +59,9 @@ const CyberEssentials = () => {
         </div>
         <div className="border border-black sm:mr-5 sm:ml-5 sm:mt-20">
           <div className="text-center">
-            <h1 className="border border-black text-3xl ml-6 mr-6 mt-10 font-bold">Why get Cyber Essentials?</h1>
+            <h1 className="border border-black text-3xl ml-6 mr-6 mt-10 font-bold sm:text-5xl">
+              Why get Cyber Essentials?
+            </h1>
           </div>
           <div className="sm:flex sm:justify-around sm:mt-6">
             <div className="border border-black tab1 p-10 m-3 ml-5 mr-5 text-center text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
@@ -198,14 +200,16 @@ const CyberEssentials = () => {
         </div> */}
       </div>
 
-      <div className="border border-black tab3 mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48 ">
+      <div className="tab4 mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48 ">
         <GettingCertified />
         <div />
       </div>
       <div className="border border-black flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:flex">
         <div className="sm:flex sm:mt-20">
-          <h2 className="border border-black text-3xl font-bold sm:text-4xl">Government Contracts</h2>
-          <p className=" border border-black mt-4 sm:w-2/3">
+          <h2 className="border border-black text-3xl font-bold sm:text-5xl">
+            Government Contracts
+          </h2>
+          <p className=" border border-black mt-4 sm:w-2/3 sm:text-lg">
             If you would like to bid for central government contracts which involve handling
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
@@ -215,12 +219,52 @@ const CyberEssentials = () => {
             </a>
           </p>
         </div>
-        <div className="border border-black sm:mt-20 sm:mb-20">
-          <p className="border border-black text-3xl mt-8 font-bold">£25,000 of Cybersecurity insurance cover</p>
-          <p className="border border-black mt-4">
-            Having achieved Cyber Essentials compliance a company is then eligible for £25,000 of
-            cybersecurity insurance cover from AXA that can be used for:
-          </p>
+        <div className="border border-black sm:mt-20 sm:mb-20 sm:flex sm:flex-row-reverse sm:justify-around sm:p-3 sm:items-center">
+          <div className="sm:w-1/3 sm:text-right">
+            <p className="border border-black sm:text-5xl sm:mt-8 font-bold">
+              £25,000 of Cybersecurity Insurance Cover
+            </p>
+          </div>
+          <div className="border border-black sm:flex-col sm:w-2/3 sm:p-2">
+            <div className="">
+              <p className="border border-black mt-4 sm:text-lg">
+                Having achieved Cyber Essentials compliance a company is then eligible for £25,000
+                of cybersecurity insurance cover from AXA that can be used for:
+              </p>
+            </div>
+            <div>
+              {' '}
+              <div className="border border-black sm:flex sm:justify-around sm:mt-6 sm:p-1">
+                <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1 ">
+                  {' '}
+                  <p>Liability</p>
+                </div>
+                <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1">
+                  <p>Extortion Demands</p>
+                </div>
+                <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1">
+                  <p>Business Interuption</p>
+                </div>
+                <div className="border border-black tab1 text-center sm:text-sm font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1">
+                  {' '}
+                  <p>Event management</p>
+                </div>
+                <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1">
+                  <p>Regulatory Investigations</p>
+                </div>
+                <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1">
+                  <p>Loss of Electronic Data</p>
+                </div>
+              </div>
+            </div>
+            <div className="border border-black sm:text-md">
+              <p>
+                Costs, including emergency costs, following a data breach, including the costs of
+                notifying data subjects. These might typically include payment for Legal, IT,
+                Forensic and PR specialists.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       {/* <div className="flex flex-col justify-center items-center border-2 complianceborder ml-8 mr-8 p-4 mt-5 mb-20 text-center sm:flex">
