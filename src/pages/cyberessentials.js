@@ -19,23 +19,23 @@ const CyberEssentials = () => {
           </div> */}
 
           <div className="border border-black sm:flex">
-            <div className="border border-black text-4xl font-bold sm:text-5xl">
+            <div className="border border-black text-4xl font-bold sm:text-5xl sm:w-1/3">
               <h1>What is Cyber Essentials?</h1>
             </div>
 
-            <p className="border border-black mt-4 mr-10 border border-black">
+            <p className="border border-black mt-4 mr-10 border border-black sm:text-xl sm:w-2/3">
               {' '}
               Cyber Essentials is a government-backed scheme helping you to guard your organisation,
               whatever its size, against a range of the most common cyber attacks.
             </p>
           </div>
         </div>
-        <div className="border border-black mt-10 mr-4 ml-4 sm:flex sm:flex-row-reverse sm:mt-20">
+        <div className="border border-black mt-10 mr-4 ml-4 sm:flex sm:flex-row-reverse sm:mt-20 sm:p-3 sm:items-center">
           <div className="border border-black text-3xl font-bold sm:text-5xl">
             {' '}
             <p>The two types of certification</p>
           </div>
-          <div className="border border-black mt-5 flex p-4">
+          <div className="border border-black mt-5 sm:mt-0 flex p-4">
             <div className="border border-black">
               <CyberEssentialsLogo />
             </div>
@@ -206,10 +206,10 @@ const CyberEssentials = () => {
       </div>
       <div className="border border-black flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:flex">
         <div className="sm:flex sm:mt-20">
-          <h2 className="border border-black text-3xl font-bold sm:text-5xl">
+          <h2 className="border border-black text-3xl font-bold sm:text-5xl sm:w-1/3">
             Government Contracts
           </h2>
-          <p className=" border border-black mt-4 sm:w-2/3 sm:text-lg">
+          <p className=" border border-black mt-4 sm:w-2/3 sm:text-xl">
             If you would like to bid for central government contracts which involve handling
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
@@ -227,7 +227,7 @@ const CyberEssentials = () => {
           </div>
           <div className="border border-black sm:flex-col sm:w-2/3 sm:p-2">
             <div className="">
-              <p className="border border-black mt-4 sm:text-lg">
+              <p className="border border-black mt-4 sm:text-xl">
                 Having achieved Cyber Essentials compliance a company is then eligible for £25,000
                 of cybersecurity insurance cover from AXA that can be used for:
               </p>
