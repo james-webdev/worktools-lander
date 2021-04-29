@@ -14,9 +14,9 @@ const CyberEssentials = () => {
       <Header />
       <div className="border border-black flex flex-col justify-center items-start p-4 mt-5 sm:flex">
         <div className="ml-5 mr-5">
-          <div className="sm:w-1/3">
+          {/* <div className="sm:w-1/3">
             <Kitty />
-          </div>
+          </div> */}
 
           <div className="border border-black sm:flex">
             <div className="border border-black text-4xl font-bold sm:text-5xl sm:w-1/3">
