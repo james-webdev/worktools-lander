@@ -4,9 +4,11 @@ import DropdownMenu from '../components/DropDown';
 import GettingCertified from '../components/GettingCertified';
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
+import TextFillBox from '../components/TextFillBox';
 import CyberEssentialsLogo from '../svg/CyberEssentialsLogo';
 import CyberEssentialsPlusLogo from '../svg/CyberEssentialsPlusLogo';
 import Kitty from '../svg/kitty';
+import Kitty2 from '../svg/kitty2';
 
 const CyberEssentials = () => {
   return (
@@ -14,9 +16,9 @@ const CyberEssentials = () => {
       <Header />
       <div className="border border-black flex flex-col justify-center items-start p-4 mt-5 sm:flex">
         <div className="ml-5 mr-5">
-          {/* <div className="sm:w-1/3">
-            <Kitty />
-          </div> */}
+          <div className="sm:w-1/3">
+            <Kitty2 />
+          </div>
 
           <div className="border border-black sm:flex">
             <div className="border border-black text-4xl font-bold sm:text-5xl sm:w-1/3">
@@ -232,7 +234,8 @@ const CyberEssentials = () => {
                 of cybersecurity insurance cover from AXA that can be used for:
               </p>
             </div>
-            <div>
+            <TextFillBox />
+            {/* <div>
               {' '}
               <div className="border border-black sm:flex sm:justify-around sm:mt-6 sm:p-1">
                 <div className="border border-black text-center sm:text-sm font-medium text-black rounded-tr-lg rounded-bl-lg rounded-br-lg sm:m-2 sm:p-1 ">
@@ -256,14 +259,14 @@ const CyberEssentials = () => {
                   <p>Loss of Electronic Data</p>
                 </div>
               </div>
-            </div>
-            <div className="border border-black sm:text-md">
+            </div> */}
+            {/* <div className="border border-black sm:text-md">
               <p>
                 Costs, including emergency costs, following a data breach, including the costs of
                 notifying data subjects. These might typically include payment for Legal, IT,
                 Forensic and PR specialists.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

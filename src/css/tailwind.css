@@ -112,7 +112,7 @@ h1 {
 
 .tab4 {
   background-color: #2b5794;
-  border-radius: 0px 25px 25px 25px
+  border-radius: 0px 25px 25px 25px;
 }
 
 /* mobiles images */
@@ -450,6 +450,13 @@ input:checked + .slider:before {
   background: #2b5794;
   border-radius: 2px 2px 2px 2px;
   z-index: 1;
+}
+
+/* textfillbox */
+
+.backgroundColourChange:focus {
+  background-color: #27aecc;
+  color: white;
 }
 
 @tailwind components;
