@@ -83,10 +83,10 @@ const HowItShouldBe = () => {
   return (
     
     <div className="sm:flex sm:justify-center sm:items-center sm:mt-5">
-    <div className="mt-3 flex flex-col sm:flex sm:flex-row sm:flex-wrap sm:justify-center sm:items-center" >
+    <div className="mt-3 flex flex-col sm:flex sm:flex-row sm:flex-wrap sm:justify-center sm:items-center sm:text-xl" >
       {buttons()}
       </div>
-      <div className="text-center tab1 sm:text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg sm:flex sm:justify-center sm:items-center m-3 p-2 pr-5 pl-5">
+      <div className="text-center tab1 sm:text-xl font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg sm:flex sm:justify-center sm:items-center m-3 p-2 pr-5 pl-5">
         <animated.div style={props}>
         <p className="">{mainText}</p>
          </animated.div>

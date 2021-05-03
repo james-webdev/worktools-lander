@@ -33,7 +33,7 @@ const PulseDiv = styled.div`
 
 const Pulse = () => {
   return (
-    <div className="text-center">
+    <div className="text-center pulseposition sm:w-20">
       <div className="flex-col justify-center items-center">
         <div
           id="blob"

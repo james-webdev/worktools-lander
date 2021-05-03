@@ -39,7 +39,7 @@ const Container = () => {
               <h1 className="compliancebluetext text-3xl md:text-5xl font-bold"> compliance to </h1>
               <h1 className="compliancebluetext text-3xl md:text-5xl font-bold">IT standards</h1>
             </div>
-            <div className="w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
+            <div className=" w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
               Resolve compliance, cybersecurity & common IT issues yourself. We are on hand to help.{' '}
             </div>
             <div className="mt-4 flex justify-center sm:justify-start sm:ml-6">
@@ -49,7 +49,7 @@ const Container = () => {
             </div>
           </div>
           <div>
-            <div className="-ml-32 sm:ml-0 sm:mt-10 sm:mr-6 mt-5 w-68">
+            <div className="-ml-32 sm:ml-0 sm:mt-10 sm:mr-20 mt-5 sm:mt-20 w-68">
               <img
                 id="laptop"
                 className="-mb-12 sm:-mb-48 z-10"
@@ -67,7 +67,7 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20">
+        <div className="flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20 sm:mt-10">
           <div className="flex pt-4 justify-center sm:w-1/3">
             <Heart />
           </div>

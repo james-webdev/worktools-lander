@@ -12,12 +12,16 @@ const FaceWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+   &:hover {
+    ${FontAwesomeIcon} {
+      transform: translateY(-1px);
+    }
 `;
 
 const Facebook = () => (
   <FaceWrapper className="text-2xl">
     <a href="https://www.facebook.com/WORKdotTOOLS/">
-      <FontAwesomeIcon style={{ color: 'gray' }} icon={faFacebookF} />
+      <FontAwesomeIcon className="" style={{ color: 'gray' }} icon={faFacebookF} />
     </a>
   </FaceWrapper>
 );

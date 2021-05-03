@@ -23,7 +23,7 @@ const CyberEssentials = () => {
             </div>
           </div> */} 
 
-          <div className="sm:flex">
+          <div className="sm:flex sm:justify-center sm:items-center">
             <div className=" text-4xl font-bold sm:text-5xl sm:w-1/3">
               <h1>What is Cyber Essentials?</h1>
             </div>

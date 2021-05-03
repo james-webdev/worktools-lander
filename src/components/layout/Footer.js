@@ -4,8 +4,8 @@ import Twitter from '../Social_Media/Twitter';
 import LinkedIn from '../Social_Media/LinkedIn';
 import Facebook from '../Social_Media/Facebook';
 import GoogleMaps from '../GoogleMaps';
-import WhatsAppMobile from '../Social_Media/WhatsApp';
-import CyberEssentialsLogo from '../../svg/CyberEssentialsLogo';
+import WhatsApp from '../Social_Media/WhatsApp';
+import CyberEssentialsLogoFooter from '../../svg/CyberEssentialsLogoFooter';
 
 const Footer = () => (
   <footer className="bg-black pb-10 text-white">
@@ -64,7 +64,7 @@ const Footer = () => (
             <Facebook />
           </div>
           <div>
-            <WhatsAppMobile />
+            <WhatsApp />
           </div>
         </div>
         <div className="mt-5 justify-center items-center flex mb-5 p-4 sm:hidden">
@@ -72,7 +72,7 @@ const Footer = () => (
             <p>Cyber Essentials Certified</p>
           </div>
           <div className="ml-3">
-            <CyberEssentialsLogo />
+            <CyberEssentialsLogoFooter  />
           </div>
         </div>
         <div className="footergrey hidden sm:flex sm:p-3 sm:ml-5 sm:mb-8 sm:text-center sm:text-sm">

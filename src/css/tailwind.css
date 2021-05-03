@@ -13,19 +13,51 @@ body {
 
 @media only screen and (max-width: 600px) {
   #laptop {
-    width: 525px !important;
+    width: 780px !important;
   }
+
+
 }
 
 @media only screen and (min-width: 600px) {
   #laptop {
     width: 680px !important;
   }
+
+   .pulseposition {
+  position: relative;
+  left: 290px;
+  bottom: 170px;
+ 
 }
+  
+}
+
+
+@media only screen and (min-width: 1000px) {
+  #laptop {
+    width: 680px !important;
+  }
+
+   .pulseposition {
+  position: relative;
+  left: 290px;
+  bottom: 80px;
+ 
+}
+  
+}
+
 
 /* #laptop {
   width: 525px;
 } */
+
+
+/* pulse */
+
+
+
 
 a {
   @apply text-primary;

@@ -13,6 +13,10 @@ const WassapWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+   &:hover {
+    ${FontAwesomeIcon} {
+      transform: translateY(-1px);
+    }
 `;
 
 const WhatsApp = () => (

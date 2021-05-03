@@ -12,7 +12,14 @@ const LinkedWrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+   &:hover {
+    ${FontAwesomeIcon} {
+      transform: translateY(-1px);
+    }
+  }
 `;
+
 
 const LinkedIn = () => (
   <LinkedWrapper className="text-2xl">
