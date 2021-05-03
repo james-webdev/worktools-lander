@@ -80,11 +80,15 @@ const Container = () => {
         </div>
       </section>
 
-      <div className="overbackground mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48">
+<div className="halfBackgroundBlue">
+
+      <div className="mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48">
         <Contact />
       </div>
+ </div>
 
-      {/* <div className="backgroundBlueBanner h-40" /> */}
+
+      <div className="backgroundBlueBanner h-40" /> 
       <section>
         <div className="mt-20 sm:ml-40 sm:mr-40 md:hidden">
           <CarouselEx />

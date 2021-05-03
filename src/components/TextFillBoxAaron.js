@@ -44,7 +44,7 @@ const buttonData = [
 
 ];
 
-const HowItShouldBe = () => {
+const TextFillBox = () => {
   const [mainText, setMainText] = useState(buttonData[0].content);
   const [selectedButton, setSelectedButton] = useState(buttonData[0].title);
   const [toggle, setToggle] = useState(false);
@@ -98,5 +98,5 @@ const HowItShouldBe = () => {
 };
 
 export default function App() {
-  return <div>{HowItShouldBe()}</div>;
+  return <div>{TextFillBox()}</div>;
 }

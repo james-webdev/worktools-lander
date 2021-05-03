@@ -128,6 +128,10 @@ h1 {
   font-family: 'Poppins';
 }
 
+
+
+
+
 /* carousel colours */
 
 .tab1 {
@@ -153,13 +157,19 @@ h1 {
   z-index: 1;
 }
 
-/* .backgroundBlueBanner {
+.halfBackgroundBlue {
+   margin-bottom: -35px;
+	background-image: linear-gradient(bottom, #def3f6 50%, white 50%);
+}
+
+.backgroundBlueBanner {
+
   background-color: #def3f6;
   margin-top: 20px;
   margin-bottom: -390px;
   height: 500px !important;
   z-index: 0 !important;
-} */
+}
 
 .backgroundBlue {
   background-color: #def3f6;

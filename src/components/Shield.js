@@ -7,7 +7,7 @@ const Shield = () => {
       <div>
         <Sparkles className="w-20">
           <svg
-            className="w-24 z-1 ml-4 pr-1 sm:pr-0"
+            className="w-20 z-1 ml-5 pr-1 sm:pr-0"
             version="1.1"
             id="Layer_1"
             x="0px"

@@ -1,6 +1,6 @@
 import React from 'react';
 import onBoard from '../assets/images/devices.jpg';
-import NSCS from '../assets/images/support.jpg';
+import IndividualImage from '../assets/images/individualImage.png';
 import TextLooper from './TextLoop';
 
 const Individual = () => {
@@ -26,9 +26,13 @@ const Individual = () => {
         </div>
       </div>
       <div className="sm:flex sm:flex-row-reverse sm:items-start sm:justify-center sm:mt-20">
-        <div className="shadow-xl mt-5 sm:w-5/12">
-          <img src={NSCS} alt="appscreenshot" />
+      
+      <div className="border border-black  sm:w-1/3">   
+        <div className="border border-black shadow-xl mt-5 w-5/12">
+          <img src={IndividualImage} alt="appscreenshot" />
         </div>
+      </div>
+
         <div className="text-center poppins mt-2 sm:flex sm:flex-col sm:items-start sm:w-1/4 sm:mr-5 sm:text-right sm:p-4">
           <h2 className="text-2xl text-black mt-6 font-bold sm:mt-0">
             Secure your devices and get instant expert help.
