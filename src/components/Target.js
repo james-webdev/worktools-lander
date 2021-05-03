@@ -32,11 +32,11 @@ const TargetDiv = styled.div`
 
 const Target = () => {
   return (
-    <div className="border border-black flex justify-center items-center ml-4 mr-4 sm:flex-col pt-4">
+    <div className="flex justify-center items-center ml-4 mr-4 sm:flex-col pt-4">
       {/* <TargetDiv> */}
       <div>
         <svg
-          className="border border-black w-32 pt-10 pb-10 p-4"
+          className="w-32 pt-10 pb-10 p-4"
           version="1.1"
           id="Layer_1"
           x="0px"
@@ -149,7 +149,7 @@ const Target = () => {
         </svg>
       </div>
       {/* </TargetDiv> */}
-      <div className="border border-black p-2 text-left flex-col sm:text-center">
+      <div className="p-2 text-left flex-col sm:text-center">
         <h1 className="font-bold text-lg">Cybersecurity</h1>
         <p className="sm:mt-1">Understand the threats that your users and devices face</p>
       </div>

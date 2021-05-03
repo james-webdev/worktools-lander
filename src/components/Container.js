@@ -67,14 +67,14 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="border border-black flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20 sm:mt-10">
-          <div className="border border-black flex pt-4 justify-center sm:w-1/3">
+        <div className="flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20 sm:mt-10">
+          <div className="flex pt-4 justify-center sm:w-1/3">
             <Heart />
           </div>
-          <div className="border border-black flex pt-4 justify-center sm:w-1/3">
+          <div className="flex pt-4 justify-center sm:w-1/3">
             <Shield />
           </div>
-          <div className="border border-black flex pt-4 justify-center mr-3 sm:w-1/3">
+          <div className="flex pt-4 justify-center mr-3 sm:w-1/3">
             <Target />
           </div>
         </div>
