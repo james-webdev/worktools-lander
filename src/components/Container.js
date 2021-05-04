@@ -32,12 +32,12 @@ const Container = () => {
     <Layout>
       <section>
         <div className="flex flex-col-reverse sm:flex sm:flex-row">
-          <div className="sm:flex sm:flex-col sm:justify-center sm:items-left sm:ml-16 sm:mt-10 sm:-mr-8">
+          <div className="lg:flex lg:flex-col lg:justify-center sm:items-left sm:ml-16 sm:mt-10 sm:-mr-8">
             <div className="z-10 text-left -mt-1 ml-6 mr-10">
-              <h1 className="text-3xl text-black md:text-5xl font-bold">Continually</h1>
-              <h1 className="text-3xl text-black md:text-5xl font-bold">assess your</h1>
-              <h1 className="compliancebluetext text-3xl md:text-5xl font-bold"> compliance to </h1>
-              <h1 className="compliancebluetext text-3xl md:text-5xl font-bold">IT standards</h1>
+              <h1 className="text-3xl text-black lg:text-5xl font-bold">Continually</h1>
+              <h1 className="text-3xl text-black lg:text-5xl font-bold">assess your</h1>
+              <h1 className="compliancebluetext text-3xl lg:text-5xl font-bold"> compliance to </h1>
+              <h1 className="compliancebluetext text-3xl lg:text-5xl font-bold">IT standards</h1>
             </div>
             <div className=" w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
               Resolve compliance, cybersecurity & common IT issues yourself. We are on hand to help.{' '}
@@ -57,7 +57,7 @@ const Container = () => {
                 alt="LaptopImage"
               />
             </div>
-            <div className="">
+            <div className="sm:hidden lg:block">
               <div className="sm:mb-60">
                 <Pulse />
               </div>
@@ -67,14 +67,14 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="flex-col mt-5 justify-center items-center sm:flex sm:flex-row sm:ml-20 sm:mr-20 sm:mt-10">
-          <div className="flex pt-4 justify-center sm:w-1/3">
+        <div className="border border-black flex-col mt-5 justify-center items-center lg:flex lg:flex-row lg:ml-20 lg:mr-20 lg:mt-10">
+          <div className="border border-black flex p-4 justify-center lg:w-1/3">
             <Heart />
           </div>
-          <div className="flex pt-4 justify-center sm:w-1/3">
+          <div className="border border-black flex p-4 justify-center lg:mb-5 lg:mt-5 lg:w-1/3">
             <Shield />
           </div>
-          <div className="flex pt-4 justify-center mr-3 sm:w-1/3">
+          <div className="border border-black flex p-4 justify-center mr-3 lg:w-1/3">
             <Target />
           </div>
         </div>
@@ -82,7 +82,7 @@ const Container = () => {
 
 <div className="halfBackgroundBlue">
 
-      <div className="mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48">
+      <div className="mt-20 mb-8 ml-10 mr-10 lg:ml-48 lg:mr-48">
         <Contact />
       </div>
  </div>

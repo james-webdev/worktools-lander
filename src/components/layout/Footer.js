@@ -9,7 +9,7 @@ import CyberEssentialsLogoFooter from '../../svg/CyberEssentialsLogoFooter';
 
 const Footer = () => (
   <footer className="bg-black pb-10 text-white">
-    <div className="sm:flex sm:justify-between">
+    <div className="lg:flex lg:justify-between">
       <div className="sm:flex sm:flex-col">
         <div className="flex p-4 ml-2 pl-5 pt-5 flex-col sm:flex sm:flex-row sm:justify-left sm:items-center">
           <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">

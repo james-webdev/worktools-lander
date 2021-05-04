@@ -8,8 +8,8 @@ export default function EasyInstallation() {
         id="Layer_1"
         x="0px"
         y="0px"
-        width="80px"
-        height="80px"
+        width="100px"
+        height="100px"
         viewBox="0 0 1080 1080"
         enableBackground="new 0 0 1080 1080"
       >

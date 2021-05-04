@@ -29,9 +29,10 @@ const Download = () => {
             <EasyInstallation />
             <StayProtected />
           </div>
-          <div className="ml-10 mr-10 flex justify-center items-center">
+          <div className="ml-10 mr-10 flex justify-center items-center sm:mt-10">
             <div className="-mr-5 lg:hidden">
               <svg
+                className=""
                 version="1.1"
                 id="Layer_1"
                 x="0px"
@@ -86,6 +87,7 @@ const Download = () => {
             </div>
             <div className="-ml-6 lg:hidden">
               <svg
+                className=""
                 version="1.1"
                 id="Layer_1"
                 x="0px"

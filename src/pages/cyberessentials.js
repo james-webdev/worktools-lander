@@ -18,25 +18,25 @@ const CyberEssentials = () => {
         <div className="ml-5 mr-5">
           {/* <div className="sm:flex sm:justify-center sm:items-center">
             <div className="sm:w-40 sm:mb-48 sm:mt-40 sm:flex sm:justify-center sm:items-center">
-              {/* <Kitty /> */}
-              {/* <Kitty2 />
+              <Kitty />
+              <Kitty2 />
             </div>
-          </div> */} 
+          </div> */}
 
-          <div className="sm:flex sm:justify-center sm:items-center">
-            <div className=" text-4xl font-bold sm:text-5xl sm:w-1/3">
+          <div className="lg:flex lg:justify-center lg:items-center">
+            <div className="text-4xl font-bold lg:text-5xl lg:w-1/3">
               <h1>What is Cyber Essentials?</h1>
             </div>
 
-            <p className="mt-4 mr-10  sm:text-xl sm:w-2/3">
+            <p className="mt-4 mr-10  lg:text-xl lg:w-2/3">
               {' '}
               Cyber Essentials is a government-backed scheme helping you to guard your organisation,
               whatever its size, against a range of the most common cyber attacks.
             </p>
           </div>
         </div>
-        <div className="mt-10 mr-4 ml-4 sm:flex sm:flex-row-reverse sm:mt-20 sm:p-3 sm:items-center">
-          <div className=" text-3xl font-bold sm:text-5xl sm:break-normal">
+        <div className="mt-10 mr-4 ml-4 lg:flex lg:flex-row-reverse lg:mt-20 lg:p-3 lg:items-center">
+          <div className="text-3xl font-bold lg:text-5xl lg:break-normal">
             {' '}
             <p>The two types of certification</p>
           </div>
@@ -64,11 +64,11 @@ const CyberEssentials = () => {
         </div>
         <div className="sm:mr-5 sm:ml-5 sm:mt-20">
           <div className="text-center">
-            <h1 className=" text-3xl ml-6 mr-6 mt-10 font-bold sm:text-5xl">
+            <h1 className="text-3xl ml-6 mr-6 mt-10 font-bold lg:text-5xl">
               Why get Cyber Essentials?
             </h1>
           </div>
-          <div className="sm:flex sm:justify-around sm:mt-6">
+          <div className="lg:flex lg:justify-around lg:mt-6">
             <div className=" tab1 p-10 m-3 ml-5 mr-5 text-center text-lg font-medium text-white rounded-tr-lg rounded-bl-lg rounded-br-lg">
               {' '}
               <p>Certified cyber security</p>
@@ -205,16 +205,14 @@ const CyberEssentials = () => {
         </div> */}
       </div>
 
-      <div className="tab4 mt-20 mb-8 ml-10 mr-10 sm:ml-48 sm:mr-48 ">
+      <div className="tab4 mt-20 mb-8 ml-10 mr-10 lg:ml-48 lg:mr-48 ">
         <GettingCertified />
         <div />
       </div>
-      <div className="flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:ml-20 sm:mr-20 sm:flex">
-        <div className="sm:flex sm:justifycenter sm:items-center sm:mt-20">
-          <h2 className="text-3xl font-bold sm:text-5xl sm:w-1/3">
-            Government Contracts
-          </h2>
-          <p className="mt-4 sm:mt-0 sm:w-2/3 sm:text-xl">
+      <div className="flex flex-col justify-center items-start poppins p-4 mt-5 ml-5 mr-5 sm:ml-20 sm:mr-20 lg:flex">
+        <div className="lg:flex lg:justify-center lg:items-center lg:mt-20">
+          <h2 className="text-3xl font-bold lg:text-5xl lg:w-1/3">Government Contracts</h2>
+          <p className="mt-4 sm:mt-0 lg:w-2/3 lg:text-xl">
             If you would like to bid for central government contracts which involve handling
             sensitive and personal information or the provision of certain technical products and
             services, you will require Cyber Essentials Certification. More information is available
@@ -224,15 +222,15 @@ const CyberEssentials = () => {
             </a>
           </p>
         </div>
-        <div className="sm:mt-20 sm:mb-20 sm:flex sm:flex-row-reverse sm:justify-around sm:p-3 sm:items-center">
-          <div className="sm:w-1/3 sm:text-right sm:flex sm:flex-wrap sm:break-normal">
-            <p className="text-xl mt-5 sm:text-5xl sm:mt-8 font-bold">
+        <div className="sm:mt-20 sm:mb-20 lg:flex lg:flex-row-reverse lg:justify-around lg:p-3 lg:items-center">
+          <div className="lg:w-1/3 lg:text-right sm:flex sm:flex-wrap sm:break-normal">
+            <p className="text-xl mt-5 lg:text-5xl sm:mt-8 font-bold">
               £25,000 of Cybersecurity Insurance Cover
             </p>
           </div>
-          <div className="sm:flex-col sm:w-2/3 sm:p-2">
+          <div className="lg:flex-col lg:w-2/3 lg:p-2">
             <div className="">
-              <p className="mt-4 sm:text-xl">
+              <p className="mt-4 lg:text-xl">
                 Having achieved Cyber Essentials compliance a company is then eligible for £25,000
                 of cybersecurity insurance cover from AXA that can be used for:
               </p>

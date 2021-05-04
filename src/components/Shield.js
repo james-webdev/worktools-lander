@@ -3,11 +3,11 @@ import Sparkles from './Sparkles';
 
 const Shield = () => {
   return (
-    <div className="flex justify-center items-center ml-4 mr-4 sm:flex-col">
+    <div className="border border-black flex justify-center items-center ml-4 mr-4 lg:flex-col">
       <div>
         <Sparkles className="w-20">
           <svg
-            className="w-20 z-1 ml-5 pr-1 sm:pr-0"
+            className="border border-black w-20 z-1 ml-5 pr-1 sm:pr-0"
             version="1.1"
             id="Layer_1"
             x="0px"
@@ -39,7 +39,7 @@ const Shield = () => {
           </svg>
         </Sparkles>
       </div>
-      <div className="p-2 ml-4 text-left flex-col sm:text-center">
+      <div className="border border-black p-2 ml-4 text-left flex-col sm:text-center">
         <h1 className="font-bold text-lg">Compliance</h1>
         <p className="sm:mt-1">Easily manage your NCSC Cyber Essentials and GDPR compliance</p>
       </div>

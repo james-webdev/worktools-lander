@@ -6,18 +6,18 @@ const MacDownloadButton = () => {
   };
   return (
     <div className="flex flex-col justify-center items-center">
-      <button type="button" onClick={downloadFile}>
+      <button className="focus:outline-none" type="button" onClick={downloadFile}>
         {' '}
         <svg
           version="1.1"
           id="Layer_1"
           x="0px"
           y="0px"
-          width="320px"
-          height="320px"
+          width="380px"
+          height="380px"
           viewBox="0 0 1080 1080"
           enableBackground="new 0 0 1080 1080"
-          className="-mb-10"
+          className="-mb-10 shadow-xl rounded-lg ml-5 hover:bg-gray-100"
         >
           <g>
             <g>
