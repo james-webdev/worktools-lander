@@ -36,8 +36,8 @@ const Container = () => {
             <div className="z-10 text-left -mt-1 ml-6 mr-10">
               <h1 className="text-3xl text-black lg:text-5xl font-bold">Continually</h1>
               <h1 className="text-3xl text-black lg:text-5xl font-bold">assess your</h1>
-              <h1 className="compliancebluetext text-3xl lg:text-5xl font-bold"> compliance to </h1>
-              <h1 className="compliancebluetext text-3xl lg:text-5xl font-bold">IT standards</h1>
+              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold"> compliance to </h1>
+              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold">IT standards</h1>
             </div>
             <div className=" w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
               Resolve compliance, cybersecurity & common IT issues yourself. We are on hand to help.{' '}
