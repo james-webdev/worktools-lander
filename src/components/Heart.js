@@ -30,7 +30,7 @@ const HeartDiv = styled.div`
 
 const Heart = () => {
   return (
-    <div className="flex justify-center items-center ml-4 mr-4 lg:flex-col lg:mt-10">
+    <div className="flex justify-center items-center ml-4 mr-4 lg:flex-col lg:mt-6">
       <HeartDiv>
         <svg
           className="w-32 pt-10 pb-10 sm:pb-0 pr-1 sm:pr-0"
@@ -83,9 +83,9 @@ const Heart = () => {
           /> */}
         </svg>
       </HeartDiv>
-      <div className="p-2 text-left flex-col sm:text-center sm:ml-10 sm:mr-10 sm:mb-0 sm:mt-3">
-        <h1 className="mt-3 sm:mt-0 font-bold text-lg">IT Health</h1>
-        <p className="sm:mt-1">Know exactly when IT issues may be on the horizon</p>
+      <div className="p-2 text-left flex-col sm:text-center sm:ml-10 sm:mr-10 sm:mb-0 sm:mt-3 lg:mt-0">
+        <h1 className="mt-3 sm:mt-0 font-bold text-lg lg:mt-3">IT Health</h1>
+        <p className="sm:mt-1 lg:mt-0">Know exactly when IT issues may be on the horizon</p>
       </div>
     </div>
   );
