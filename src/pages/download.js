@@ -29,7 +29,7 @@ const Download = () => {
             <EasyInstallation />
             <StayProtected />
           </div>
-          <div className="ml-10 mr-10 flex justify-center items-center sm:mt-10">
+          <div className="ml-10 mr-10 flex justify-center items-center sm:mt-20">
             <div className="-mr-5 lg:hidden">
               <svg
                 className=""
