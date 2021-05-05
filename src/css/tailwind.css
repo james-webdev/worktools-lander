@@ -21,7 +21,7 @@ body {
 
 @media only screen and (min-width: 600px) {
   #laptop {
-    width: 680px !important;
+    width: 980px !important;
   }
 
    .pulseposition {
@@ -36,7 +36,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   #laptop {
-    width: 680px !important;
+    width: 1000px !important;
   }
 
    .pulseposition {

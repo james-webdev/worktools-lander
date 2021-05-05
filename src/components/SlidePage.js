@@ -78,7 +78,7 @@ export default function SlidePage() {
               <h2>Pricing</h2>{' '}
             </div>
             <section>
-              <div className="mb-8 ml-10 mr-10 sm:flex sm:justify-center sm:items-center sm:mt-16">
+              <div className="mb-8 ml-10 mr-10 sm:flex sm:justify-center sm:items-center sm:mt-16 lg:ml-20 lg:mr-20">
                 <IndividualPrice />
                 <div className="hidden sm:flex text-4xl font-bold poppins sm:w-1/3 sm:p-10">
                   <p>One simple pricing plan.</p>

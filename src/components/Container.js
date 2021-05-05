@@ -31,15 +31,20 @@ const Container = () => {
   return (
     <Layout>
       <section>
-        <div className="flex flex-col-reverse sm:flex sm:flex-row">
+        <div className="flex flex-col-reverse sm:flex sm:flex-row lg:ml-20 lg:mr-20">
           <div className="lg:flex lg:flex-col lg:justify-center sm:items-left sm:ml-16 sm:mt-10 sm:-mr-8">
             <div className="z-10 text-left -mt-1 ml-6 mr-10">
               <h1 className="text-3xl text-black lg:text-5xl font-bold">Continually</h1>
               <h1 className="text-3xl text-black lg:text-5xl font-bold">assess your</h1>
-              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold"> compliance to </h1>
-              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold">IT standards</h1>
+              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold">
+                {' '}
+                compliance to{' '}
+              </h1>
+              <h1 className="compliancebluetext text-3xl sm:text-xl lg:text-5xl font-bold">
+                IT standards
+              </h1>
             </div>
-            <div className=" w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
+            <div className="w-2/3 hidden poppins md:block sm:ml-6 sm:mr-10">
               Resolve compliance, cybersecurity & common IT issues yourself. We are on hand to help.{' '}
             </div>
             <div className="mt-4 flex justify-center sm:justify-start sm:ml-6">
@@ -49,7 +54,7 @@ const Container = () => {
             </div>
           </div>
           <div>
-            <div className="-ml-32 sm:ml-0 sm:mt-10 sm:mr-20 mt-5 sm:mt-20 w-68">
+            <div className="-ml-32 sm:ml-0 sm:mt-10 sm:mr-20 mt-5 sm:mt-20">
               <img
                 id="laptop"
                 className="-mb-12 sm:-mb-48 z-10"
@@ -67,28 +72,26 @@ const Container = () => {
       </section>
 
       <section>
-        <div className="border border-black flex-col mt-5 justify-center items-center lg:flex lg:flex-row lg:ml-20 lg:mr-20 lg:mt-10">
-          <div className="border border-black flex p-4 justify-center lg:w-1/3">
+        <div className="flex-col mt-5 justify-center items-center lg:flex lg:flex-row lg:ml-20 lg:mr-20 lg:mt-10">
+          <div className="flex p-4 justify-center lg:w-1/3">
             <Heart />
           </div>
-          <div className="border border-black flex p-4 justify-center lg:mb-5 lg:mt-5 lg:w-1/3">
+          <div className="flex p-4 justify-center lg:mb-5 lg:mt-5 lg:w-1/3">
             <Shield />
           </div>
-          <div className="border border-black flex p-4 justify-center mr-3 lg:w-1/3">
+          <div className="flex p-4 justify-center mr-3 lg:w-1/3">
             <Target />
           </div>
         </div>
       </section>
 
-<div className="halfBackgroundBlue">
-
-      <div className="mt-20 mb-8 ml-10 mr-10 lg:ml-48 lg:mr-48">
-        <Contact />
+      <div className="halfBackgroundBlue">
+        <div className="mt-20 mb-8 ml-10 mr-10 lg:ml-48 lg:mr-48">
+          <Contact />
+        </div>
       </div>
- </div>
 
-
-      <div className="backgroundBlueBanner h-40" /> 
+      <div className="backgroundBlueBanner h-40" />
       <section>
         <div className="mt-20 sm:ml-40 sm:mr-40 md:hidden">
           <CarouselEx />
