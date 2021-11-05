@@ -71,7 +71,35 @@ const Container = () => {
         </div>
       </section>
 
-      <section>
+      <section className="w-full flex justify-center md:mt-20 lg:mt-40">
+        <div className="flex-col lg:flex lg:flex-row" style={{ maxWidth: 1200 }}>
+          <div className="lg:w-1/3 mx-12 my-4 xl:ml-0">
+            <Heart />
+          </div>
+          <div className="lg:w-1/3 mx-12 my-4">
+            <Shield />
+          </div>
+          <div className="lg:w-1/3 mx-12 my-4 xl:mr-0">
+            <Target />
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="" >
+        <div className="border border-black grid grid-cols-3 gap-4 mt-5  lg:ml-20 lg:mr-20 lg:mt-10">
+          <div className="grid p-4 lg:w-1/3">
+            <Heart />
+          </div>
+          <div className="grid p-4 lg:mb-5 lg:mt-5 lg:w-1/3">
+            <Shield />
+          </div>
+          <div className="grid  p-4 mr-3 lg:w-1/3">
+            <Target />
+          </div>
+        </div>
+      </section> */}
+
+      {/* <section>
         <div className="flex-col mt-5 justify-center items-center lg:flex lg:flex-row lg:ml-20 lg:mr-20 lg:mt-10">
           <div className="flex p-4 justify-center lg:w-1/3">
             <Heart />
@@ -83,7 +111,7 @@ const Container = () => {
             <Target />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="halfBackgroundBlue">
         <div className="mt-20 mb-8 ml-10 mr-10 lg:ml-48 lg:mr-48">
